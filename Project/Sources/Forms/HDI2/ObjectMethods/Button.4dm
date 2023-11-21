@@ -50,7 +50,7 @@ Form:C1466.dateFormats.index:=-1
 Form:C1466.dateFormats.variations:=$dateVariations
 Form:C1466.dateFormats.currentValue:="Select a date format"
 
-
+//------------------------------------------------------------------------------------
 
 $timeValues:=[]
 $timeVariations:=[]
@@ -67,7 +67,7 @@ $timeVariations.push(["B"; "BB"; "BBB"; "BBBB"; "BBBBB"])
 $timeValues.push("Hour [1-12]")
 $timeVariations.push(["h"; "hh"])
 
-$timeValues.push("Hour [1-23]")
+$timeValues.push("Hour [0-23]")
 $timeVariations.push(["H"; "HH"])
 
 $timeValues.push("Hour [0-11]")
@@ -103,3 +103,29 @@ Form:C1466.timeFormats.values:=$timeValues
 Form:C1466.timeFormats.index:=-1
 Form:C1466.timeFormats.variations:=$timeVariations
 Form:C1466.timeFormats.currentValue:="Select a time format"
+
+//------------------------------------------------------------------------------------
+
+$dateSamples:=[]
+$dateSamples.push("QQQQ yyyy")
+$dateSamples.push("d MMMM yy")
+$dateSamples.push("d MMMM yy")
+$dateSamples.push("'day' D 'of year' y")
+$dateSamples.push("'week' w 'of year' y")
+
+Form:C1466.dateSamples:={}
+Form:C1466.dateSamples.values:=$dateSamples
+Form:C1466.dateSamples.index:=-1
+Form:C1466.dateSamples.currentValue:="Select a custom format"
+
+
+$timeSamples:=[]
+$timeSamples.push("H 'hours' m 'minuts'")
+$timeSamples.push("K 'hours' m 'minuts' a")
+$timeSamples.push("HH:mm XXX")
+$timeSamples.push("HH:mm:ss xxxxx")
+
+Form:C1466.timeSamples:={}
+Form:C1466.timeSamples.values:=$timeSamples
+Form:C1466.timeSamples.index:=-1
+Form:C1466.timeSamples.currentValue:="Select a custom format"

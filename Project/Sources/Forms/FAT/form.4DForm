@@ -1,0 +1,3727 @@
+{
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"windowSizingX": "variable",
+	"windowSizingY": "variable",
+	"windowMinWidth": 0,
+	"windowMinHeight": 0,
+	"windowMaxWidth": 32767,
+	"windowMaxHeight": 32767,
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"events": [
+		"onLoad",
+		"onPageChange",
+		"onValidate",
+		"onClick",
+		"onDoubleClick",
+		"onOutsideCall",
+		"onBeginDragOver",
+		"onDragOver",
+		"onDrop",
+		"onAfterKeystroke",
+		"onMenuSelect",
+		"onPluginArea",
+		"onAfterEdit",
+		"onTimer",
+		"onBoundVariableChange"
+	],
+	"windowTitle": "window title",
+	"destination": "detailScreen",
+	"pages": [
+		{
+			"objects": {}
+		},
+		{
+			"objects": {
+				"Group1": {
+					"type": "groupBox",
+					"text": "G (era designator)",
+					"top": 20,
+					"left": 20,
+					"width": 240,
+					"height": 180
+				},
+				"Input1": {
+					"type": "input",
+					"left": 100,
+					"top": 45,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "date",
+					"dataSource": "vDate"
+				},
+				"Input2": {
+					"type": "input",
+					"left": 100,
+					"top": 70,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "date",
+					"dataSource": "vDate"
+				},
+				"Input3": {
+					"type": "input",
+					"left": 100,
+					"top": 95,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "date",
+					"dataSource": "vDate"
+				},
+				"Input4": {
+					"type": "input",
+					"left": 100,
+					"top": 120,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "date",
+					"dataSource": "vDate"
+				},
+				"Input5": {
+					"type": "input",
+					"left": 100,
+					"top": 145,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "date",
+					"dataSource": "vDate"
+				},
+				"format1": {
+					"type": "text",
+					"text": "X",
+					"top": 45,
+					"left": 20,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"format2": {
+					"type": "text",
+					"text": "X",
+					"top": 70,
+					"left": 20,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"format3": {
+					"type": "text",
+					"text": "X",
+					"top": 96,
+					"left": 20,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"format4": {
+					"type": "text",
+					"text": "X",
+					"top": 121,
+					"left": 20,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"format5": {
+					"type": "text",
+					"text": "X",
+					"top": 146,
+					"left": 20,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"Button": {
+					"type": "button",
+					"text": "Button",
+					"top": 35,
+					"left": 1160,
+					"width": 195,
+					"height": 21,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Button.4dm"
+				},
+				"Group2": {
+					"type": "groupBox",
+					"text": "y (year)",
+					"top": 200,
+					"left": 20,
+					"width": 240,
+					"height": 180
+				},
+				"Group3": {
+					"type": "groupBox",
+					"text": "Y (year of \"week of year\")",
+					"top": 380,
+					"left": 20,
+					"width": 240,
+					"height": 180
+				},
+				"Group4": {
+					"type": "groupBox",
+					"text": "u (extended year )",
+					"top": 560,
+					"left": 20,
+					"width": 240,
+					"height": 180
+				},
+				"Group5": {
+					"type": "groupBox",
+					"text": "Q (quarter)",
+					"top": 740,
+					"left": 20,
+					"width": 240,
+					"height": 180
+				},
+				"Group6": {
+					"type": "groupBox",
+					"text": "q (stand alone quarter)",
+					"top": 919,
+					"left": 20,
+					"width": 240,
+					"height": 180
+				},
+				"Group7": {
+					"type": "groupBox",
+					"text": "M (mont in year)",
+					"top": 1098,
+					"left": 20,
+					"width": 240,
+					"height": 180
+				},
+				"Group8": {
+					"type": "groupBox",
+					"text": "L (stand-alone mont in year)",
+					"top": 20,
+					"left": 280,
+					"width": 240,
+					"height": 180
+				},
+				"Group9": {
+					"type": "groupBox",
+					"text": "w (week of year)",
+					"top": 200,
+					"left": 280,
+					"width": 240,
+					"height": 180
+				},
+				"Group10": {
+					"type": "groupBox",
+					"text": "d (day in month)",
+					"top": 380,
+					"left": 280,
+					"width": 240,
+					"height": 180
+				},
+				"Group11": {
+					"type": "groupBox",
+					"text": "D (day of year)",
+					"top": 560,
+					"left": 280,
+					"width": 240,
+					"height": 180
+				},
+				"Group12": {
+					"type": "groupBox",
+					"text": "E (day of week)",
+					"top": 740,
+					"left": 280,
+					"width": 240,
+					"height": 180
+				},
+				"Group13": {
+					"type": "groupBox",
+					"text": "e (local day of week)",
+					"top": 920,
+					"left": 280,
+					"width": 240,
+					"height": 180
+				},
+				"Group14": {
+					"type": "groupBox",
+					"text": "c (stand alone local day of week)",
+					"top": 1100,
+					"left": 280,
+					"width": 240,
+					"height": 180
+				},
+				"Group15": {
+					"type": "groupBox",
+					"text": "a (AP or PM)",
+					"top": 20,
+					"left": 610,
+					"width": 240,
+					"height": 175
+				},
+				"Input6": {
+					"type": "input",
+					"left": 100,
+					"top": 170,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "date",
+					"stroke": "#9400d3",
+					"dataSource": "vDate"
+				},
+				"Input7": {
+					"type": "input",
+					"left": 100,
+					"top": 225,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "date",
+					"dataSource": "vDate"
+				},
+				"Input8": {
+					"type": "input",
+					"left": 100,
+					"top": 250,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "date",
+					"dataSource": "vDate"
+				},
+				"Input9": {
+					"type": "input",
+					"left": 100,
+					"top": 275,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "date",
+					"dataSource": "vDate"
+				},
+				"Input10": {
+					"type": "input",
+					"left": 100,
+					"top": 300,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "date",
+					"dataSource": "vDate"
+				},
+				"Input11": {
+					"type": "input",
+					"left": 100,
+					"top": 325,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "date",
+					"stroke": "#9400d3",
+					"dataSource": "vDate"
+				},
+				"format6": {
+					"type": "text",
+					"text": "X",
+					"top": 170,
+					"left": 20,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center",
+					"stroke": "#9400d3"
+				},
+				"Input12": {
+					"type": "input",
+					"left": 100,
+					"top": 350,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "date",
+					"stroke": "#9400d3",
+					"dataSource": "vDate"
+				},
+				"Input13": {
+					"type": "input",
+					"left": 100,
+					"top": 405,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "date",
+					"dataSource": "vDate"
+				},
+				"Input14": {
+					"type": "input",
+					"left": 100,
+					"top": 430,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "date",
+					"stroke": "#9400d3",
+					"dataSource": "vDate"
+				},
+				"Input15": {
+					"type": "input",
+					"left": 100,
+					"top": 455,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "date",
+					"stroke": "#9400d3",
+					"dataSource": "vDate"
+				},
+				"Input16": {
+					"type": "input",
+					"left": 100,
+					"top": 480,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "date",
+					"stroke": "#9400d3",
+					"dataSource": "vDate"
+				},
+				"Input17": {
+					"type": "input",
+					"left": 100,
+					"top": 505,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "date",
+					"stroke": "#9400d3",
+					"dataSource": "vDate"
+				},
+				"Input18": {
+					"type": "input",
+					"left": 100,
+					"top": 530,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "date",
+					"stroke": "#9400d3",
+					"dataSource": "vDate"
+				},
+				"Input19": {
+					"type": "input",
+					"left": 100,
+					"top": 585,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "date",
+					"dataSource": "vDate"
+				},
+				"Input20": {
+					"type": "input",
+					"left": 100,
+					"top": 610,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "date",
+					"stroke": "#9400d3",
+					"dataSource": "vDate"
+				},
+				"Input21": {
+					"type": "input",
+					"left": 100,
+					"top": 635,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "date",
+					"stroke": "#9400d3",
+					"dataSource": "vDate"
+				},
+				"Input22": {
+					"type": "input",
+					"left": 100,
+					"top": 660,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "date",
+					"stroke": "#9400d3",
+					"dataSource": "vDate"
+				},
+				"Input23": {
+					"type": "input",
+					"left": 100,
+					"top": 685,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "date",
+					"stroke": "#9400d3",
+					"dataSource": "vDate"
+				},
+				"Input24": {
+					"type": "input",
+					"left": 100,
+					"top": 710,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "date",
+					"stroke": "#9400d3",
+					"dataSource": "vDate"
+				},
+				"Input25": {
+					"type": "input",
+					"left": 100,
+					"top": 765,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "date",
+					"dataSource": "vDate"
+				},
+				"Input26": {
+					"type": "input",
+					"left": 100,
+					"top": 790,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "date",
+					"dataSource": "vDate"
+				},
+				"Input27": {
+					"type": "input",
+					"left": 100,
+					"top": 815,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "date",
+					"dataSource": "vDate"
+				},
+				"Input28": {
+					"type": "input",
+					"left": 100,
+					"top": 840,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "date",
+					"dataSource": "vDate"
+				},
+				"Input29": {
+					"type": "input",
+					"left": 100,
+					"top": 865,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "date",
+					"dataSource": "vDate"
+				},
+				"Input30": {
+					"type": "input",
+					"left": 100,
+					"top": 890,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "date",
+					"stroke": "#9400d3",
+					"dataSource": "vDate"
+				},
+				"Input31": {
+					"type": "input",
+					"left": 100,
+					"top": 945,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "date",
+					"dataSource": "vDate"
+				},
+				"Input32": {
+					"type": "input",
+					"left": 100,
+					"top": 970,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "date",
+					"dataSource": "vDate"
+				},
+				"Input33": {
+					"type": "input",
+					"left": 100,
+					"top": 995,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "date",
+					"dataSource": "vDate"
+				},
+				"Input34": {
+					"type": "input",
+					"left": 100,
+					"top": 1020,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "date",
+					"dataSource": "vDate"
+				},
+				"Input35": {
+					"type": "input",
+					"left": 100,
+					"top": 1045,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "date",
+					"dataSource": "vDate"
+				},
+				"Input36": {
+					"type": "input",
+					"left": 100,
+					"top": 1070,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "date",
+					"stroke": "#9400d3",
+					"dataSource": "vDate"
+				},
+				"Input37": {
+					"type": "input",
+					"left": 100,
+					"top": 1125,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "date",
+					"dataSource": "vDate"
+				},
+				"Input38": {
+					"type": "input",
+					"left": 100,
+					"top": 1150,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "date",
+					"dataSource": "vDate"
+				},
+				"Input39": {
+					"type": "input",
+					"left": 100,
+					"top": 1175,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "date",
+					"dataSource": "vDate"
+				},
+				"Input40": {
+					"type": "input",
+					"left": 100,
+					"top": 1200,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "date",
+					"dataSource": "vDate"
+				},
+				"Input41": {
+					"type": "input",
+					"left": 100,
+					"top": 1225,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "date",
+					"dataSource": "vDate"
+				},
+				"Input42": {
+					"type": "input",
+					"left": 100,
+					"top": 1250,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "date",
+					"stroke": "#9400d3",
+					"dataSource": "vDate"
+				},
+				"Input43": {
+					"type": "input",
+					"left": 360,
+					"top": 45,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "date",
+					"dataSource": "vDate"
+				},
+				"Input44": {
+					"type": "input",
+					"left": 360,
+					"top": 70,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "date",
+					"dataSource": "vDate"
+				},
+				"Input45": {
+					"type": "input",
+					"left": 360,
+					"top": 95,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "date",
+					"dataSource": "vDate"
+				},
+				"Input46": {
+					"type": "input",
+					"left": 360,
+					"top": 120,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "date",
+					"dataSource": "vDate"
+				},
+				"Input47": {
+					"type": "input",
+					"left": 360,
+					"top": 145,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "date",
+					"dataSource": "vDate"
+				},
+				"Input48": {
+					"type": "input",
+					"left": 360,
+					"top": 170,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "date",
+					"stroke": "#9400d3",
+					"dataSource": "vDate"
+				},
+				"Input49": {
+					"type": "input",
+					"left": 360,
+					"top": 225,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "date",
+					"dataSource": "vDate"
+				},
+				"Input50": {
+					"type": "input",
+					"left": 360,
+					"top": 250,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "date",
+					"dataSource": "vDate"
+				},
+				"Input51": {
+					"type": "input",
+					"left": 360,
+					"top": 275,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "date",
+					"stroke": "#9400d3",
+					"dataSource": "vDate"
+				},
+				"Input52": {
+					"type": "input",
+					"left": 360,
+					"top": 300,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "date",
+					"stroke": "#9400d3",
+					"dataSource": "vDate"
+				},
+				"Input53": {
+					"type": "input",
+					"left": 360,
+					"top": 325,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "date",
+					"stroke": "#9400d3",
+					"dataSource": "vDate"
+				},
+				"Input54": {
+					"type": "input",
+					"left": 360,
+					"top": 350,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "date",
+					"stroke": "#9400d3",
+					"dataSource": "vDate"
+				},
+				"Input55": {
+					"type": "input",
+					"left": 360,
+					"top": 405,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "date",
+					"dataSource": "vDate"
+				},
+				"Input56": {
+					"type": "input",
+					"left": 360,
+					"top": 430,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "date",
+					"dataSource": "vDate"
+				},
+				"Input57": {
+					"type": "input",
+					"left": 360,
+					"top": 455,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "date",
+					"stroke": "#9400d3",
+					"dataSource": "vDate"
+				},
+				"Input58": {
+					"type": "input",
+					"left": 360,
+					"top": 480,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "date",
+					"stroke": "#9400d3",
+					"dataSource": "vDate"
+				},
+				"Input59": {
+					"type": "input",
+					"left": 360,
+					"top": 505,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "date",
+					"stroke": "#9400d3",
+					"dataSource": "vDate"
+				},
+				"Input60": {
+					"type": "input",
+					"left": 360,
+					"top": 530,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "date",
+					"stroke": "#9400d3",
+					"dataSource": "vDate"
+				},
+				"Input61": {
+					"type": "input",
+					"left": 360,
+					"top": 585,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "date",
+					"dataSource": "vDate"
+				},
+				"Input62": {
+					"type": "input",
+					"left": 360,
+					"top": 610,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "date",
+					"stroke": "#9400d3",
+					"dataSource": "vDate"
+				},
+				"Input63": {
+					"type": "input",
+					"left": 360,
+					"top": 635,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "date",
+					"stroke": "#9400d3",
+					"dataSource": "vDate"
+				},
+				"Input64": {
+					"type": "input",
+					"left": 360,
+					"top": 660,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "date",
+					"stroke": "#9400d3",
+					"dataSource": "vDate"
+				},
+				"Input65": {
+					"type": "input",
+					"left": 360,
+					"top": 685,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "date",
+					"stroke": "#9400d3",
+					"dataSource": "vDate"
+				},
+				"Input66": {
+					"type": "input",
+					"left": 360,
+					"top": 710,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "date",
+					"stroke": "#9400d3",
+					"dataSource": "vDate"
+				},
+				"Input67": {
+					"type": "input",
+					"left": 360,
+					"top": 765,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "date",
+					"dataSource": "vDate"
+				},
+				"Input68": {
+					"type": "input",
+					"left": 360,
+					"top": 790,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "date",
+					"dataSource": "vDate"
+				},
+				"Input69": {
+					"type": "input",
+					"left": 360,
+					"top": 815,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "date",
+					"dataSource": "vDate"
+				},
+				"Input70": {
+					"type": "input",
+					"left": 360,
+					"top": 840,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "date",
+					"dataSource": "vDate"
+				},
+				"Input71": {
+					"type": "input",
+					"left": 360,
+					"top": 865,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "date",
+					"dataSource": "vDate"
+				},
+				"Input72": {
+					"type": "input",
+					"left": 360,
+					"top": 890,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "date",
+					"dataSource": "vDate"
+				},
+				"Input73": {
+					"type": "input",
+					"left": 360,
+					"top": 945,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "date",
+					"dataSource": "vDate"
+				},
+				"Input74": {
+					"type": "input",
+					"left": 360,
+					"top": 970,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "date",
+					"dataSource": "vDate"
+				},
+				"Input75": {
+					"type": "input",
+					"left": 360,
+					"top": 995,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "date",
+					"dataSource": "vDate"
+				},
+				"Input76": {
+					"type": "input",
+					"left": 360,
+					"top": 1020,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "date",
+					"dataSource": "vDate"
+				},
+				"Input77": {
+					"type": "input",
+					"left": 360,
+					"top": 1045,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "date",
+					"dataSource": "vDate"
+				},
+				"Input78": {
+					"type": "input",
+					"left": 360,
+					"top": 1070,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "date",
+					"dataSource": "vDate"
+				},
+				"Input79": {
+					"type": "input",
+					"left": 360,
+					"top": 1125,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "date",
+					"dataSource": "vDate"
+				},
+				"Input80": {
+					"type": "input",
+					"left": 360,
+					"top": 1150,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "date",
+					"dataSource": "vDate"
+				},
+				"Input81": {
+					"type": "input",
+					"left": 360,
+					"top": 1175,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "date",
+					"dataSource": "vDate"
+				},
+				"Input82": {
+					"type": "input",
+					"left": 360,
+					"top": 1200,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "date",
+					"dataSource": "vDate"
+				},
+				"Input83": {
+					"type": "input",
+					"left": 360,
+					"top": 1225,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "date",
+					"dataSource": "vDate"
+				},
+				"Input84": {
+					"type": "input",
+					"left": 360,
+					"top": 1250,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "date",
+					"dataSource": "vDate"
+				},
+				"format7": {
+					"type": "text",
+					"text": "X",
+					"top": 225,
+					"left": 20,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"format8": {
+					"type": "text",
+					"text": "X",
+					"top": 250,
+					"left": 20,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"format9": {
+					"type": "text",
+					"text": "X",
+					"top": 276,
+					"left": 20,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"format10": {
+					"type": "text",
+					"text": "X",
+					"top": 301,
+					"left": 20,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"format11": {
+					"type": "text",
+					"text": "X",
+					"top": 326,
+					"left": 20,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center",
+					"stroke": "#9400d3"
+				},
+				"format12": {
+					"type": "text",
+					"text": "X",
+					"top": 350,
+					"left": 20,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center",
+					"stroke": "#9400d3"
+				},
+				"format13": {
+					"type": "text",
+					"text": "X",
+					"top": 405,
+					"left": 20,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"format14": {
+					"type": "text",
+					"text": "X",
+					"top": 430,
+					"left": 20,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center",
+					"stroke": "#9400d3"
+				},
+				"format15": {
+					"type": "text",
+					"text": "X",
+					"top": 456,
+					"left": 20,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center",
+					"stroke": "#9400d3"
+				},
+				"format16": {
+					"type": "text",
+					"text": "X",
+					"top": 481,
+					"left": 20,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center",
+					"stroke": "#9400d3"
+				},
+				"format17": {
+					"type": "text",
+					"text": "X",
+					"top": 506,
+					"left": 20,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center",
+					"stroke": "#9400d3"
+				},
+				"format18": {
+					"type": "text",
+					"text": "X",
+					"top": 530,
+					"left": 20,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center",
+					"stroke": "#9400d3"
+				},
+				"format19": {
+					"type": "text",
+					"text": "X",
+					"top": 585,
+					"left": 20,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"format20": {
+					"type": "text",
+					"text": "X",
+					"top": 610,
+					"left": 20,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center",
+					"stroke": "#9400d3"
+				},
+				"format21": {
+					"type": "text",
+					"text": "X",
+					"top": 636,
+					"left": 20,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center",
+					"stroke": "#9400d3"
+				},
+				"format22": {
+					"type": "text",
+					"text": "X",
+					"top": 661,
+					"left": 20,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center",
+					"stroke": "#9400d3"
+				},
+				"format23": {
+					"type": "text",
+					"text": "X",
+					"top": 686,
+					"left": 20,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center",
+					"stroke": "#9400d3"
+				},
+				"format24": {
+					"type": "text",
+					"text": "X",
+					"top": 710,
+					"left": 20,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center",
+					"stroke": "#9400d3"
+				},
+				"format25": {
+					"type": "text",
+					"text": "X",
+					"top": 765,
+					"left": 20,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"format26": {
+					"type": "text",
+					"text": "X",
+					"top": 790,
+					"left": 20,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"format27": {
+					"type": "text",
+					"text": "X",
+					"top": 816,
+					"left": 20,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"format28": {
+					"type": "text",
+					"text": "X",
+					"top": 841,
+					"left": 20,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"format29": {
+					"type": "text",
+					"text": "X",
+					"top": 866,
+					"left": 20,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"format30": {
+					"type": "text",
+					"text": "X",
+					"top": 890,
+					"left": 20,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center",
+					"stroke": "#9400d3"
+				},
+				"format31": {
+					"type": "text",
+					"text": "X",
+					"top": 945,
+					"left": 20,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"format32": {
+					"type": "text",
+					"text": "X",
+					"top": 970,
+					"left": 20,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"format33": {
+					"type": "text",
+					"text": "X",
+					"top": 996,
+					"left": 20,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"format34": {
+					"type": "text",
+					"text": "X",
+					"top": 1021,
+					"left": 20,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"format35": {
+					"type": "text",
+					"text": "X",
+					"top": 1046,
+					"left": 20,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"format36": {
+					"type": "text",
+					"text": "X",
+					"top": 1070,
+					"left": 20,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center",
+					"stroke": "#9400d3"
+				},
+				"format37": {
+					"type": "text",
+					"text": "X",
+					"top": 1125,
+					"left": 20,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"format38": {
+					"type": "text",
+					"text": "X",
+					"top": 1150,
+					"left": 20,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"format39": {
+					"type": "text",
+					"text": "X",
+					"top": 1176,
+					"left": 20,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"format40": {
+					"type": "text",
+					"text": "X",
+					"top": 1201,
+					"left": 20,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"format41": {
+					"type": "text",
+					"text": "X",
+					"top": 1226,
+					"left": 20,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"format42": {
+					"type": "text",
+					"text": "X",
+					"top": 1250,
+					"left": 20,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center",
+					"stroke": "#9400d3"
+				},
+				"format43": {
+					"type": "text",
+					"text": "X",
+					"top": 45,
+					"left": 280,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"format44": {
+					"type": "text",
+					"text": "X",
+					"top": 70,
+					"left": 280,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"format45": {
+					"type": "text",
+					"text": "X",
+					"top": 96,
+					"left": 280,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"format46": {
+					"type": "text",
+					"text": "X",
+					"top": 121,
+					"left": 280,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"format47": {
+					"type": "text",
+					"text": "X",
+					"top": 146,
+					"left": 280,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"format48": {
+					"type": "text",
+					"text": "X",
+					"top": 170,
+					"left": 280,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center",
+					"stroke": "#9400d3"
+				},
+				"format49": {
+					"type": "text",
+					"text": "X",
+					"top": 225,
+					"left": 280,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"format50": {
+					"type": "text",
+					"text": "X",
+					"top": 250,
+					"left": 280,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"format51": {
+					"type": "text",
+					"text": "X",
+					"top": 276,
+					"left": 280,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center",
+					"stroke": "#9400d3"
+				},
+				"format52": {
+					"type": "text",
+					"text": "X",
+					"top": 301,
+					"left": 280,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center",
+					"stroke": "#9400d3"
+				},
+				"format53": {
+					"type": "text",
+					"text": "X",
+					"top": 326,
+					"left": 280,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center",
+					"stroke": "#9400d3"
+				},
+				"format54": {
+					"type": "text",
+					"text": "X",
+					"top": 350,
+					"left": 280,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center",
+					"stroke": "#9400d3"
+				},
+				"format55": {
+					"type": "text",
+					"text": "X",
+					"top": 405,
+					"left": 280,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"format56": {
+					"type": "text",
+					"text": "X",
+					"top": 430,
+					"left": 280,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"format57": {
+					"type": "text",
+					"text": "X",
+					"top": 456,
+					"left": 280,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center",
+					"stroke": "#9400d3"
+				},
+				"format58": {
+					"type": "text",
+					"text": "X",
+					"top": 481,
+					"left": 280,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center",
+					"stroke": "#9400d3"
+				},
+				"format59": {
+					"type": "text",
+					"text": "X",
+					"top": 506,
+					"left": 280,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center",
+					"stroke": "#9400d3"
+				},
+				"format60": {
+					"type": "text",
+					"text": "X",
+					"top": 530,
+					"left": 280,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center",
+					"stroke": "#9400d3"
+				},
+				"format61": {
+					"type": "text",
+					"text": "X",
+					"top": 585,
+					"left": 280,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"format62": {
+					"type": "text",
+					"text": "X",
+					"top": 610,
+					"left": 280,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center",
+					"stroke": "#9400d3"
+				},
+				"format63": {
+					"type": "text",
+					"text": "X",
+					"top": 636,
+					"left": 280,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center",
+					"stroke": "#9400d3"
+				},
+				"format64": {
+					"type": "text",
+					"text": "X",
+					"top": 661,
+					"left": 280,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center",
+					"stroke": "#9400d3"
+				},
+				"format65": {
+					"type": "text",
+					"text": "X",
+					"top": 686,
+					"left": 280,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center",
+					"stroke": "#9400d3"
+				},
+				"format66": {
+					"type": "text",
+					"text": "X",
+					"top": 710,
+					"left": 280,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center",
+					"stroke": "#9400d3"
+				},
+				"format67": {
+					"type": "text",
+					"text": "X",
+					"top": 765,
+					"left": 280,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"format68": {
+					"type": "text",
+					"text": "X",
+					"top": 790,
+					"left": 280,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"format69": {
+					"type": "text",
+					"text": "X",
+					"top": 816,
+					"left": 280,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"format70": {
+					"type": "text",
+					"text": "X",
+					"top": 841,
+					"left": 280,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"format71": {
+					"type": "text",
+					"text": "X",
+					"top": 866,
+					"left": 280,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"format72": {
+					"type": "text",
+					"text": "X",
+					"top": 890,
+					"left": 280,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"format73": {
+					"type": "text",
+					"text": "X",
+					"top": 945,
+					"left": 280,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"format74": {
+					"type": "text",
+					"text": "X",
+					"top": 970,
+					"left": 280,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"format75": {
+					"type": "text",
+					"text": "X",
+					"top": 996,
+					"left": 280,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"format76": {
+					"type": "text",
+					"text": "X",
+					"top": 1021,
+					"left": 280,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"format77": {
+					"type": "text",
+					"text": "X",
+					"top": 1046,
+					"left": 280,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"format78": {
+					"type": "text",
+					"text": "X",
+					"top": 1070,
+					"left": 280,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"format79": {
+					"type": "text",
+					"text": "X",
+					"top": 1125,
+					"left": 280,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"format80": {
+					"type": "text",
+					"text": "X",
+					"top": 1150,
+					"left": 280,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"format81": {
+					"type": "text",
+					"text": "X",
+					"top": 1176,
+					"left": 280,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"format82": {
+					"type": "text",
+					"text": "X",
+					"top": 1201,
+					"left": 280,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"format83": {
+					"type": "text",
+					"text": "X",
+					"top": 1226,
+					"left": 280,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"format84": {
+					"type": "text",
+					"text": "X",
+					"top": 1250,
+					"left": 280,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"Input85": {
+					"type": "input",
+					"left": 370,
+					"top": 1300,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "date",
+					"dataSource": "vDate"
+				},
+				"format85": {
+					"type": "text",
+					"text": "X",
+					"top": 1300,
+					"left": 290,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"Input86": {
+					"type": "input",
+					"left": 370,
+					"top": 1309,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "date",
+					"dataSource": "vDate"
+				},
+				"format86": {
+					"type": "text",
+					"text": "X",
+					"top": 1309,
+					"left": 290,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"Input87": {
+					"type": "input",
+					"left": 370,
+					"top": 1318,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "date",
+					"dataSource": "vDate"
+				},
+				"format87": {
+					"type": "text",
+					"text": "X",
+					"top": 1318,
+					"left": 290,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"Input88": {
+					"type": "input",
+					"left": 370,
+					"top": 1327,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "date",
+					"dataSource": "vDate"
+				},
+				"format88": {
+					"type": "text",
+					"text": "X",
+					"top": 1327,
+					"left": 290,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"Input89": {
+					"type": "input",
+					"left": 370,
+					"top": 1336,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "date",
+					"dataSource": "vDate"
+				},
+				"format89": {
+					"type": "text",
+					"text": "X",
+					"top": 1336,
+					"left": 290,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"Input90": {
+					"type": "input",
+					"left": 370,
+					"top": 1345,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "date",
+					"dataSource": "vDate"
+				},
+				"format90": {
+					"type": "text",
+					"text": "X",
+					"top": 1345,
+					"left": 290,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"Input91": {
+					"type": "input",
+					"left": 370,
+					"top": 1354,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "date",
+					"dataSource": "vDate"
+				},
+				"format91": {
+					"type": "text",
+					"text": "X",
+					"top": 1354,
+					"left": 290,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"Input92": {
+					"type": "input",
+					"left": 370,
+					"top": 1363,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "date",
+					"dataSource": "vDate"
+				},
+				"format92": {
+					"type": "text",
+					"text": "X",
+					"top": 1363,
+					"left": 290,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"Input93": {
+					"type": "input",
+					"left": 370,
+					"top": 1372,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "date",
+					"dataSource": "vDate"
+				},
+				"format93": {
+					"type": "text",
+					"text": "X",
+					"top": 1372,
+					"left": 290,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"Input94": {
+					"type": "input",
+					"left": 370,
+					"top": 1381,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "date",
+					"dataSource": "vDate"
+				},
+				"format94": {
+					"type": "text",
+					"text": "X",
+					"top": 1381,
+					"left": 290,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"Input95": {
+					"type": "input",
+					"left": 370,
+					"top": 1390,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "date",
+					"dataSource": "vDate"
+				},
+				"format95": {
+					"type": "text",
+					"text": "X",
+					"top": 1390,
+					"left": 290,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"Input96": {
+					"type": "input",
+					"left": 370,
+					"top": 1399,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "date",
+					"dataSource": "vDate"
+				},
+				"format96": {
+					"type": "text",
+					"text": "X",
+					"top": 1399,
+					"left": 290,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"Input97": {
+					"type": "input",
+					"left": 370,
+					"top": 1408,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "date",
+					"dataSource": "vDate"
+				},
+				"format97": {
+					"type": "text",
+					"text": "X",
+					"top": 1408,
+					"left": 290,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"Input98": {
+					"type": "input",
+					"left": 370,
+					"top": 1417,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "date",
+					"dataSource": "vDate"
+				},
+				"format98": {
+					"type": "text",
+					"text": "X",
+					"top": 1417,
+					"left": 290,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"Input99": {
+					"type": "input",
+					"left": 370,
+					"top": 1426,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "date",
+					"dataSource": "vDate"
+				},
+				"format99": {
+					"type": "text",
+					"text": "X",
+					"top": 1426,
+					"left": 290,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"Input100": {
+					"type": "input",
+					"left": 370,
+					"top": 1435,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "date",
+					"dataSource": "vDate"
+				},
+				"format100": {
+					"type": "text",
+					"text": "X",
+					"top": 1435,
+					"left": 290,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"Input101": {
+					"type": "input",
+					"left": 690,
+					"top": 45,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "time",
+					"dataSource": "vTime"
+				},
+				"format101": {
+					"type": "text",
+					"text": "X",
+					"top": 45,
+					"left": 610,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"Input102": {
+					"type": "input",
+					"left": 690,
+					"top": 70,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "time",
+					"dataSource": "vTime"
+				},
+				"format102": {
+					"type": "text",
+					"text": "X",
+					"top": 70,
+					"left": 610,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"Input103": {
+					"type": "input",
+					"left": 690,
+					"top": 95,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "time",
+					"dataSource": "vTime"
+				},
+				"format103": {
+					"type": "text",
+					"text": "X",
+					"top": 95,
+					"left": 610,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"Input104": {
+					"type": "input",
+					"left": 690,
+					"top": 120,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "time",
+					"dataSource": "vTime"
+				},
+				"format104": {
+					"type": "text",
+					"text": "X",
+					"top": 120,
+					"left": 610,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"Input105": {
+					"type": "input",
+					"left": 690,
+					"top": 145,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "time",
+					"dataSource": "vTime"
+				},
+				"format105": {
+					"type": "text",
+					"text": "X",
+					"top": 145,
+					"left": 610,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"Input106": {
+					"type": "input",
+					"left": 690,
+					"top": 170,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "time",
+					"stroke": "#9400d3",
+					"dataSource": "vTime"
+				},
+				"format106": {
+					"type": "text",
+					"text": "X",
+					"top": 170,
+					"left": 610,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center",
+					"stroke": "#9400d3"
+				},
+				"Group16": {
+					"type": "groupBox",
+					"text": "b (am, pm, noon, midnight)",
+					"top": 200,
+					"left": 610,
+					"width": 240,
+					"height": 175
+				},
+				"Input107": {
+					"type": "input",
+					"left": 690,
+					"top": 225,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "time",
+					"dataSource": "vTime"
+				},
+				"format107": {
+					"type": "text",
+					"text": "X",
+					"top": 225,
+					"left": 610,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"Input108": {
+					"type": "input",
+					"left": 690,
+					"top": 250,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "time",
+					"dataSource": "vTime"
+				},
+				"format108": {
+					"type": "text",
+					"text": "X",
+					"top": 250,
+					"left": 610,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"Input109": {
+					"type": "input",
+					"left": 690,
+					"top": 275,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "time",
+					"dataSource": "vTime"
+				},
+				"format109": {
+					"type": "text",
+					"text": "X",
+					"top": 275,
+					"left": 610,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"Input110": {
+					"type": "input",
+					"left": 690,
+					"top": 300,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "time",
+					"dataSource": "vTime"
+				},
+				"format110": {
+					"type": "text",
+					"text": "X",
+					"top": 300,
+					"left": 610,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"Input111": {
+					"type": "input",
+					"left": 690,
+					"top": 325,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "time",
+					"dataSource": "vTime"
+				},
+				"format111": {
+					"type": "text",
+					"text": "X",
+					"top": 325,
+					"left": 610,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"Input112": {
+					"type": "input",
+					"left": 690,
+					"top": 350,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "time",
+					"stroke": "#9400d3",
+					"dataSource": "vTime"
+				},
+				"format112": {
+					"type": "text",
+					"text": "X",
+					"top": 350,
+					"left": 610,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center",
+					"stroke": "#9400d3"
+				},
+				"Group17": {
+					"type": "groupBox",
+					"text": "B (flexible day periods)",
+					"top": 380,
+					"left": 610,
+					"width": 240,
+					"height": 175
+				},
+				"Input113": {
+					"type": "input",
+					"left": 690,
+					"top": 405,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "time",
+					"dataSource": "vTime"
+				},
+				"format113": {
+					"type": "text",
+					"text": "X",
+					"top": 405,
+					"left": 610,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"Input114": {
+					"type": "input",
+					"left": 690,
+					"top": 430,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "time",
+					"dataSource": "vTime"
+				},
+				"format114": {
+					"type": "text",
+					"text": "X",
+					"top": 430,
+					"left": 610,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"Input115": {
+					"type": "input",
+					"left": 690,
+					"top": 455,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "time",
+					"dataSource": "vTime"
+				},
+				"format115": {
+					"type": "text",
+					"text": "X",
+					"top": 455,
+					"left": 610,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"Input116": {
+					"type": "input",
+					"left": 690,
+					"top": 480,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "time",
+					"dataSource": "vTime"
+				},
+				"format116": {
+					"type": "text",
+					"text": "X",
+					"top": 480,
+					"left": 610,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"Input117": {
+					"type": "input",
+					"left": 690,
+					"top": 505,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "time",
+					"dataSource": "vTime"
+				},
+				"format117": {
+					"type": "text",
+					"text": "X",
+					"top": 505,
+					"left": 610,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"Input118": {
+					"type": "input",
+					"left": 690,
+					"top": 530,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "time",
+					"stroke": "#9400d3",
+					"dataSource": "vTime"
+				},
+				"format118": {
+					"type": "text",
+					"text": "X",
+					"top": 530,
+					"left": 610,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center",
+					"stroke": "#9400d3"
+				},
+				"Group18": {
+					"type": "groupBox",
+					"text": "h (hour in am/pm (1~12))",
+					"top": 560,
+					"left": 610,
+					"width": 240,
+					"height": 175
+				},
+				"Input119": {
+					"type": "input",
+					"left": 690,
+					"top": 585,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "time",
+					"dataSource": "vTime"
+				},
+				"format119": {
+					"type": "text",
+					"text": "X",
+					"top": 585,
+					"left": 610,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"Input120": {
+					"type": "input",
+					"left": 690,
+					"top": 610,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "time",
+					"dataSource": "vTime"
+				},
+				"format120": {
+					"type": "text",
+					"text": "X",
+					"top": 610,
+					"left": 610,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"Input121": {
+					"type": "input",
+					"left": 690,
+					"top": 635,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "time",
+					"stroke": "#9400d3",
+					"dataSource": "vTime"
+				},
+				"format121": {
+					"type": "text",
+					"text": "X",
+					"top": 635,
+					"left": 610,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center",
+					"stroke": "#9400d3"
+				},
+				"Input122": {
+					"type": "input",
+					"left": 690,
+					"top": 660,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "time",
+					"stroke": "#9400d3",
+					"dataSource": "vTime"
+				},
+				"format122": {
+					"type": "text",
+					"text": "X",
+					"top": 660,
+					"left": 610,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center",
+					"stroke": "#9400d3"
+				},
+				"Input123": {
+					"type": "input",
+					"left": 690,
+					"top": 685,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "time",
+					"stroke": "#9400d3",
+					"dataSource": "vTime"
+				},
+				"format123": {
+					"type": "text",
+					"text": "X",
+					"top": 685,
+					"left": 610,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center",
+					"stroke": "#9400d3"
+				},
+				"Input124": {
+					"type": "input",
+					"left": 690,
+					"top": 710,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "time",
+					"stroke": "#9400d3",
+					"dataSource": "vTime"
+				},
+				"format124": {
+					"type": "text",
+					"text": "X",
+					"top": 710,
+					"left": 610,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center",
+					"stroke": "#9400d3"
+				},
+				"Group19": {
+					"type": "groupBox",
+					"text": "H (hour in day (0~23))",
+					"top": 740,
+					"left": 610,
+					"width": 240,
+					"height": 175
+				},
+				"Input125": {
+					"type": "input",
+					"left": 690,
+					"top": 765,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "time",
+					"dataSource": "vTime"
+				},
+				"format125": {
+					"type": "text",
+					"text": "X",
+					"top": 765,
+					"left": 610,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"Input126": {
+					"type": "input",
+					"left": 690,
+					"top": 790,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "time",
+					"dataSource": "vTime"
+				},
+				"format126": {
+					"type": "text",
+					"text": "X",
+					"top": 790,
+					"left": 610,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"Input127": {
+					"type": "input",
+					"left": 690,
+					"top": 815,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "time",
+					"stroke": "#9400d3",
+					"dataSource": "vTime"
+				},
+				"format127": {
+					"type": "text",
+					"text": "X",
+					"top": 815,
+					"left": 610,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center",
+					"stroke": "#9400d3"
+				},
+				"Input128": {
+					"type": "input",
+					"left": 690,
+					"top": 840,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "time",
+					"stroke": "#9400d3",
+					"dataSource": "vTime"
+				},
+				"format128": {
+					"type": "text",
+					"text": "X",
+					"top": 840,
+					"left": 610,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center",
+					"stroke": "#9400d3"
+				},
+				"Input129": {
+					"type": "input",
+					"left": 690,
+					"top": 865,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "time",
+					"stroke": "#9400d3",
+					"dataSource": "vTime"
+				},
+				"format129": {
+					"type": "text",
+					"text": "X",
+					"top": 865,
+					"left": 610,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center",
+					"stroke": "#9400d3"
+				},
+				"Input130": {
+					"type": "input",
+					"left": 690,
+					"top": 890,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "time",
+					"stroke": "#9400d3",
+					"dataSource": "vTime"
+				},
+				"format130": {
+					"type": "text",
+					"text": "X",
+					"top": 890,
+					"left": 610,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center",
+					"stroke": "#9400d3"
+				},
+				"Group20": {
+					"type": "groupBox",
+					"text": "K (hour in am/pm (0~11))",
+					"top": 920,
+					"left": 610,
+					"width": 240,
+					"height": 175
+				},
+				"Input131": {
+					"type": "input",
+					"left": 690,
+					"top": 945,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "time",
+					"dataSource": "vTime"
+				},
+				"format131": {
+					"type": "text",
+					"text": "X",
+					"top": 945,
+					"left": 610,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"Input132": {
+					"type": "input",
+					"left": 690,
+					"top": 970,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "time",
+					"dataSource": "vTime"
+				},
+				"format132": {
+					"type": "text",
+					"text": "X",
+					"top": 970,
+					"left": 610,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"Input133": {
+					"type": "input",
+					"left": 690,
+					"top": 995,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "time",
+					"stroke": "#9400d3",
+					"dataSource": "vTime"
+				},
+				"format133": {
+					"type": "text",
+					"text": "X",
+					"top": 995,
+					"left": 610,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center",
+					"stroke": "#9400d3"
+				},
+				"Input134": {
+					"type": "input",
+					"left": 690,
+					"top": 1020,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "time",
+					"stroke": "#9400d3",
+					"dataSource": "vTime"
+				},
+				"format134": {
+					"type": "text",
+					"text": "X",
+					"top": 1020,
+					"left": 610,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center",
+					"stroke": "#9400d3"
+				},
+				"Input135": {
+					"type": "input",
+					"left": 690,
+					"top": 1045,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "time",
+					"stroke": "#9400d3",
+					"dataSource": "vTime"
+				},
+				"format135": {
+					"type": "text",
+					"text": "X",
+					"top": 1045,
+					"left": 610,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center",
+					"stroke": "#9400d3"
+				},
+				"Input136": {
+					"type": "input",
+					"left": 690,
+					"top": 1070,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "time",
+					"stroke": "#9400d3",
+					"dataSource": "vTime"
+				},
+				"format136": {
+					"type": "text",
+					"text": "X",
+					"top": 1070,
+					"left": 610,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center",
+					"stroke": "#9400d3"
+				},
+				"Group21": {
+					"type": "groupBox",
+					"text": "k (hour in am/pm (1~24))",
+					"top": 1100,
+					"left": 610,
+					"width": 240,
+					"height": 175
+				},
+				"Input137": {
+					"type": "input",
+					"left": 690,
+					"top": 1125,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "time",
+					"dataSource": "vTime"
+				},
+				"format137": {
+					"type": "text",
+					"text": "X",
+					"top": 1125,
+					"left": 610,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"Input138": {
+					"type": "input",
+					"left": 690,
+					"top": 1150,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "time",
+					"dataSource": "vTime"
+				},
+				"format138": {
+					"type": "text",
+					"text": "X",
+					"top": 1150,
+					"left": 610,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"Input139": {
+					"type": "input",
+					"left": 690,
+					"top": 1175,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "time",
+					"stroke": "#9400d3",
+					"dataSource": "vTime"
+				},
+				"format139": {
+					"type": "text",
+					"text": "X",
+					"top": 1175,
+					"left": 610,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center",
+					"stroke": "#9400d3"
+				},
+				"Input140": {
+					"type": "input",
+					"left": 690,
+					"top": 1200,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "time",
+					"stroke": "#9400d3",
+					"dataSource": "vTime"
+				},
+				"format140": {
+					"type": "text",
+					"text": "X",
+					"top": 1200,
+					"left": 610,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center",
+					"stroke": "#9400d3"
+				},
+				"Input141": {
+					"type": "input",
+					"left": 690,
+					"top": 1225,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "time",
+					"stroke": "#9400d3",
+					"dataSource": "vTime"
+				},
+				"format141": {
+					"type": "text",
+					"text": "X",
+					"top": 1225,
+					"left": 610,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center",
+					"stroke": "#9400d3"
+				},
+				"Input142": {
+					"type": "input",
+					"left": 690,
+					"top": 1250,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "time",
+					"stroke": "#9400d3",
+					"dataSource": "vTime"
+				},
+				"format142": {
+					"type": "text",
+					"text": "X",
+					"top": 1250,
+					"left": 610,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center",
+					"stroke": "#9400d3"
+				},
+				"Group22": {
+					"type": "groupBox",
+					"text": "m (minute in hour)",
+					"top": 20,
+					"left": 870,
+					"width": 240,
+					"height": 175
+				},
+				"Input143": {
+					"type": "input",
+					"left": 950,
+					"top": 45,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "time",
+					"dataSource": "vTime"
+				},
+				"format143": {
+					"type": "text",
+					"text": "X",
+					"top": 45,
+					"left": 870,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"Input144": {
+					"type": "input",
+					"left": 950,
+					"top": 70,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "time",
+					"dataSource": "vTime"
+				},
+				"format144": {
+					"type": "text",
+					"text": "X",
+					"top": 70,
+					"left": 870,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"Input145": {
+					"type": "input",
+					"left": 950,
+					"top": 95,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "time",
+					"stroke": "#9400d3",
+					"dataSource": "vTime"
+				},
+				"format145": {
+					"type": "text",
+					"text": "X",
+					"top": 95,
+					"left": 870,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center",
+					"stroke": "#9400d3"
+				},
+				"Input146": {
+					"type": "input",
+					"left": 950,
+					"top": 120,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "time",
+					"stroke": "#9400d3",
+					"dataSource": "vTime"
+				},
+				"format146": {
+					"type": "text",
+					"text": "X",
+					"top": 120,
+					"left": 870,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center",
+					"stroke": "#9400d3"
+				},
+				"Input147": {
+					"type": "input",
+					"left": 950,
+					"top": 145,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "time",
+					"stroke": "#9400d3",
+					"dataSource": "vTime"
+				},
+				"format147": {
+					"type": "text",
+					"text": "X",
+					"top": 145,
+					"left": 870,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center",
+					"stroke": "#9400d3"
+				},
+				"Input148": {
+					"type": "input",
+					"left": 950,
+					"top": 170,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "time",
+					"stroke": "#9400d3",
+					"dataSource": "vTime"
+				},
+				"format148": {
+					"type": "text",
+					"text": "X",
+					"top": 170,
+					"left": 870,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center",
+					"stroke": "#9400d3"
+				},
+				"Group23": {
+					"type": "groupBox",
+					"text": "s (second in minute)",
+					"top": 200,
+					"left": 870,
+					"width": 240,
+					"height": 175
+				},
+				"Input149": {
+					"type": "input",
+					"left": 950,
+					"top": 225,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "time",
+					"dataSource": "vTime"
+				},
+				"format149": {
+					"type": "text",
+					"text": "X",
+					"top": 225,
+					"left": 870,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"Input150": {
+					"type": "input",
+					"left": 950,
+					"top": 250,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "time",
+					"dataSource": "vTime"
+				},
+				"format150": {
+					"type": "text",
+					"text": "X",
+					"top": 250,
+					"left": 870,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"Input151": {
+					"type": "input",
+					"left": 950,
+					"top": 275,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "time",
+					"stroke": "#9400d3",
+					"dataSource": "vTime"
+				},
+				"format151": {
+					"type": "text",
+					"text": "X",
+					"top": 275,
+					"left": 870,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center",
+					"stroke": "#9400d3"
+				},
+				"Input152": {
+					"type": "input",
+					"left": 950,
+					"top": 300,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "time",
+					"stroke": "#9400d3",
+					"dataSource": "vTime"
+				},
+				"format152": {
+					"type": "text",
+					"text": "X",
+					"top": 300,
+					"left": 870,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center",
+					"stroke": "#9400d3"
+				},
+				"Input153": {
+					"type": "input",
+					"left": 950,
+					"top": 325,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "time",
+					"stroke": "#9400d3",
+					"dataSource": "vTime"
+				},
+				"format153": {
+					"type": "text",
+					"text": "X",
+					"top": 325,
+					"left": 870,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center",
+					"stroke": "#9400d3"
+				},
+				"Input154": {
+					"type": "input",
+					"left": 950,
+					"top": 350,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "time",
+					"stroke": "#9400d3",
+					"dataSource": "vTime"
+				},
+				"format154": {
+					"type": "text",
+					"text": "X",
+					"top": 350,
+					"left": 870,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center",
+					"stroke": "#9400d3"
+				},
+				"Group24": {
+					"type": "groupBox",
+					"text": "S (Fraction of second)",
+					"top": 380,
+					"left": 870,
+					"width": 240,
+					"height": 175
+				},
+				"Input155": {
+					"type": "input",
+					"left": 950,
+					"top": 405,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "time",
+					"dataSource": "vTime"
+				},
+				"format155": {
+					"type": "text",
+					"text": "X",
+					"top": 405,
+					"left": 870,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"Input156": {
+					"type": "input",
+					"left": 950,
+					"top": 430,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "time",
+					"dataSource": "vTime"
+				},
+				"format156": {
+					"type": "text",
+					"text": "X",
+					"top": 430,
+					"left": 870,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"Input157": {
+					"type": "input",
+					"left": 950,
+					"top": 455,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "time",
+					"dataSource": "vTime"
+				},
+				"format157": {
+					"type": "text",
+					"text": "X",
+					"top": 455,
+					"left": 870,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"Input158": {
+					"type": "input",
+					"left": 950,
+					"top": 480,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "time",
+					"dataSource": "vTime"
+				},
+				"format158": {
+					"type": "text",
+					"text": "X",
+					"top": 480,
+					"left": 870,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"Input159": {
+					"type": "input",
+					"left": 950,
+					"top": 505,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "time",
+					"stroke": "#9400d3",
+					"dataSource": "vTime"
+				},
+				"format159": {
+					"type": "text",
+					"text": "X",
+					"top": 505,
+					"left": 870,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center",
+					"stroke": "#9400d3"
+				},
+				"Input160": {
+					"type": "input",
+					"left": 950,
+					"top": 530,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "time",
+					"stroke": "#9400d3",
+					"dataSource": "vTime"
+				},
+				"format160": {
+					"type": "text",
+					"text": "X",
+					"top": 530,
+					"left": 870,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center",
+					"stroke": "#9400d3"
+				},
+				"Group25": {
+					"type": "groupBox",
+					"text": "X (Timezone (ISO-8601 w/ Z))",
+					"top": 560,
+					"left": 870,
+					"width": 240,
+					"height": 175
+				},
+				"Input161": {
+					"type": "input",
+					"left": 950,
+					"top": 585,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "time",
+					"dataSource": "vTime"
+				},
+				"format161": {
+					"type": "text",
+					"text": "X",
+					"top": 585,
+					"left": 870,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"Input162": {
+					"type": "input",
+					"left": 950,
+					"top": 610,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "time",
+					"dataSource": "vTime"
+				},
+				"format162": {
+					"type": "text",
+					"text": "X",
+					"top": 610,
+					"left": 870,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"Input163": {
+					"type": "input",
+					"left": 950,
+					"top": 635,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "time",
+					"dataSource": "vTime"
+				},
+				"format163": {
+					"type": "text",
+					"text": "X",
+					"top": 635,
+					"left": 870,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"Input164": {
+					"type": "input",
+					"left": 950,
+					"top": 660,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "time",
+					"dataSource": "vTime"
+				},
+				"format164": {
+					"type": "text",
+					"text": "X",
+					"top": 660,
+					"left": 870,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"Input165": {
+					"type": "input",
+					"left": 950,
+					"top": 685,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "time",
+					"dataSource": "vTime"
+				},
+				"format165": {
+					"type": "text",
+					"text": "X",
+					"top": 685,
+					"left": 870,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"Input166": {
+					"type": "input",
+					"left": 950,
+					"top": 710,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "time",
+					"stroke": "#9400d3",
+					"dataSource": "vTime"
+				},
+				"format166": {
+					"type": "text",
+					"text": "X",
+					"top": 710,
+					"left": 870,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center",
+					"stroke": "#9400d3"
+				},
+				"Group26": {
+					"type": "groupBox",
+					"text": "x (Timezone (ISO-8601 w/o Z))",
+					"top": 740,
+					"left": 870,
+					"width": 240,
+					"height": 175
+				},
+				"Input167": {
+					"type": "input",
+					"left": 950,
+					"top": 765,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "time",
+					"dataSource": "vTime"
+				},
+				"format167": {
+					"type": "text",
+					"text": "X",
+					"top": 765,
+					"left": 870,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"Input168": {
+					"type": "input",
+					"left": 950,
+					"top": 790,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "time",
+					"dataSource": "vTime"
+				},
+				"format168": {
+					"type": "text",
+					"text": "X",
+					"top": 790,
+					"left": 870,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"Input169": {
+					"type": "input",
+					"left": 950,
+					"top": 815,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "time",
+					"dataSource": "vTime"
+				},
+				"format169": {
+					"type": "text",
+					"text": "X",
+					"top": 815,
+					"left": 870,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"Input170": {
+					"type": "input",
+					"left": 950,
+					"top": 840,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "time",
+					"dataSource": "vTime"
+				},
+				"format170": {
+					"type": "text",
+					"text": "X",
+					"top": 840,
+					"left": 870,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"Input171": {
+					"type": "input",
+					"left": 950,
+					"top": 865,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "time",
+					"dataSource": "vTime"
+				},
+				"format171": {
+					"type": "text",
+					"text": "X",
+					"top": 865,
+					"left": 870,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"Input172": {
+					"type": "input",
+					"left": 950,
+					"top": 890,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "time",
+					"stroke": "#9400d3",
+					"dataSource": "vTime"
+				},
+				"format172": {
+					"type": "text",
+					"text": "X",
+					"top": 890,
+					"left": 870,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center",
+					"stroke": "#9400d3"
+				},
+				"Group27": {
+					"type": "groupBox",
+					"text": "O (Timezone (GMT))",
+					"top": 920,
+					"left": 870,
+					"width": 240,
+					"height": 175
+				},
+				"Input173": {
+					"type": "input",
+					"left": 950,
+					"top": 945,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "time",
+					"dataSource": "vTime"
+				},
+				"format173": {
+					"type": "text",
+					"text": "X",
+					"top": 945,
+					"left": 870,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"Input174": {
+					"type": "input",
+					"left": 950,
+					"top": 970,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "time",
+					"dataSource": "vTime"
+				},
+				"format174": {
+					"type": "text",
+					"text": "X",
+					"top": 970,
+					"left": 870,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"Input175": {
+					"type": "input",
+					"left": 950,
+					"top": 995,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "time",
+					"dataSource": "vTime"
+				},
+				"format175": {
+					"type": "text",
+					"text": "X",
+					"top": 995,
+					"left": 870,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"Input176": {
+					"type": "input",
+					"left": 950,
+					"top": 1020,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "time",
+					"dataSource": "vTime"
+				},
+				"format176": {
+					"type": "text",
+					"text": "X",
+					"top": 1020,
+					"left": 870,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"Input177": {
+					"type": "input",
+					"left": 950,
+					"top": 1045,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "time",
+					"stroke": "#9400d3",
+					"dataSource": "vTime"
+				},
+				"format177": {
+					"type": "text",
+					"text": "X",
+					"top": 1045,
+					"left": 870,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center",
+					"stroke": "#9400d3"
+				},
+				"Input178": {
+					"type": "input",
+					"left": 950,
+					"top": 1070,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "time",
+					"stroke": "#9400d3",
+					"dataSource": "vTime"
+				},
+				"format178": {
+					"type": "text",
+					"text": "X",
+					"top": 1070,
+					"left": 870,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center",
+					"stroke": "#9400d3"
+				},
+				"Group28": {
+					"type": "groupBox",
+					"text": "z (Timezone (specific non-locat.))",
+					"top": 1100,
+					"left": 870,
+					"width": 240,
+					"height": 175
+				},
+				"Input179": {
+					"type": "input",
+					"left": 950,
+					"top": 1125,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "time",
+					"dataSource": "vTime"
+				},
+				"format179": {
+					"type": "text",
+					"text": "X",
+					"top": 1125,
+					"left": 870,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"Input180": {
+					"type": "input",
+					"left": 950,
+					"top": 1150,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "time",
+					"dataSource": "vTime"
+				},
+				"format180": {
+					"type": "text",
+					"text": "X",
+					"top": 1150,
+					"left": 870,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"Input181": {
+					"type": "input",
+					"left": 950,
+					"top": 1175,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "time",
+					"dataSource": "vTime"
+				},
+				"format181": {
+					"type": "text",
+					"text": "X",
+					"top": 1175,
+					"left": 870,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"Input182": {
+					"type": "input",
+					"left": 950,
+					"top": 1200,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "time",
+					"dataSource": "vTime"
+				},
+				"format182": {
+					"type": "text",
+					"text": "X",
+					"top": 1200,
+					"left": 870,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"Input183": {
+					"type": "input",
+					"left": 950,
+					"top": 1225,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "time",
+					"dataSource": "vTime"
+				},
+				"format183": {
+					"type": "text",
+					"text": "X",
+					"top": 1225,
+					"left": 870,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center"
+				},
+				"Input184": {
+					"type": "input",
+					"left": 950,
+					"top": 1250,
+					"width": 140,
+					"height": 17,
+					"dataSourceTypeHint": "time",
+					"stroke": "#9400d3",
+					"dataSource": "vTime"
+				},
+				"format184": {
+					"type": "text",
+					"text": "X",
+					"top": 1250,
+					"left": 870,
+					"width": 75,
+					"height": 16,
+					"textAlign": "center",
+					"stroke": "#9400d3"
+				}
+			}
+		}
+	],
+	"geometryStamp": 1146,
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {}
+		}
+	},
+	"method": "method.4dm"
+}

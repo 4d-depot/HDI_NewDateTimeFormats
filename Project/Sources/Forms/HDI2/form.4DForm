@@ -48,19 +48,52 @@
 					"visibility": "hidden",
 					"sizingY": "grow",
 					"stroke": "#800080",
-					"strokeDashArray": "1 1"
+					"strokeDashArray": "1 1",
+					"width": 10
 				}
 			}
 		},
 		{
 			"objects": {
+				"Group Box6": {
+					"type": "groupBox",
+					"text": "Day names",
+					"top": 110,
+					"left": 810,
+					"width": 320,
+					"height": 276
+				},
+				"Group Box1": {
+					"type": "groupBox",
+					"text": "Time pattern details",
+					"top": 250,
+					"left": 440,
+					"width": 320,
+					"height": 500
+				},
+				"Group Box2": {
+					"type": "groupBox",
+					"text": "Date formats custom samples",
+					"top": 110,
+					"left": 70,
+					"width": 320,
+					"height": 130
+				},
+				"Group Box": {
+					"type": "groupBox",
+					"text": "Date pattern details",
+					"top": 250,
+					"left": 70,
+					"width": 320,
+					"height": 500
+				},
 				"Button": {
 					"type": "button",
 					"text": "INIT",
-					"top": 58,
-					"left": 918,
+					"top": 5,
+					"left": 5,
 					"width": 156,
-					"height": 25,
+					"height": 20,
 					"events": [
 						"onClick"
 					],
@@ -68,8 +101,8 @@
 				},
 				"Popup Dropdown List": {
 					"type": "dropdown",
-					"left": 70,
-					"top": 362,
+					"left": 100,
+					"top": 530,
 					"width": 240,
 					"height": 25,
 					"events": [
@@ -83,112 +116,142 @@
 				"dateFormat_1": {
 					"type": "text",
 					"text": "text default",
-					"top": 416,
-					"left": 50,
-					"width": 50,
+					"top": 574,
+					"left": 70,
+					"width": 60,
 					"height": 16,
-					"textAlign": "right"
+					"textAlign": "right",
+					"visibility": "hidden"
 				},
 				"dateInput_1": {
 					"type": "input",
-					"left": 110,
-					"top": 417,
+					"left": 140,
+					"top": 575,
 					"width": 200,
 					"height": 17,
-					"dataSource": "dateInput"
+					"dataSource": "dateInput",
+					"visibility": "hidden",
+					"enterable": false,
+					"focusable": false,
+					"fill": "#F1F1F1"
 				},
 				"dateFormat_2": {
 					"type": "text",
 					"text": "text default",
-					"top": 446,
-					"left": 50,
-					"width": 50,
+					"top": 601,
+					"left": 70,
+					"width": 60,
 					"height": 16,
-					"textAlign": "right"
+					"textAlign": "right",
+					"visibility": "hidden"
 				},
 				"dateInput_2": {
 					"type": "input",
-					"left": 110,
-					"top": 447,
+					"left": 140,
+					"top": 602,
 					"width": 200,
 					"height": 17,
-					"dataSource": "dateInput"
+					"dataSource": "dateInput",
+					"visibility": "hidden",
+					"enterable": false,
+					"focusable": false,
+					"fill": "#F1F1F1"
 				},
 				"dateFormat_3": {
 					"type": "text",
 					"text": "text default",
-					"top": 476,
-					"left": 50,
-					"width": 50,
+					"top": 628,
+					"left": 70,
+					"width": 60,
 					"height": 16,
-					"textAlign": "right"
+					"textAlign": "right",
+					"visibility": "hidden"
 				},
 				"dateInput_3": {
 					"type": "input",
-					"left": 110,
-					"top": 477,
+					"left": 140,
+					"top": 629,
 					"width": 200,
 					"height": 17,
-					"dataSource": "dateInput"
+					"dataSource": "dateInput",
+					"visibility": "hidden",
+					"enterable": false,
+					"focusable": false,
+					"fill": "#F1F1F1"
 				},
 				"dateFormat_4": {
 					"type": "text",
 					"text": "text default",
-					"top": 506,
-					"left": 50,
-					"width": 50,
+					"top": 655,
+					"left": 70,
+					"width": 60,
 					"height": 16,
-					"textAlign": "right"
+					"textAlign": "right",
+					"visibility": "hidden"
 				},
 				"dateInput_4": {
 					"type": "input",
-					"left": 110,
-					"top": 507,
+					"left": 140,
+					"top": 656,
 					"width": 200,
 					"height": 17,
-					"dataSource": "dateInput"
+					"dataSource": "dateInput",
+					"visibility": "hidden",
+					"enterable": false,
+					"focusable": false,
+					"fill": "#F1F1F1"
 				},
 				"dateFormat_5": {
 					"type": "text",
 					"text": "text default",
-					"top": 536,
-					"left": 50,
-					"width": 50,
+					"top": 682,
+					"left": 70,
+					"width": 60,
 					"height": 16,
-					"textAlign": "right"
+					"textAlign": "right",
+					"visibility": "hidden"
 				},
 				"dateInput_5": {
 					"type": "input",
-					"left": 110,
-					"top": 537,
+					"left": 140,
+					"top": 683,
 					"width": 200,
 					"height": 17,
-					"dataSource": "dateInput"
+					"dataSource": "dateInput",
+					"visibility": "hidden",
+					"enterable": false,
+					"focusable": false,
+					"fill": "#F1F1F1"
 				},
 				"dateFormat_6": {
 					"type": "text",
 					"text": "text default",
-					"top": 566,
-					"left": 50,
-					"width": 50,
+					"top": 709,
+					"left": 70,
+					"width": 60,
 					"height": 16,
-					"textAlign": "right"
+					"textAlign": "right",
+					"visibility": "hidden"
 				},
 				"dateInput_6": {
 					"type": "input",
-					"left": 110,
-					"top": 567,
+					"left": 140,
+					"top": 710,
 					"width": 200,
 					"height": 17,
-					"dataSource": "dateInput"
+					"dataSource": "dateInput",
+					"visibility": "hidden",
+					"enterable": false,
+					"focusable": false,
+					"fill": "#F1F1F1"
 				},
 				"Text": {
 					"type": "text",
 					"text": "G:\ry:\rY:\ru:\rQ:\rq:\rM:\rL:\rw:\rd:\rD:\rE:\re:\rc:",
-					"top": 88,
+					"top": 270,
 					"left": 70,
-					"width": 30,
-					"height": 258,
+					"width": 60,
+					"height": 248,
 					"fontWeight": "bold",
 					"textAlign": "right",
 					"fontSize": 14
@@ -196,18 +259,18 @@
 				"Text1": {
 					"type": "text",
 					"text": "Era\rCalendar year\rLocal week-numbering year\rExtended year\rQuarter (formatting)\rQuarter (stand-alone)\rMonth (formatting)\rMonth (stand-alone)\rLocal week of year\rDay of month\rDay of year\rDay of week (formatting)\rLocal day of week (formatting)\rLocal day of week (stand-alone)",
-					"top": 88,
-					"left": 110,
+					"top": 270,
+					"left": 140,
 					"width": 240,
-					"height": 258,
+					"height": 248,
 					"fontWeight": "normal",
 					"textAlign": "left",
 					"fontSize": 14
 				},
 				"Popup Dropdown List1": {
 					"type": "dropdown",
-					"left": 440,
-					"top": 362,
+					"left": 470,
+					"top": 530,
 					"width": 240,
 					"height": 25,
 					"events": [
@@ -221,74 +284,84 @@
 				"timeFormat_1": {
 					"type": "text",
 					"text": "text default",
-					"top": 416,
-					"left": 420,
-					"width": 50,
+					"top": 574,
+					"left": 440,
+					"width": 60,
 					"height": 16,
-					"textAlign": "right"
+					"textAlign": "right",
+					"visibility": "hidden"
 				},
 				"timeInput_1": {
 					"type": "input",
-					"left": 480,
-					"top": 417,
+					"left": 510,
+					"top": 575,
 					"width": 200,
 					"height": 17,
 					"dataSource": "timeInput",
 					"dataSourceTypeHint": "time",
-					"timeFormat": "systemMedium"
+					"timeFormat": "systemMedium",
+					"visibility": "hidden",
+					"enterable": false,
+					"focusable": false,
+					"fill": "#F1F1F1"
 				},
 				"timeFormat_2": {
 					"type": "text",
 					"text": "text default",
-					"top": 446,
-					"left": 420,
-					"width": 50,
+					"top": 601,
+					"left": 440,
+					"width": 60,
 					"height": 16,
-					"textAlign": "right"
+					"textAlign": "right",
+					"visibility": "hidden"
 				},
 				"timeFormat_3": {
 					"type": "text",
 					"text": "text default",
-					"top": 476,
-					"left": 420,
-					"width": 50,
+					"top": 628,
+					"left": 440,
+					"width": 60,
 					"height": 16,
-					"textAlign": "right"
+					"textAlign": "right",
+					"visibility": "hidden"
 				},
 				"timeFormat_4": {
 					"type": "text",
 					"text": "text default",
-					"top": 506,
-					"left": 420,
-					"width": 50,
+					"top": 655,
+					"left": 440,
+					"width": 60,
 					"height": 16,
-					"textAlign": "right"
+					"textAlign": "right",
+					"visibility": "hidden"
 				},
 				"timeFormat_5": {
 					"type": "text",
 					"text": "text default",
-					"top": 536,
-					"left": 420,
-					"width": 50,
+					"top": 682,
+					"left": 440,
+					"width": 60,
 					"height": 16,
-					"textAlign": "right"
+					"textAlign": "right",
+					"visibility": "hidden"
 				},
 				"timeFormat_6": {
 					"type": "text",
 					"text": "text default",
-					"top": 566,
-					"left": 420,
-					"width": 50,
+					"top": 709,
+					"left": 440,
+					"width": 60,
 					"height": 16,
-					"textAlign": "right"
+					"textAlign": "right",
+					"visibility": "hidden"
 				},
 				"Text2": {
 					"type": "text",
 					"text": "a:\rb:\rB:\rh:\rH:\rK:\rk:\rm:\rs:\rS:\rX:\rx:\rO:\rz:",
-					"top": 88,
+					"top": 270,
 					"left": 440,
-					"width": 30,
-					"height": 258,
+					"width": 60,
+					"height": 248,
 					"fontWeight": "bold",
 					"textAlign": "right",
 					"fontSize": 14
@@ -296,63 +369,306 @@
 				"Text3": {
 					"type": "text",
 					"text": "AM, PM\rAM, PM, noon, midnight\rFlexible day period\rHour [1-12]\rHour [0-23]\rHour [0-11]\rHour [1-24]\rMinute\rSecond\rFraction of second\rTimezone (ISO-8601 w/ Z)\rTimezone (ISO-8601 w/o Z)\rTimezone (GMT)\rTimezone (specific non-locat.)",
-					"top": 88,
-					"left": 480,
+					"top": 270,
+					"left": 510,
 					"width": 240,
-					"height": 258,
+					"height": 248,
 					"fontWeight": "normal",
 					"textAlign": "left",
 					"fontSize": 14
 				},
 				"timeInput_2": {
 					"type": "input",
-					"left": 480,
-					"top": 447,
+					"left": 510,
+					"top": 602,
 					"width": 200,
 					"height": 17,
 					"dataSource": "timeInput",
 					"dataSourceTypeHint": "time",
-					"timeFormat": "systemMedium"
+					"timeFormat": "systemMedium",
+					"visibility": "hidden",
+					"enterable": false,
+					"focusable": false,
+					"fill": "#F1F1F1"
 				},
 				"timeInput_3": {
 					"type": "input",
-					"left": 480,
-					"top": 477,
+					"left": 510,
+					"top": 629,
 					"width": 200,
 					"height": 17,
 					"dataSource": "timeInput",
 					"dataSourceTypeHint": "time",
-					"timeFormat": "systemMedium"
+					"timeFormat": "systemMedium",
+					"visibility": "hidden",
+					"enterable": false,
+					"focusable": false,
+					"fill": "#F1F1F1"
 				},
 				"timeInput_4": {
 					"type": "input",
-					"left": 480,
-					"top": 507,
+					"left": 510,
+					"top": 656,
 					"width": 200,
 					"height": 17,
 					"dataSource": "timeInput",
 					"dataSourceTypeHint": "time",
-					"timeFormat": "systemMedium"
+					"timeFormat": "systemMedium",
+					"visibility": "hidden",
+					"enterable": false,
+					"focusable": false,
+					"fill": "#F1F1F1"
 				},
 				"timeInput_5": {
 					"type": "input",
-					"left": 480,
-					"top": 537,
+					"left": 510,
+					"top": 683,
 					"width": 200,
 					"height": 17,
 					"dataSource": "timeInput",
 					"dataSourceTypeHint": "time",
-					"timeFormat": "systemMedium"
+					"timeFormat": "systemMedium",
+					"visibility": "hidden",
+					"enterable": false,
+					"focusable": false,
+					"fill": "#F1F1F1"
 				},
 				"timeInput_6": {
 					"type": "input",
-					"left": 480,
-					"top": 567,
+					"left": 510,
+					"top": 710,
 					"width": 200,
 					"height": 17,
 					"dataSource": "timeInput",
 					"dataSourceTypeHint": "time",
-					"timeFormat": "systemMedium"
+					"timeFormat": "systemMedium",
+					"visibility": "hidden",
+					"enterable": false,
+					"focusable": false,
+					"fill": "#F1F1F1"
+				},
+				"Popup Dropdown List2": {
+					"type": "dropdown",
+					"left": 100,
+					"top": 140,
+					"width": 240,
+					"height": 25,
+					"events": [
+						"onDataChange"
+					],
+					"dataSource": "Form:C1466.dateSamples",
+					"dataSourceTypeHint": "object",
+					"focusable": false,
+					"method": "ObjectMethods/Popup Dropdown List2.4dm"
+				},
+				"dateInputTest": {
+					"type": "input",
+					"left": 140,
+					"top": 207,
+					"width": 200,
+					"height": 17,
+					"dataSource": "dateInput",
+					"events": [],
+					"enterable": false,
+					"focusable": false,
+					"fill": "#F1F1F1"
+				},
+				"datePatternTest": {
+					"type": "input",
+					"left": 140,
+					"top": 177,
+					"width": 200,
+					"height": 17,
+					"dataSource": "datePattern",
+					"events": [
+						"onAfterEdit"
+					],
+					"method": "ObjectMethods/datePatternTest.4dm"
+				},
+				"dateFormat_7": {
+					"type": "text",
+					"text": "Pattern:",
+					"top": 176,
+					"left": 80,
+					"width": 50,
+					"height": 16,
+					"textAlign": "right"
+				},
+				"dateFormat_8": {
+					"type": "text",
+					"text": "Result:",
+					"top": 206,
+					"left": 80,
+					"width": 50,
+					"height": 16,
+					"textAlign": "right"
+				},
+				"Group Box3": {
+					"type": "groupBox",
+					"text": "Time formats custom samples",
+					"top": 110,
+					"left": 440,
+					"width": 320,
+					"height": 130
+				},
+				"Popup Dropdown List3": {
+					"type": "dropdown",
+					"left": 470,
+					"top": 140,
+					"width": 240,
+					"height": 25,
+					"events": [
+						"onDataChange"
+					],
+					"dataSource": "Form:C1466.timeSamples",
+					"dataSourceTypeHint": "object",
+					"focusable": false,
+					"method": "ObjectMethods/Popup Dropdown List3.4dm"
+				},
+				"timeInputTest": {
+					"type": "input",
+					"left": 510,
+					"top": 207,
+					"width": 200,
+					"height": 17,
+					"dataSource": "timeInput",
+					"events": [],
+					"enterable": false,
+					"focusable": false,
+					"fill": "#F1F1F1"
+				},
+				"timePatternTest": {
+					"type": "input",
+					"left": 510,
+					"top": 177,
+					"width": 200,
+					"height": 17,
+					"dataSource": "timePattern",
+					"events": [
+						"onAfterEdit"
+					],
+					"method": "ObjectMethods/timePatternTest.4dm"
+				},
+				"dateFormat_9": {
+					"type": "text",
+					"text": "Pattern:",
+					"top": 176,
+					"left": 450,
+					"width": 50,
+					"height": 16,
+					"textAlign": "right"
+				},
+				"dateFormat_10": {
+					"type": "text",
+					"text": "Result:",
+					"top": 206,
+					"left": 450,
+					"width": 50,
+					"height": 16,
+					"textAlign": "right"
+				},
+				"Group Box4": {
+					"type": "groupBox",
+					"text": "Reference date",
+					"top": 60,
+					"left": 70,
+					"width": 320,
+					"height": 40
+				},
+				"Group Box5": {
+					"type": "groupBox",
+					"text": "Reference time",
+					"top": 60,
+					"left": 440,
+					"width": 320,
+					"height": 40
+				},
+				"ReferenceDate": {
+					"type": "input",
+					"left": 90,
+					"top": 75,
+					"width": 280,
+					"height": 20,
+					"dataSource": "dateInput",
+					"visibility": "visible",
+					"enterable": true,
+					"focusable": false,
+					"hideFocusRing": true,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"fontSize": 18,
+					"dataSourceTypeHint": "date",
+					"textAlign": "center",
+					"fontWeight": "bold"
+				},
+				"ReferenceTime": {
+					"type": "input",
+					"left": 460,
+					"top": 75,
+					"width": 280,
+					"height": 20,
+					"dataSource": "timeInput",
+					"dataSourceTypeHint": "time",
+					"timeFormat": "hh_mm_ss",
+					"visibility": "visible",
+					"enterable": true,
+					"focusable": false,
+					"hideFocusRing": true,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"fontSize": 18,
+					"textAlign": "center",
+					"fontWeight": "bold"
+				},
+				"Button1": {
+					"type": "button",
+					"text": "Get day names",
+					"top": 144,
+					"left": 850,
+					"width": 240,
+					"height": 21,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Button1.4dm",
+					"focusable": false
+				},
+				"Input": {
+					"type": "input",
+					"left": 850,
+					"top": 182,
+					"width": 240,
+					"height": 177,
+					"dataSource": "Form:C1466.dayNames"
+				},
+				"Group Box7": {
+					"type": "groupBox",
+					"text": "Day names",
+					"top": 400,
+					"left": 810,
+					"width": 320,
+					"height": 346
+				},
+				"Button2": {
+					"type": "button",
+					"text": "Get month names",
+					"top": 434,
+					"left": 850,
+					"width": 240,
+					"height": 21,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Button2.4dm",
+					"focusable": false
+				},
+				"Input1": {
+					"type": "input",
+					"left": 850,
+					"top": 472,
+					"width": 240,
+					"height": 257,
+					"dataSource": "Form:C1466.monthNames"
 				}
 			}
 		},
@@ -425,5 +741,5 @@
 			"View 1": {}
 		}
 	},
-	"geometryStamp": 2505
+	"geometryStamp": 3281
 }

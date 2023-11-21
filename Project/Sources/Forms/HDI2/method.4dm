@@ -4,6 +4,8 @@ Case of
 		
 		dateInput:=!2023-03-17!
 		timeInput:=?12:34:56?
+		datePattern:=""
+		timePattern:=""
 		
 End case 
 
