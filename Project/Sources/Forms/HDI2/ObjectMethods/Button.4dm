@@ -23,7 +23,7 @@ $dateValues.push("Month (formatting)")
 $dateVariations.push(["M"; "MM"; "MMM"; "MMMM"; "MMMMM"])
 
 $dateValues.push("Month (stand-alone)")
-$dateVariations.push(["l"; "ll"; "lll"; "llll"; "lllll"])
+$dateVariations.push(["L"; "LL"; "LLL"; "LLLL"; "LLLLL"])
 
 $dateValues.push("Local week of year")
 $dateVariations.push(["w"; "ww"])

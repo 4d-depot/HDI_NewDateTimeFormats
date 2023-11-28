@@ -49,9 +49,18 @@
 					"width": 250,
 					"height": 17,
 					"borderStyle": "none"
+				},
+				"field_name1": {
+					"type": "input",
+					"dataSource": "[INFO:1]pageNumber:4",
+					"top": 37,
+					"left": 341,
+					"width": 250,
+					"height": 17,
+					"borderStyle": "none"
 				}
 			}
 		}
 	],
-	"geometryStamp": 31
+	"geometryStamp": 34
 }
