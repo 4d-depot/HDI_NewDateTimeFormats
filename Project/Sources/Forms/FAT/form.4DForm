@@ -66,9 +66,9 @@
 				},
 				"Button": {
 					"type": "button",
-					"text": "Format",
+					"text": "Set formats",
 					"top": 1000,
-					"left": 1405,
+					"left": 1080,
 					"width": 195,
 					"height": 21,
 					"events": [
@@ -2522,7 +2522,7 @@
 				},
 				"Group30": {
 					"type": "groupBox",
-					"text": "i (unsupported format)",
+					"text": "t (unsupported format)",
 					"top": 780,
 					"left": 1080,
 					"width": 500,
@@ -4894,7 +4894,7 @@
 				},
 				"Group29": {
 					"type": "groupBox",
-					"text": "i (unsupported format)",
+					"text": "t (unsupported format)",
 					"top": 60,
 					"left": 1080,
 					"width": 500,
@@ -7008,6 +7008,27 @@
 					"dataSourceTypeHint": "text",
 					"dataSource": "",
 					"stroke": "#008000"
+				},
+				"Zone de saisie": {
+					"type": "input",
+					"left": 1215,
+					"top": 169,
+					"width": 359,
+					"height": 689,
+					"dataSource": "Form:C1466.allFormats",
+					"sizingY": "grow"
+				},
+				"Button1": {
+					"type": "button",
+					"text": "Get formats",
+					"top": 1000,
+					"left": 1405,
+					"width": 195,
+					"height": 21,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Button1.4dm"
 				}
 			},
 			"entryOrder": [
@@ -7054,11 +7075,13 @@
 				"InputString239",
 				"InputString240",
 				"InputString241",
-				"InputString242"
+				"InputString242",
+				"Zone de saisie",
+				"Button1"
 			]
 		}
 	],
-	"geometryStamp": 2440,
+	"geometryStamp": 2451,
 	"editor": {
 		"activeView": "View 1",
 		"defaultView": "View 1",

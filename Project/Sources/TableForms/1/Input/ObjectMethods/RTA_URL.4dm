@@ -1,3 +1,5 @@
+var $SelectedText : Text
+
 C_TEXT:C284($ZoneName)
 $ZoneName:="RTA_Text"  // change THIS if you change the name of the area
 

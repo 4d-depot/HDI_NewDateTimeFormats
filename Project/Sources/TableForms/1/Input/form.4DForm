@@ -101,23 +101,6 @@
 					"width": 250,
 					"height": 17
 				},
-				"Button2": {
-					"type": "button",
-					"top": 755,
-					"left": 46,
-					"width": 170,
-					"height": 20,
-					"sizingX": "move",
-					"sizingY": "move",
-					"dataSource": "Button",
-					"action": "",
-					"shortcutKey": "[Esc]",
-					"text": "Transparent bgnd",
-					"events": [
-						"onClick"
-					],
-					"method": "ObjectMethods/Button2.4dm"
-				},
 				"RTA_Standard": {
 					"type": "button",
 					"text": "",
@@ -349,15 +332,6 @@
 					"iconFrames": 4,
 					"style": "toolbar"
 				},
-				"Group Box1": {
-					"type": "groupBox",
-					"top": 165,
-					"left": 779,
-					"width": 200,
-					"height": 60,
-					"visibility": "hidden",
-					"text": "Please, read comments!"
-				},
 				"RTA_FontNames": {
 					"type": "dropdown",
 					"top": 123,
@@ -407,21 +381,6 @@
 					],
 					"dataSource": "[INFO:1]doc:5"
 				},
-				"Button3": {
-					"type": "button",
-					"top": 191,
-					"left": 819,
-					"width": 130,
-					"height": 20,
-					"visibility": "hidden",
-					"sizingX": "move",
-					"sizingY": "move",
-					"text": "Init",
-					"method": "ObjectMethods/Button3.4dm",
-					"events": [
-						"onLoad"
-					]
-				},
 				"Line": {
 					"type": "line",
 					"top": 151,
@@ -460,7 +419,7 @@
 			}
 		}
 	],
-	"geometryStamp": 33,
+	"geometryStamp": 35,
 	"editor": {
 		"activeView": "View 1",
 		"defaultView": "View 1",

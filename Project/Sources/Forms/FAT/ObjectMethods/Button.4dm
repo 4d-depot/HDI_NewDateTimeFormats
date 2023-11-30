@@ -1,8 +1,9 @@
+var $s; $format; $item : Text
+var $i; $j; $l; $textID; $charCode : Integer
+var $dateVariations : Collection
 
 
-
-
-$s:="GYyuQqMLwdDEec"+"t"+"abBhHkKmsS"+"t"+"XxOz"  //t don't exist as format token
+$s:="GYyuQqMLwdDEec"+"t"+"abBhHkKmsS"+"t"+"XxOz"  //"t" don't exist as format token
 $l:=Length:C16($s)
 
 $dateVariations:=[]

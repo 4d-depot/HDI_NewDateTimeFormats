@@ -24,6 +24,11 @@ Project/DerivedData/
 Logs/
 
 #--------------------------------
+# Ignore Librairies
+#--------------------------------
+Libraries/
+
+#--------------------------------
 # Ignore settings & preferences
 #--------------------------------
 userPreferences.*/

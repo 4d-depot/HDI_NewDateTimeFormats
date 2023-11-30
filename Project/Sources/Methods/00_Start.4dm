@@ -28,14 +28,14 @@ Case of
 		
 		$options:=New object:C1471
 		
-		$options.title:="Manage anchored pictures and text boxes?"  //+$cr+"00_Start Method"
+		$options.title:="use new format patterns for dates and times?"  //+$cr+"00_Start Method"
 		
 		$options.blog:="blog.4d.com"
-		$options.info:="4D Write Pro feature"  //ex : "4D View Pro feature"
+		$options.info:="Date and time"  //ex : "4D View Pro feature"
 		
 		$options.minimumVersion:="2040"  // 2040 means 20R4   2003 means 20.3 (do not use !)
 		
-		$options.license:=4D Write license:K44:2  // IF ANY NEEDED
+		//$options.license:=4D Write license  // IF ANY NEEDED
 		
 		// THE BACKGROUND PICTURE IS IN THE RESOURCES : Resources/Images/HDIabout.png
 		// the picture size is 724 * 364

@@ -1,2 +1,5 @@
-testPattern:=Get edited text:C655
-//object set format(*;"dateInputTest";testPattern)
+Form:C1466.datePattern:=Get edited text:C655
+
+Form:C1466.action:="formatSampleDate"
+SET TIMER:C645(-1)
+
