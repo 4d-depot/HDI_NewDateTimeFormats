@@ -9,6 +9,7 @@ Case of
 		
 	: (Form event code:C388=On Load:K2:1)
 		
+		Form:C1466.trace:=False:C215
 		Form:C1466.infoES:=ds:C1482.INFO.all().orderBy("pageNumber asc")
 		
 		Form:C1466.tabs:={}

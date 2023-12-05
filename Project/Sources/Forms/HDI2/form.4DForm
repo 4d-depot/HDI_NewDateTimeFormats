@@ -174,7 +174,7 @@
 				},
 				"Group Box9": {
 					"type": "groupBox",
-					"text": "Date pattern details",
+					"text": "Reference date and time",
 					"top": 120,
 					"left": 480,
 					"width": 340,
@@ -865,7 +865,7 @@
 					"height": 16,
 					"textAlign": "right"
 				},
-				"dateFormat_8": {
+				"staticText1": {
 					"type": "text",
 					"text": "Formated input date:",
 					"top": 370,
@@ -933,7 +933,7 @@
 					"height": 16,
 					"textAlign": "right"
 				},
-				"dateFormat_10": {
+				"staticText3": {
 					"type": "text",
 					"text": "Formated input time:",
 					"top": 550,
@@ -1025,11 +1025,11 @@
 					"enterable": false,
 					"focusable": false,
 					"fill": "transparent",
-					"borderStyle": "none",
+					"borderStyle": "dotted",
 					"fontWeight": "normal",
 					"fontStyle": "italic"
 				},
-				"dateFormat_11": {
+				"staticText2": {
 					"type": "text",
 					"text": "Formated string:",
 					"top": 400,
@@ -1049,11 +1049,11 @@
 					"enterable": false,
 					"focusable": false,
 					"fill": "transparent",
-					"borderStyle": "none",
+					"borderStyle": "dotted",
 					"fontWeight": "normal",
 					"fontStyle": "italic"
 				},
-				"dateFormat_12": {
+				"staticText4": {
 					"type": "text",
 					"text": "Formated string:",
 					"top": 580,
@@ -1142,7 +1142,7 @@
 					],
 					"method": "ObjectMethods/timePatternTest1.4dm"
 				},
-				"dateFormat_13": {
+				"staticText5": {
 					"type": "text",
 					"text": "Pattern:",
 					"top": 700,
@@ -1170,11 +1170,11 @@
 					"enterable": false,
 					"focusable": false,
 					"fill": "transparent",
-					"borderStyle": "none",
+					"borderStyle": "dotted",
 					"fontWeight": "normal",
 					"fontStyle": "italic"
 				},
-				"dateFormat_15": {
+				"staticText6": {
 					"type": "text",
 					"text": "Formated string:",
 					"top": 730,
@@ -1426,6 +1426,19 @@
 					"width": 64,
 					"height": 64,
 					"picture": "/RESOURCES/Arrows/ArrowRightBottom.png"
+				},
+				"Case à cocher": {
+					"type": "checkbox",
+					"text": "Trace code",
+					"top": 809,
+					"left": 1004,
+					"width": 176,
+					"height": 19,
+					"events": [
+						"onClick"
+					],
+					"dataSource": "Form:C1466.trace",
+					"focusable": false
 				}
 			}
 		}
@@ -1441,7 +1454,7 @@
 			"View 1": {}
 		}
 	},
-	"geometryStamp": 5915,
+	"geometryStamp": 5923,
 	"windowSizingX": "fixed",
 	"windowSizingY": "fixed"
 }
