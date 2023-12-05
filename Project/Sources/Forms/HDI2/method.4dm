@@ -208,8 +208,8 @@ Case of
 			: (Form:C1466.action="page change")
 				$page:=FORM Get current page:C276
 				Form:C1466.doc:=Form:C1466.infoES[$page-1].doc
-				If (Is Windows:C1573) | (Shift down:C543)
-					$size:=16  //22*72dpi/96dpi
+				If (Is Windows:C1573)
+					$size:=17  //22*72dpi/96dpi = 16.5
 				Else 
 					$size:=22
 				End if 

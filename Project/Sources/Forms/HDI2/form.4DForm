@@ -153,10 +153,10 @@
 				"Text2": {
 					"type": "text",
 					"text": "a:\rb:\rB:\rh:\rH:\rK:\rk:\rm:\rs:",
-					"top": 145,
+					"top": 140,
 					"left": 840,
 					"width": 60,
-					"height": 158,
+					"height": 168,
 					"fontWeight": "bold",
 					"textAlign": "right",
 					"fontSize": 14
@@ -164,10 +164,10 @@
 				"Text3": {
 					"type": "text",
 					"text": "AM, PM\rAM, PM, noon, midnight\rFlexible day period\rHour [1-12]\rHour [0-23]\rHour [0-11]\rHour [1-24]\rMinute\rSecond",
-					"top": 145,
+					"top": 140,
 					"left": 910,
 					"width": 240,
-					"height": 158,
+					"height": 168,
 					"fontWeight": "normal",
 					"textAlign": "left",
 					"fontSize": 14
@@ -214,7 +214,7 @@
 				"Popup Dropdown List": {
 					"type": "dropdown",
 					"left": 520,
-					"top": 560,
+					"top": 570,
 					"width": 280,
 					"height": 25,
 					"events": [
@@ -228,7 +228,7 @@
 				"dateFormat_1": {
 					"type": "text",
 					"text": "text default",
-					"top": 620,
+					"top": 625,
 					"left": 500,
 					"width": 60,
 					"height": 16,
@@ -238,7 +238,7 @@
 				"dateSample_1": {
 					"type": "input",
 					"left": 570,
-					"top": 620,
+					"top": 625,
 					"width": 200,
 					"height": 17,
 					"dataSource": "",
@@ -250,7 +250,7 @@
 				"dateFormat_2": {
 					"type": "text",
 					"text": "text default",
-					"top": 645,
+					"top": 650,
 					"left": 500,
 					"width": 60,
 					"height": 16,
@@ -260,7 +260,7 @@
 				"dateFormat_3": {
 					"type": "text",
 					"text": "text default",
-					"top": 670,
+					"top": 675,
 					"left": 500,
 					"width": 60,
 					"height": 16,
@@ -270,7 +270,7 @@
 				"dateFormat_4": {
 					"type": "text",
 					"text": "text default",
-					"top": 696,
+					"top": 701,
 					"left": 500,
 					"width": 60,
 					"height": 16,
@@ -280,7 +280,7 @@
 				"dateFormat_5": {
 					"type": "text",
 					"text": "text default",
-					"top": 720,
+					"top": 725,
 					"left": 500,
 					"width": 60,
 					"height": 16,
@@ -290,7 +290,7 @@
 				"dateFormat_6": {
 					"type": "text",
 					"text": "text default",
-					"top": 745,
+					"top": 750,
 					"left": 500,
 					"width": 60,
 					"height": 16,
@@ -300,10 +300,10 @@
 				"Text": {
 					"type": "text",
 					"text": "G:\ry:\rY:\ru:\rQ:\rq:\rM:\rL:\rw:\rd:\rD:\rE:\re:\rc:",
-					"top": 300,
+					"top": 295,
 					"left": 500,
 					"width": 60,
-					"height": 248,
+					"height": 258,
 					"fontWeight": "bold",
 					"textAlign": "right",
 					"fontSize": 14
@@ -311,10 +311,10 @@
 				"Text1": {
 					"type": "text",
 					"text": "Era\rCalendar year\rLocal week-numbering year\rExtended year\rQuarter (formatting)\rQuarter (stand-alone)\rMonth (formatting)\rMonth (stand-alone)\rLocal week of year\rDay of month\rDay of year\rDay of week (formatting)\rLocal day of week (formatting)\rLocal day of week (stand-alone)",
-					"top": 300,
+					"top": 295,
 					"left": 570,
 					"width": 240,
-					"height": 248,
+					"height": 258,
 					"fontWeight": "normal",
 					"textAlign": "left",
 					"fontSize": 14
@@ -322,7 +322,7 @@
 				"Popup Dropdown List1": {
 					"type": "dropdown",
 					"left": 860,
-					"top": 315,
+					"top": 325,
 					"width": 280,
 					"height": 25,
 					"events": [
@@ -336,7 +336,7 @@
 				"timeFormat_1": {
 					"type": "text",
 					"text": "text default",
-					"top": 355,
+					"top": 360,
 					"left": 840,
 					"width": 60,
 					"height": 16,
@@ -346,7 +346,7 @@
 				"timeSample_1": {
 					"type": "input",
 					"left": 910,
-					"top": 355,
+					"top": 360,
 					"width": 200,
 					"height": 17,
 					"dataSource": "",
@@ -359,7 +359,7 @@
 				"timeFormat_2": {
 					"type": "text",
 					"text": "text default",
-					"top": 380,
+					"top": 385,
 					"left": 840,
 					"width": 60,
 					"height": 16,
@@ -369,7 +369,7 @@
 				"timeFormat_3": {
 					"type": "text",
 					"text": "text default",
-					"top": 405,
+					"top": 410,
 					"left": 840,
 					"width": 60,
 					"height": 16,
@@ -379,7 +379,7 @@
 				"timeFormat_4": {
 					"type": "text",
 					"text": "text default",
-					"top": 430,
+					"top": 435,
 					"left": 840,
 					"width": 60,
 					"height": 16,
@@ -389,7 +389,7 @@
 				"timeFormat_5": {
 					"type": "text",
 					"text": "text default",
-					"top": 455,
+					"top": 460,
 					"left": 840,
 					"width": 60,
 					"height": 16,
@@ -445,7 +445,7 @@
 				"dateSample_2": {
 					"type": "input",
 					"left": 570,
-					"top": 645,
+					"top": 650,
 					"width": 200,
 					"height": 17,
 					"dataSource": "",
@@ -457,7 +457,7 @@
 				"dateSample_3": {
 					"type": "input",
 					"left": 570,
-					"top": 670,
+					"top": 675,
 					"width": 200,
 					"height": 17,
 					"dataSource": "",
@@ -469,7 +469,7 @@
 				"dateSample_4": {
 					"type": "input",
 					"left": 570,
-					"top": 695,
+					"top": 700,
 					"width": 200,
 					"height": 17,
 					"dataSource": "",
@@ -481,7 +481,7 @@
 				"dateSample_5": {
 					"type": "input",
 					"left": 570,
-					"top": 720,
+					"top": 725,
 					"width": 200,
 					"height": 17,
 					"dataSource": "",
@@ -493,7 +493,7 @@
 				"dateSample_6": {
 					"type": "input",
 					"left": 570,
-					"top": 745,
+					"top": 750,
 					"width": 200,
 					"height": 17,
 					"dataSource": "",
@@ -505,7 +505,7 @@
 				"timeSample_2": {
 					"type": "input",
 					"left": 910,
-					"top": 380,
+					"top": 385,
 					"width": 200,
 					"height": 17,
 					"dataSource": "",
@@ -518,7 +518,7 @@
 				"timeSample_3": {
 					"type": "input",
 					"left": 910,
-					"top": 405,
+					"top": 410,
 					"width": 200,
 					"height": 17,
 					"dataSource": "",
@@ -531,7 +531,7 @@
 				"timeSample_4": {
 					"type": "input",
 					"left": 910,
-					"top": 430,
+					"top": 435,
 					"width": 200,
 					"height": 17,
 					"dataSource": "",
@@ -544,7 +544,7 @@
 				"timeSample_5": {
 					"type": "input",
 					"left": 910,
-					"top": 455,
+					"top": 460,
 					"width": 200,
 					"height": 17,
 					"dataSource": "",
@@ -583,10 +583,10 @@
 				"Text5": {
 					"type": "text",
 					"text": "X:\rx:\rO:\rz:",
-					"top": 525,
+					"top": 520,
 					"left": 840,
 					"width": 60,
-					"height": 66,
+					"height": 76,
 					"fontWeight": "bold",
 					"textAlign": "right",
 					"fontSize": 14
@@ -594,10 +594,10 @@
 				"Text6": {
 					"type": "text",
 					"text": "Timezone (ISO-8601 w/ Z)\rTimezone (ISO-8601 w/o Z)\rTimezone (GMT)\rTimezone (specific non-locat.)",
-					"top": 525,
+					"top": 520,
 					"left": 910,
 					"width": 240,
-					"height": 66,
+					"height": 76,
 					"fontWeight": "normal",
 					"textAlign": "left",
 					"fontSize": 14
@@ -605,7 +605,7 @@
 				"Popup Dropdown List4": {
 					"type": "dropdown",
 					"left": 860,
-					"top": 605,
+					"top": 615,
 					"width": 280,
 					"height": 25,
 					"events": [
@@ -619,7 +619,7 @@
 				"utcFormat_1": {
 					"type": "text",
 					"text": "text default",
-					"top": 644,
+					"top": 649,
 					"left": 840,
 					"width": 60,
 					"height": 16,
@@ -629,7 +629,7 @@
 				"utcSample_1": {
 					"type": "input",
 					"left": 910,
-					"top": 645,
+					"top": 650,
 					"width": 200,
 					"height": 17,
 					"dataSource": "",
@@ -642,7 +642,7 @@
 				"utcFormat_2": {
 					"type": "text",
 					"text": "text default",
-					"top": 669,
+					"top": 674,
 					"left": 840,
 					"width": 60,
 					"height": 16,
@@ -652,7 +652,7 @@
 				"utcSample_2": {
 					"type": "input",
 					"left": 910,
-					"top": 670,
+					"top": 675,
 					"width": 200,
 					"height": 17,
 					"dataSource": "",
@@ -665,7 +665,7 @@
 				"utcFormat_3": {
 					"type": "text",
 					"text": "text default",
-					"top": 694,
+					"top": 699,
 					"left": 840,
 					"width": 60,
 					"height": 16,
@@ -675,7 +675,7 @@
 				"utcSample_3": {
 					"type": "input",
 					"left": 910,
-					"top": 695,
+					"top": 700,
 					"width": 200,
 					"height": 17,
 					"dataSource": "",
@@ -688,7 +688,7 @@
 				"utcFormat_4": {
 					"type": "text",
 					"text": "text default",
-					"top": 719,
+					"top": 724,
 					"left": 840,
 					"width": 60,
 					"height": 16,
@@ -698,7 +698,7 @@
 				"utcSample_4": {
 					"type": "input",
 					"left": 910,
-					"top": 720,
+					"top": 725,
 					"width": 200,
 					"height": 17,
 					"dataSource": "",
@@ -711,7 +711,7 @@
 				"utcFormat_5": {
 					"type": "text",
 					"text": "text default",
-					"top": 744,
+					"top": 749,
 					"left": 840,
 					"width": 60,
 					"height": 16,
@@ -721,7 +721,7 @@
 				"utcSample_5": {
 					"type": "input",
 					"left": 910,
-					"top": 745,
+					"top": 750,
 					"width": 200,
 					"height": 17,
 					"dataSource": "",
@@ -733,7 +733,7 @@
 				},
 				"Arrow_date": {
 					"type": "picture",
-					"top": 525,
+					"top": 535,
 					"left": 452,
 					"width": 64,
 					"height": 64,
@@ -741,7 +741,7 @@
 				},
 				"Arrow_utc": {
 					"type": "picture",
-					"top": 595,
+					"top": 605,
 					"left": 790,
 					"width": 64,
 					"height": 64,
@@ -749,7 +749,7 @@
 				},
 				"Arrow_time": {
 					"type": "picture",
-					"top": 305,
+					"top": 315,
 					"left": 790,
 					"width": 64,
 					"height": 64,
@@ -1209,7 +1209,7 @@
 					"top": 120,
 					"left": 480,
 					"width": 510,
-					"height": 286
+					"height": 290
 				},
 				"Button1": {
 					"type": "button",
@@ -1229,7 +1229,7 @@
 					"left": 500,
 					"top": 230,
 					"width": 90,
-					"height": 145,
+					"height": 165,
 					"dataSource": "Form:C1466.dayNames3",
 					"enterable": false,
 					"focusable": false
@@ -1258,9 +1258,9 @@
 				"Input1": {
 					"type": "input",
 					"left": 500,
-					"top": 530,
+					"top": 520,
 					"width": 120,
-					"height": 225,
+					"height": 245,
 					"dataSource": "Form:C1466.monthNames3",
 					"enterable": false,
 					"focusable": false
@@ -1270,7 +1270,7 @@
 					"left": 610,
 					"top": 230,
 					"width": 160,
-					"height": 145,
+					"height": 165,
 					"dataSource": "Form:C1466.dayNames4",
 					"enterable": false,
 					"focusable": false
@@ -1280,7 +1280,7 @@
 					"left": 790,
 					"top": 230,
 					"width": 80,
-					"height": 145,
+					"height": 165,
 					"dataSource": "Form:C1466.dayNames5",
 					"enterable": false,
 					"focusable": false
@@ -1290,7 +1290,7 @@
 					"left": 890,
 					"top": 230,
 					"width": 80,
-					"height": 145,
+					"height": 165,
 					"dataSource": "Form:C1466.dayNames6",
 					"enterable": false,
 					"focusable": false
@@ -1298,9 +1298,9 @@
 				"Input5": {
 					"type": "input",
 					"left": 640,
-					"top": 530,
+					"top": 520,
 					"width": 190,
-					"height": 225,
+					"height": 245,
 					"dataSource": "Form:C1466.monthNames4",
 					"enterable": false,
 					"focusable": false
@@ -1308,9 +1308,9 @@
 				"Input6": {
 					"type": "input",
 					"left": 850,
-					"top": 530,
+					"top": 520,
 					"width": 120,
-					"height": 225,
+					"height": 245,
 					"dataSource": "Form:C1466.monthNames5",
 					"enterable": false,
 					"focusable": false
@@ -1318,7 +1318,7 @@
 				"Texte": {
 					"type": "text",
 					"text": "LLL",
-					"top": 510,
+					"top": 500,
 					"left": 500,
 					"width": 120,
 					"height": 16,
@@ -1328,7 +1328,7 @@
 				"Texte1": {
 					"type": "text",
 					"text": "LLLL",
-					"top": 510,
+					"top": 500,
 					"left": 640,
 					"width": 190,
 					"height": 16,
@@ -1338,7 +1338,7 @@
 				"Texte2": {
 					"type": "text",
 					"text": "LLLLL",
-					"top": 510,
+					"top": 500,
 					"left": 850,
 					"width": 120,
 					"height": 16,
@@ -1454,7 +1454,7 @@
 			"View 1": {}
 		}
 	},
-	"geometryStamp": 5991,
+	"geometryStamp": 6039,
 	"windowSizingX": "fixed",
 	"windowSizingY": "fixed"
 }
