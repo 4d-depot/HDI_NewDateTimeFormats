@@ -86,11 +86,11 @@
 					"strokeWidth": 2,
 					"fill": "transparent"
 				},
-				"RTA_Text": {
+				"RTA_Text_1": {
 					"type": "input",
 					"top": 80,
-					"left": 220,
-					"width": 760,
+					"left": 110,
+					"width": 980,
 					"height": 480,
 					"sizingX": "grow",
 					"sizingY": "grow",
@@ -554,11 +554,11 @@
 					"focusable": false,
 					"fill": "#F1F1F1"
 				},
-				"RTA_Text4": {
+				"RTA_Text_2": {
 					"type": "input",
 					"top": 80,
-					"left": 60,
-					"width": 380,
+					"left": 40,
+					"width": 400,
 					"height": 670,
 					"sizingX": "grow",
 					"sizingY": "grow",
@@ -801,7 +801,7 @@
 				"dateSample_4",
 				"dateSample_5",
 				"dateSample_6",
-				"RTA_Text4"
+				"RTA_Text_2"
 			]
 		},
 		{
@@ -988,11 +988,11 @@
 					"fontWeight": "bold",
 					"textAlign": "right"
 				},
-				"RTA_Text1": {
+				"RTA_Text_3": {
 					"type": "input",
 					"top": 80,
-					"left": 60,
-					"width": 390,
+					"left": 40,
+					"width": 400,
 					"height": 670,
 					"sizingX": "grow",
 					"sizingY": "grow",
@@ -1185,7 +1185,7 @@
 				}
 			},
 			"entryOrder": [
-				"RTA_Text1",
+				"RTA_Text_3",
 				"ReferenceDate2",
 				"ReferenceTime2",
 				"Popup Dropdown List2",
@@ -1385,11 +1385,11 @@
 					"textAlign": "center",
 					"fontWeight": "bold"
 				},
-				"RTA_Text2": {
+				"RTA_Text_4": {
 					"type": "input",
 					"top": 80,
-					"left": 60,
-					"width": 370,
+					"left": 40,
+					"width": 400,
 					"height": 670,
 					"sizingX": "grow",
 					"sizingY": "grow",
@@ -1454,7 +1454,7 @@
 			"View 1": {}
 		}
 	},
-	"geometryStamp": 5923,
+	"geometryStamp": 5991,
 	"windowSizingX": "fixed",
 	"windowSizingY": "fixed"
 }

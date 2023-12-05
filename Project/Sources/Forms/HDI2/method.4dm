@@ -2,6 +2,7 @@ var $dateValues; $dateVariations : Collection
 var $timeValues; $timeVariations : Collection
 var $utcValues; $utcVariations : Collection
 var $dateSamples; $timeSamples; $dateTimeSamples : Collection
+var $size : Integer
 
 var $i; $n; $index; $page : Integer
 
@@ -207,6 +208,13 @@ Case of
 			: (Form:C1466.action="page change")
 				$page:=FORM Get current page:C276
 				Form:C1466.doc:=Form:C1466.infoES[$page-1].doc
+				If (Is Windows:C1573) | (Shift down:C543)
+					$size:=16  //22*72dpi/96dpi
+				Else 
+					$size:=22
+				End if 
+				ST SET ATTRIBUTES:C1093(*; "RTA_Text_"+String:C10($page); ST Start text:K78:15; ST End text:K78:16; Attribute text size:K65:6; $size)
+				
 				
 				
 			: (Form:C1466.action="formatDate")
