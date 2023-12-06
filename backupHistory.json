@@ -1,0 +1,29 @@
+{
+	"Macintosh HD:Users:rolandlannuzel:Documents:Github:HDI:4D V20 R4:HDI_NewDateTimeFormats:Project:HDI_NewDateTimeFormats.4DProject": [
+		{
+			"backupPath": "Macintosh HD:Users:rolandlannuzel:Documents:Github:HDI:4D V20 R4:HDI_NewDateTimeFormats:data[0001].4BK",
+			"structurePath": "Macintosh HD:Users:rolandlannuzel:Documents:Github:HDI:4D V20 R4:HDI_NewDateTimeFormats:Project:HDI_NewDateTimeFormats.4DProject",
+			"dataPath": "Macintosh HD:Users:rolandlannuzel:Documents:Github:HDI:4D V20 R4:HDI_NewDateTimeFormats:Data:data.4DD",
+			"logPath": "",
+			"startingDate": "2023-12-06T07:55:51.552Z",
+			"endingDate": "2023-12-06T07:55:51.552Z",
+			"scheduledDate": "2023-12-06T07:55:51.552Z",
+			"backupNumber": 1,
+			"duration": 55,
+			"attachments": [
+				{
+					"attachmentPath": "Macintosh HD:Users:rolandlannuzel:Documents:Github:HDI:4D V20 R4:HDI_NewDateTimeFormats:Data:data.4DSyncHeader",
+					"found": false
+				},
+				{
+					"attachmentPath": "Macintosh HD:Users:rolandlannuzel:Documents:Github:HDI:4D V20 R4:HDI_NewDateTimeFormats:Data:data.4DSyncData",
+					"found": false
+				},
+				{
+					"attachmentPath": "Macintosh HD:Users:rolandlannuzel:Documents:Github:HDI:4D V20 R4:HDI_NewDateTimeFormats:Data:data.4DIndx",
+					"found": true
+				}
+			]
+		}
+	]
+}
