@@ -41,46 +41,46 @@ Case of
 				$dateValues:=[]
 				$dateVariations:=[]
 				
-				$dateValues.push("Era")
+				$dateValues.push("G: Era")
 				$dateVariations.push(["G"; "GG"; "GGG"; "GGGG"; "GGGGG"])
 				
-				$dateValues.push("Calendar year")
+				$dateValues.push("y: Calendar year")
 				$dateVariations.push(["y"; "yy"; "yyy"; "yyyy"; "yyyyy"])
 				
-				$dateValues.push("Local week numbering year")
+				$dateValues.push("Y: Local week numbering year")
 				$dateVariations.push(["Y"; "YY"; "YYY"; "YYYY"; "YYYYY"])
 				
-				$dateValues.push("Extended year")
+				$dateValues.push("u: Extended year")
 				$dateVariations.push(["u"; "uu"; "uuu"; "uuuu"; "uuuuu"])
 				
-				$dateValues.push("Quarter (formatting)")
+				$dateValues.push("Q: Quarter (formatting)")
 				$dateVariations.push(["Q"; "QQ"; "QQQ"; "QQQQ"; "QQQQQ"])
 				
-				$dateValues.push("Quarter (stand-alone)")
+				$dateValues.push("q: Quarter (stand-alone)")
 				$dateVariations.push(["q"; "qq"; "qqq"; "qqqq"; "qqqqq"])
 				
-				$dateValues.push("Month (formatting)")
+				$dateValues.push("M: Month (formatting)")
 				$dateVariations.push(["M"; "MM"; "MMM"; "MMMM"; "MMMMM"])
 				
-				$dateValues.push("Month (stand-alone)")
+				$dateValues.push("L: Month (stand-alone)")
 				$dateVariations.push(["L"; "LL"; "LLL"; "LLLL"; "LLLLL"])
 				
-				$dateValues.push("Local week of year")
+				$dateValues.push("w: Local week of year")
 				$dateVariations.push(["w"; "ww"])
 				
-				$dateValues.push("Day of month")
+				$dateValues.push("d: Day of month")
 				$dateVariations.push(["d"; "dd"])
 				
-				$dateValues.push("Day of year")
+				$dateValues.push("D: Day of year")
 				$dateVariations.push(["D"; "DD"; "DDD"; "DDDD"])
 				
-				$dateValues.push("Day of week (formatting)")
+				$dateValues.push("E: Day of week (formatting)")
 				$dateVariations.push(["E"; "EE"; "EEE"; "EEEE"; "EEEEE"; "EEEEEE"])
 				
-				$dateValues.push("Local day of week (formatting)")
+				$dateValues.push("e: Local day of week (formatting)")
 				$dateVariations.push(["e"; "ee"; "eee"; "eeee"; "eeeee"; "eeeeee"])
 				
-				$dateValues.push("Local day of week (stand-alone)")
+				$dateValues.push("c: Local day of week (stand-alone)")
 				$dateVariations.push(["c"; "cc"; "ccc"; "cccc"; "ccccc"; "cccccc"])
 				
 				
@@ -95,38 +95,32 @@ Case of
 				$timeValues:=[]
 				$timeVariations:=[]
 				
-				$timeValues.push("AM, PM")
+				$timeValues.push("a: AM, PM")
 				$timeVariations.push(["a"; "aa"; "aaa"; "aaaa"; "aaaaa"])
 				
-				$timeValues.push("AM, PM, noon, midnight")
+				$timeValues.push("b: AM, PM, noon, midnight")
 				$timeVariations.push(["b"; "bb"; "bbb"])
 				
-				$timeValues.push("Flexible day period")
+				$timeValues.push("B: Flexible day period")
 				$timeVariations.push(["B"; "BB"; "BBB"; "BBBB"; "BBBBB"])
 				
-				$timeValues.push("Hour [1-12]")
+				$timeValues.push("h: Hour [1-12]")
 				$timeVariations.push(["h"; "hh"])
 				
-				$timeValues.push("Hour [0-23]")
+				$timeValues.push("H: Hour [0-23]")
 				$timeVariations.push(["H"; "HH"])
 				
-				$timeValues.push("Hour [0-11]")
+				$timeValues.push("K: Hour [0-11]")
 				$timeVariations.push(["K"; "KK"])
 				
-				$timeValues.push("Hour [1-24]")
+				$timeValues.push("k: Hour [1-24]")
 				$timeVariations.push(["k"; "kk"])
 				
-				$timeValues.push("Minute")
+				$timeValues.push("m: Minute")
 				$timeVariations.push(["m"; "mm"])
 				
-				$timeValues.push("Second")
+				$timeValues.push("s: Second")
 				$timeVariations.push(["s"; "ss"])
-				
-				//$timeValues.push("Fraction of second")
-				//$timeVariations.push(["S"; "SS"; "SSS"; "SSSS"])
-				
-				
-				
 				
 				Form:C1466.timeFormats:={}
 				Form:C1466.timeFormats.values:=$timeValues
@@ -140,16 +134,16 @@ Case of
 				$utcValues:=[]
 				$utcVariations:=[]
 				
-				$utcValues.push("Timezone (ISO-8601 w/ Z)")
+				$utcValues.push("X: Timezone (ISO-8601 w/ Z)")
 				$utcVariations.push(["X"; "XX"; "XXX"; "XXXX"; "XXXXX"])
 				
-				$utcValues.push("Timezone (ISO-8601 w/o Z)")
+				$utcValues.push("x: Timezone (ISO-8601 w/o Z)")
 				$utcVariations.push(["x"; "xx"; "xxx"; "xxxx"; "xxxxx"])
 				
-				$utcValues.push("Timezone (GMT)")
+				$utcValues.push("O: Timezone (GMT)")
 				$utcVariations.push(["O"; "OOOO"])
 				
-				$utcValues.push("Timezone (specific non-locat.)")
+				$utcValues.push("z: Timezone (specific non-locat.)")
 				$utcVariations.push(["z"; "zz"; "zzz"; "zzzz"])
 				
 				

@@ -25,5 +25,32 @@
 				}
 			]
 		}
+	],
+	"TinySur:Users:rl4d:Documents:Github:HDIs:V20R4:HDI_NewDateTimeFormats:Project:HDI_NewDateTimeFormats.4DProject": [
+		{
+			"backupPath": "TinySur:Users:rl4d:Documents:Github:HDIs:V20R4:HDI_NewDateTimeFormats:data[0001].4BK",
+			"structurePath": "TinySur:Users:rl4d:Documents:Github:HDIs:V20R4:HDI_NewDateTimeFormats:Project:HDI_NewDateTimeFormats.4DProject",
+			"dataPath": "TinySur:Users:rl4d:Documents:Github:HDIs:V20R4:HDI_NewDateTimeFormats:Data:data.4DD",
+			"logPath": "",
+			"startingDate": "2023-12-07T08:15:25.190Z",
+			"endingDate": "2023-12-07T08:15:25.190Z",
+			"scheduledDate": "2023-12-07T08:15:25.190Z",
+			"backupNumber": 1,
+			"duration": 62,
+			"attachments": [
+				{
+					"attachmentPath": "TinySur:Users:rl4d:Documents:Github:HDIs:V20R4:HDI_NewDateTimeFormats:Data:data.4DSyncHeader",
+					"found": false
+				},
+				{
+					"attachmentPath": "TinySur:Users:rl4d:Documents:Github:HDIs:V20R4:HDI_NewDateTimeFormats:Data:data.4DSyncData",
+					"found": false
+				},
+				{
+					"attachmentPath": "TinySur:Users:rl4d:Documents:Github:HDIs:V20R4:HDI_NewDateTimeFormats:Data:data.4DIndx",
+					"found": true
+				}
+			]
+		}
 	]
 }
