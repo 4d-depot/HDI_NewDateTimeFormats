@@ -3,5 +3,6 @@ Case of
 		
 		vDate:=!1954-03-17!
 		vTime:=?13:24:35?
+		Form:C1466.blankIfNull:=True:C214
 		
 End case 

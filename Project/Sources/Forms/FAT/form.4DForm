@@ -10,21 +10,7 @@
 	"windowMaxWidth": 32767,
 	"windowMaxHeight": 32767,
 	"events": [
-		"onLoad",
-		"onPageChange",
-		"onValidate",
-		"onClick",
-		"onDoubleClick",
-		"onOutsideCall",
-		"onBeginDragOver",
-		"onDragOver",
-		"onDrop",
-		"onAfterKeystroke",
-		"onMenuSelect",
-		"onPluginArea",
-		"onAfterEdit",
-		"onTimer",
-		"onBoundVariableChange"
+		"onLoad"
 	],
 	"windowTitle": "window title",
 	"destination": "detailScreen",
@@ -95,7 +81,8 @@
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "date",
-					"dataSource": "vDate"
+					"dataSource": "vDate",
+					"dateFormat": "systemShort blankIfNull"
 				},
 				"Input2": {
 					"type": "input",
@@ -104,7 +91,8 @@
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "date",
-					"dataSource": "vDate"
+					"dataSource": "vDate",
+					"dateFormat": "systemShort blankIfNull"
 				},
 				"Input3": {
 					"type": "input",
@@ -113,7 +101,8 @@
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "date",
-					"dataSource": "vDate"
+					"dataSource": "vDate",
+					"dateFormat": "systemShort blankIfNull"
 				},
 				"Input4": {
 					"type": "input",
@@ -122,7 +111,8 @@
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "date",
-					"dataSource": "vDate"
+					"dataSource": "vDate",
+					"dateFormat": "systemShort blankIfNull"
 				},
 				"Input5": {
 					"type": "input",
@@ -131,7 +121,8 @@
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "date",
-					"dataSource": "vDate"
+					"dataSource": "vDate",
+					"dateFormat": "systemShort blankIfNull"
 				},
 				"format1": {
 					"type": "text",
@@ -290,7 +281,8 @@
 					"height": 17,
 					"dataSourceTypeHint": "date",
 					"stroke": "#9400d3",
-					"dataSource": "vDate"
+					"dataSource": "vDate",
+					"dateFormat": "systemShort blankIfNull"
 				},
 				"Input7": {
 					"type": "input",
@@ -299,7 +291,8 @@
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "date",
-					"dataSource": "vDate"
+					"dataSource": "vDate",
+					"dateFormat": "systemShort blankIfNull"
 				},
 				"Input8": {
 					"type": "input",
@@ -308,7 +301,8 @@
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "date",
-					"dataSource": "vDate"
+					"dataSource": "vDate",
+					"dateFormat": "systemShort blankIfNull"
 				},
 				"Input9": {
 					"type": "input",
@@ -317,7 +311,8 @@
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "date",
-					"dataSource": "vDate"
+					"dataSource": "vDate",
+					"dateFormat": "systemShort blankIfNull"
 				},
 				"Input10": {
 					"type": "input",
@@ -326,7 +321,8 @@
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "date",
-					"dataSource": "vDate"
+					"dataSource": "vDate",
+					"dateFormat": "systemShort blankIfNull"
 				},
 				"Input11": {
 					"type": "input",
@@ -336,7 +332,8 @@
 					"height": 17,
 					"dataSourceTypeHint": "date",
 					"stroke": "#9400d3",
-					"dataSource": "vDate"
+					"dataSource": "vDate",
+					"dateFormat": "systemShort blankIfNull"
 				},
 				"format6": {
 					"type": "text",
@@ -356,7 +353,8 @@
 					"height": 17,
 					"dataSourceTypeHint": "date",
 					"stroke": "#9400d3",
-					"dataSource": "vDate"
+					"dataSource": "vDate",
+					"dateFormat": "systemShort blankIfNull"
 				},
 				"Input13": {
 					"type": "input",
@@ -365,7 +363,8 @@
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "date",
-					"dataSource": "vDate"
+					"dataSource": "vDate",
+					"dateFormat": "systemShort blankIfNull"
 				},
 				"Input14": {
 					"type": "input",
@@ -375,7 +374,8 @@
 					"height": 17,
 					"dataSourceTypeHint": "date",
 					"stroke": "#9400d3",
-					"dataSource": "vDate"
+					"dataSource": "vDate",
+					"dateFormat": "systemShort blankIfNull"
 				},
 				"Input15": {
 					"type": "input",
@@ -385,7 +385,8 @@
 					"height": 17,
 					"dataSourceTypeHint": "date",
 					"stroke": "#9400d3",
-					"dataSource": "vDate"
+					"dataSource": "vDate",
+					"dateFormat": "systemShort blankIfNull"
 				},
 				"Input16": {
 					"type": "input",
@@ -395,7 +396,8 @@
 					"height": 17,
 					"dataSourceTypeHint": "date",
 					"stroke": "#9400d3",
-					"dataSource": "vDate"
+					"dataSource": "vDate",
+					"dateFormat": "systemShort blankIfNull"
 				},
 				"Input17": {
 					"type": "input",
@@ -405,7 +407,8 @@
 					"height": 17,
 					"dataSourceTypeHint": "date",
 					"stroke": "#9400d3",
-					"dataSource": "vDate"
+					"dataSource": "vDate",
+					"dateFormat": "systemShort blankIfNull"
 				},
 				"Input18": {
 					"type": "input",
@@ -415,7 +418,8 @@
 					"height": 17,
 					"dataSourceTypeHint": "date",
 					"stroke": "#9400d3",
-					"dataSource": "vDate"
+					"dataSource": "vDate",
+					"dateFormat": "systemShort blankIfNull"
 				},
 				"Input19": {
 					"type": "input",
@@ -424,7 +428,8 @@
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "date",
-					"dataSource": "vDate"
+					"dataSource": "vDate",
+					"dateFormat": "systemShort blankIfNull"
 				},
 				"Input20": {
 					"type": "input",
@@ -434,7 +439,8 @@
 					"height": 17,
 					"dataSourceTypeHint": "date",
 					"stroke": "#9400d3",
-					"dataSource": "vDate"
+					"dataSource": "vDate",
+					"dateFormat": "systemShort blankIfNull"
 				},
 				"Input21": {
 					"type": "input",
@@ -444,7 +450,8 @@
 					"height": 17,
 					"dataSourceTypeHint": "date",
 					"stroke": "#9400d3",
-					"dataSource": "vDate"
+					"dataSource": "vDate",
+					"dateFormat": "systemShort blankIfNull"
 				},
 				"Input22": {
 					"type": "input",
@@ -454,7 +461,8 @@
 					"height": 17,
 					"dataSourceTypeHint": "date",
 					"stroke": "#9400d3",
-					"dataSource": "vDate"
+					"dataSource": "vDate",
+					"dateFormat": "systemShort blankIfNull"
 				},
 				"Input23": {
 					"type": "input",
@@ -464,7 +472,8 @@
 					"height": 17,
 					"dataSourceTypeHint": "date",
 					"stroke": "#9400d3",
-					"dataSource": "vDate"
+					"dataSource": "vDate",
+					"dateFormat": "systemShort blankIfNull"
 				},
 				"Input24": {
 					"type": "input",
@@ -474,7 +483,8 @@
 					"height": 17,
 					"dataSourceTypeHint": "date",
 					"stroke": "#9400d3",
-					"dataSource": "vDate"
+					"dataSource": "vDate",
+					"dateFormat": "systemShort blankIfNull"
 				},
 				"Input25": {
 					"type": "input",
@@ -483,7 +493,8 @@
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "date",
-					"dataSource": "vDate"
+					"dataSource": "vDate",
+					"dateFormat": "systemShort blankIfNull"
 				},
 				"Input26": {
 					"type": "input",
@@ -492,7 +503,8 @@
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "date",
-					"dataSource": "vDate"
+					"dataSource": "vDate",
+					"dateFormat": "systemShort blankIfNull"
 				},
 				"Input27": {
 					"type": "input",
@@ -501,7 +513,8 @@
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "date",
-					"dataSource": "vDate"
+					"dataSource": "vDate",
+					"dateFormat": "systemShort blankIfNull"
 				},
 				"Input28": {
 					"type": "input",
@@ -510,7 +523,8 @@
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "date",
-					"dataSource": "vDate"
+					"dataSource": "vDate",
+					"dateFormat": "systemShort blankIfNull"
 				},
 				"Input29": {
 					"type": "input",
@@ -519,7 +533,8 @@
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "date",
-					"dataSource": "vDate"
+					"dataSource": "vDate",
+					"dateFormat": "systemShort blankIfNull"
 				},
 				"Input30": {
 					"type": "input",
@@ -529,7 +544,8 @@
 					"height": 17,
 					"dataSourceTypeHint": "date",
 					"stroke": "#9400d3",
-					"dataSource": "vDate"
+					"dataSource": "vDate",
+					"dateFormat": "systemShort blankIfNull"
 				},
 				"Input31": {
 					"type": "input",
@@ -2997,6 +3013,18 @@
 					"width": 75,
 					"height": 16,
 					"textAlign": "center"
+				},
+				"Case à cocher": {
+					"type": "checkbox",
+					"text": "Blank if NULL",
+					"top": 997,
+					"left": 1325,
+					"width": 204,
+					"height": 26,
+					"events": [
+						"onClick"
+					],
+					"dataSource": "Form:C1466.blankIfNull"
 				}
 			}
 		},
@@ -7081,7 +7109,7 @@
 			]
 		}
 	],
-	"geometryStamp": 2451,
+	"geometryStamp": 2721,
 	"editor": {
 		"activeView": "View 1",
 		"defaultView": "View 1",

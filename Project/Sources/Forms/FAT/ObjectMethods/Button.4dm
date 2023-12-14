@@ -40,6 +40,10 @@ For each ($item; $dateVariations)
 	
 	OBJECT SET TITLE:C194(*; "format"+String:C10($textID); $item)
 	
+	If (Form:C1466.blankIfNull)
+		$format:=$format+"blankIfNull"
+	End if 
+	
 	If ($textID<=200)
 		OBJECT SET FORMAT:C236(*; "Input"+String:C10($textID); $format)
 	End if 
