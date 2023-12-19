@@ -277,6 +277,8 @@ Case of
 					OBJECT SET VALUE:C1742("dateAsString"; String:C10(vDateInput; Form:C1466.datePattern))
 					
 					OBJECT SET VISIBLE:C603(*; "Arrow_sampleDate"; False:C215)
+					OBJECT SET VISIBLE:C603(*; "Arrow_sampleDateEdit@"; True:C214)
+					
 				End if 
 				Form:C1466.action:="formatSampleDateTime"
 				SET TIMER:C645(-1)
@@ -287,6 +289,8 @@ Case of
 					OBJECT SET VALUE:C1742("timeAsString"; String:C10(vTimeInput; Form:C1466.timePattern))
 					
 					OBJECT SET VISIBLE:C603(*; "Arrow_sampleTime"; False:C215)
+					OBJECT SET VISIBLE:C603(*; "Arrow_sampleTimeEdit@"; True:C214)
+					
 				End if 
 				Form:C1466.action:="formatSampleDateTime"
 				SET TIMER:C645(-1)
@@ -295,7 +299,8 @@ Case of
 				If (Form:C1466.dateTimePattern#"")
 					OBJECT SET VALUE:C1742("dateTimeAsString"; String:C10(vDateInput; Form:C1466.dateTimePattern; vTimeInput))
 					
-					OBJECT SET VISIBLE:C603(*; "Arrow_sampleDateTime"; False:C215)
+					OBJECT SET VISIBLE:C603(*; "Arrow_sampleDT"; False:C215)
+					OBJECT SET VISIBLE:C603(*; "Arrow_sampleDTedit@"; True:C214)
 				End if 
 				
 		End case 

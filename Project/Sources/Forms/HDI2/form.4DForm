@@ -1185,7 +1185,7 @@
 					"height": 16,
 					"textAlign": "right"
 				},
-				"Arrow_sampleDateTime": {
+				"Arrow_sampleDT": {
 					"type": "picture",
 					"top": 690,
 					"left": 430,
@@ -1216,6 +1216,63 @@
 					"width": 150,
 					"height": 16,
 					"textAlign": "right"
+				},
+				"Arrow_sampleDateEdit": {
+					"type": "picture",
+					"top": 348,
+					"left": 970,
+					"width": 32,
+					"height": 32,
+					"picture": "/RESOURCES/Arrows/ArrowLeftBottom.png",
+					"pictureFormat": "scaled",
+					"visibility": "hidden"
+				},
+				"Arrow_sampleTimeEdit": {
+					"type": "picture",
+					"top": 538,
+					"left": 970,
+					"width": 32,
+					"height": 32,
+					"picture": "/RESOURCES/Arrows/ArrowLeftBottom.png",
+					"pictureFormat": "scaled",
+					"visibility": "hidden"
+				},
+				"Arrow_sampleDTedit": {
+					"type": "picture",
+					"top": 728,
+					"left": 970,
+					"width": 32,
+					"height": 32,
+					"picture": "/RESOURCES/Arrows/ArrowLeftBottom.png",
+					"pictureFormat": "scaled",
+					"visibility": "hidden"
+				},
+				"Arrow_sampleDateEditText": {
+					"type": "text",
+					"text": "You may try variations !",
+					"top": 359,
+					"left": 1010,
+					"width": 170,
+					"height": 16,
+					"visibility": "hidden"
+				},
+				"Arrow_sampleTimeEditText": {
+					"type": "text",
+					"text": "You may try variations !",
+					"top": 549,
+					"left": 1010,
+					"width": 170,
+					"height": 16,
+					"visibility": "hidden"
+				},
+				"Arrow_sampleDTeditText": {
+					"type": "text",
+					"text": "You may try variations !",
+					"top": 739,
+					"left": 1010,
+					"width": 170,
+					"height": 16,
+					"visibility": "hidden"
 				}
 			},
 			"entryOrder": [
@@ -1488,7 +1545,7 @@
 			"View 1": {}
 		}
 	},
-	"geometryStamp": 6472,
+	"geometryStamp": 6634,
 	"windowSizingX": "fixed",
 	"windowSizingY": "fixed"
 }
