@@ -18,7 +18,7 @@ Case of
 		Form:C1466.tabs.index:=0
 		
 		vDateInput:=!2023-03-17!
-		vTimeInput:=?12:34:56?
+		vTimeInput:=?13:24:35?
 		
 		Form:C1466.datePattern:=""
 		Form:C1466.timePattern:=""
@@ -45,13 +45,13 @@ Case of
 				$dateVariations.push(["G"; "GG"; "GGG"; "GGGG"; "GGGGG"])
 				
 				$dateValues.push("y: Calendar year")
-				$dateVariations.push(["y"; "yy"; "yyy"; "yyyy"; "yyyyy"])
+				$dateVariations.push(["y"])  //; "yy"; "yyy"; "yyyy"; "yyyyy"])
 				
 				$dateValues.push("Y: Local week numbering year")
-				$dateVariations.push(["Y"; "YY"; "YYY"; "YYYY"; "YYYYY"])
+				$dateVariations.push(["Y"; "YY"; "YYY"; "YYYY"])  //; "YYYYY"])
 				
 				$dateValues.push("u: Extended year")
-				$dateVariations.push(["u"; "uu"; "uuu"; "uuuu"; "uuuuu"])
+				$dateVariations.push(["u"])  //; "uu"; "uuu"; "uuuu"; "uuuuu"])
 				
 				$dateValues.push("Q: Quarter (formatting)")
 				$dateVariations.push(["Q"; "QQ"; "QQQ"; "QQQQ"; "QQQQQ"])
@@ -72,7 +72,7 @@ Case of
 				$dateVariations.push(["d"; "dd"])
 				
 				$dateValues.push("D: Day of year")
-				$dateVariations.push(["D"; "DD"; "DDD"; "DDDD"])
+				$dateVariations.push(["D"; "DD"; "DDD"])  //; "DDDD"])
 				
 				$dateValues.push("E: Day of week (formatting)")
 				$dateVariations.push(["E"; "EE"; "EEE"; "EEEE"; "EEEEE"; "EEEEEE"])
@@ -88,7 +88,7 @@ Case of
 				Form:C1466.dateFormats.values:=$dateValues
 				Form:C1466.dateFormats.index:=-1
 				Form:C1466.dateFormats.variations:=$dateVariations
-				Form:C1466.dateFormats.currentValue:="Select a date format"
+				Form:C1466.dateFormats.currentValue:="Select a letter for details"
 				
 				//-------------------------- Time values and variations ----------------------------------------------------------
 				
@@ -126,7 +126,7 @@ Case of
 				Form:C1466.timeFormats.values:=$timeValues
 				Form:C1466.timeFormats.index:=-1
 				Form:C1466.timeFormats.variations:=$timeVariations
-				Form:C1466.timeFormats.currentValue:="Select a time format"
+				Form:C1466.timeFormats.currentValue:="Select a letter for details"
 				
 				
 				//-------------------------- UTC values and variations ----------------------------------------------------------
@@ -151,7 +151,7 @@ Case of
 				Form:C1466.utcFormats.values:=$utcValues
 				Form:C1466.utcFormats.index:=-1
 				Form:C1466.utcFormats.variations:=$utcVariations
-				Form:C1466.utcFormats.currentValue:="Select an UTC format"
+				Form:C1466.utcFormats.currentValue:="Select a letter for details"
 				
 				
 				//-------------------------- Sample date and time formats ----------------------------------------------------------
@@ -165,7 +165,7 @@ Case of
 				Form:C1466.dateSamples:={}
 				Form:C1466.dateSamples.values:=$dateSamples
 				Form:C1466.dateSamples.index:=-1
-				Form:C1466.dateSamples.currentValue:="Select a date format"
+				Form:C1466.dateSamples.currentValue:="Select a date sample"
 				
 				
 				$timeSamples:=[]
@@ -176,7 +176,7 @@ Case of
 				Form:C1466.timeSamples:={}
 				Form:C1466.timeSamples.values:=$timeSamples
 				Form:C1466.timeSamples.index:=-1
-				Form:C1466.timeSamples.currentValue:="Select a time format"
+				Form:C1466.timeSamples.currentValue:="Select a time sample"
 				
 				
 				$dateTimeSamples:=[]
@@ -187,7 +187,7 @@ Case of
 				Form:C1466.dateTimeSamples:={}
 				Form:C1466.dateTimeSamples.values:=$dateTimeSamples
 				Form:C1466.dateTimeSamples.index:=-1
-				Form:C1466.dateTimeSamples.currentValue:="Select a time & time format"
+				Form:C1466.dateTimeSamples.currentValue:="Select a time & time sample"
 				
 				
 				Form:C1466.datePattern:=""

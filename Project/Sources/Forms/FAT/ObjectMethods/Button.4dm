@@ -20,12 +20,16 @@ For each ($item; $dateVariations)
 	// e h k m must be prefixed by ":"
 	
 	If (Length:C16($item)=1)
-		$charCode:=Character code:C91($item)
-		If ($charCode=Character code:C91("e")) || ($charCode=Character code:C91("h")) || ($charCode=Character code:C91("k")) || ($charCode=Character code:C91("m"))
-			$format:=":"+$item
-		Else 
-			$format:=$item
-		End if 
+		
+		//$charCode:=Character code($item)
+		//If ($charCode=Character code("e")) || ($charCode=Character code("h")) || ($charCode=Character code("k")) || ($charCode=Character code("m"))
+		//$format:=":"+$item
+		//Else 
+		//$format:=$item
+		//End if 
+		
+		$format:=":"+$item  // TEMP TEMP TEMP TEMP
+		
 	Else 
 		$format:=$item
 	End if 

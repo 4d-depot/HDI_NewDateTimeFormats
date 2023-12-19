@@ -890,7 +890,7 @@
 					],
 					"method": "ObjectMethods/datePatternTest.4dm"
 				},
-				"dateFormat_7": {
+				"staticText": {
 					"type": "text",
 					"text": "Pattern:",
 					"top": 360,
@@ -958,7 +958,7 @@
 					],
 					"method": "ObjectMethods/timePatternTest.4dm"
 				},
-				"dateFormat_9": {
+				"staticText7": {
 					"type": "text",
 					"text": "Pattern:",
 					"top": 550,
@@ -1488,7 +1488,7 @@
 			"View 1": {}
 		}
 	},
-	"geometryStamp": 6443,
+	"geometryStamp": 6472,
 	"windowSizingX": "fixed",
 	"windowSizingY": "fixed"
 }

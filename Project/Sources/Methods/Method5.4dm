@@ -1,4 +1,4 @@
 //%attributes = {}
-$vsResult:=String:C10(!1582-01-01!)
 
-ALERT:C41($vsResult)
+//$val:=String(?00:00:00?; System time short+Blank if null time)
+//ALERT($val)
