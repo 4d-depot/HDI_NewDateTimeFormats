@@ -27,7 +27,8 @@
 					"labels": [
 						"Dates",
 						"Times",
-						"Date & Time"
+						"Date & Time",
+						"Etc."
 					],
 					"action": "gotoPage"
 				},
@@ -5945,9 +5946,270 @@
 				"Zone de saisie",
 				"Button1"
 			]
+		},
+		{
+			"objects": {
+				"List Box": {
+					"type": "listbox",
+					"left": 80,
+					"top": 118,
+					"width": 315,
+					"height": 336,
+					"events": [
+						"onClick",
+						"onHeaderClick",
+						"onDataChange",
+						"onSelectionChange"
+					],
+					"listboxType": "currentSelection",
+					"dataSource": "lb",
+					"table": "Samples",
+					"scrollbarHorizontal": "hidden",
+					"columns": [
+						{
+							"header": {
+								"text": "Header1",
+								"name": "Header1"
+							},
+							"name": "sel_col1",
+							"footer": {
+								"name": "Footer1"
+							},
+							"textAlign": "left",
+							"dataSource": "[Samples:4]aDate:2",
+							"width": 150,
+							"dateFormat": "MMMM"
+						},
+						{
+							"header": {
+								"name": "Header4",
+								"text": "Header4"
+							},
+							"name": "sel_col2",
+							"footer": {
+								"name": "Footer4"
+							},
+							"width": 150,
+							"textAlign": "left",
+							"dataSource": "[Samples:4]aTime:3",
+							"timeFormat": "hh"
+						}
+					]
+				},
+				"List Box1": {
+					"type": "listbox",
+					"left": 417,
+					"top": 118,
+					"width": 315,
+					"height": 336,
+					"events": [
+						"onClick",
+						"onHeaderClick",
+						"onDataChange",
+						"onSelectionChange"
+					],
+					"scrollbarHorizontal": "hidden",
+					"columns": [
+						{
+							"header": {
+								"text": "Header1",
+								"name": "Header2"
+							},
+							"name": "arr_col1",
+							"footer": {
+								"name": "Footer2"
+							},
+							"dataSource": "tDates",
+							"dataSourceTypeHint": "date",
+							"dateFormat": "MMMM",
+							"textAlign": "left",
+							"width": 150
+						},
+						{
+							"header": {
+								"name": "Header5",
+								"text": "Header5"
+							},
+							"name": "arr_col2",
+							"footer": {
+								"name": "Footer5"
+							},
+							"dataSource": "tTimes",
+							"dataSourceTypeHint": "time",
+							"width": 150,
+							"textAlign": "left",
+							"timeFormat": "hh"
+						}
+					]
+				},
+				"List Box2": {
+					"type": "listbox",
+					"left": 755,
+					"top": 118,
+					"width": 315,
+					"height": 336,
+					"events": [
+						"onClick",
+						"onHeaderClick",
+						"onDataChange",
+						"onSelectionChange"
+					],
+					"listboxType": "collection",
+					"dataSource": "Form:C1466.es",
+					"scrollbarHorizontal": "hidden",
+					"columns": [
+						{
+							"header": {
+								"text": "Header1",
+								"name": "Header3"
+							},
+							"name": "es_col1",
+							"footer": {
+								"name": "Footer3"
+							},
+							"dataSource": "This:C1470.aDate",
+							"dateFormat": "systemShort",
+							"textAlign": "left",
+							"width": 150,
+							"timeFormat": "hh_mm_ss",
+							"dataSourceTypeHint": "date"
+						},
+						{
+							"header": {
+								"name": "Header6",
+								"text": "Header6"
+							},
+							"name": "es_col2",
+							"footer": {
+								"name": "Footer6"
+							},
+							"dataSource": "This:C1470.aTime",
+							"dateFormat": "",
+							"dataSourceTypeHint": "time",
+							"width": 150,
+							"textAlign": "left",
+							"timeFormat": "hh_mm_ss"
+						}
+					]
+				},
+				"dropDates": {
+					"type": "dropdown",
+					"left": 98,
+					"top": 522,
+					"width": 160,
+					"height": 21,
+					"events": [
+						"onDataChange"
+					],
+					"dataSource": "tPopDates",
+					"dataSourceTypeHint": "arrayDate",
+					"dateFormat": "systemShort",
+					"focusable": false
+				},
+				"dropTimes": {
+					"type": "dropdown",
+					"left": 271,
+					"top": 522,
+					"width": 160,
+					"height": 21,
+					"events": [
+						"onDataChange"
+					],
+					"dataSource": "tPopTimes",
+					"dataSourceTypeHint": "arrayTime",
+					"timeFormat": "hh_mm_ss",
+					"focusable": false
+				},
+				"comboDates": {
+					"type": "combo",
+					"left": 98,
+					"top": 612,
+					"width": 160,
+					"height": 22,
+					"events": [
+						"onDataChange"
+					],
+					"dataSource": "tComboDates",
+					"dataSourceTypeHint": "arrayDate"
+				},
+				"comboTimes": {
+					"type": "combo",
+					"left": 271,
+					"top": 612,
+					"width": 160,
+					"height": 22,
+					"events": [
+						"onDataChange"
+					],
+					"dataSource": "tComboTimes",
+					"dataSourceTypeHint": "arrayTime"
+				},
+				"Text2": {
+					"type": "text",
+					"text": "Current selection",
+					"top": 88,
+					"left": 80,
+					"width": 217,
+					"height": 16,
+					"fontWeight": "bold"
+				},
+				"Text3": {
+					"type": "text",
+					"text": "Arrays",
+					"top": 88,
+					"left": 417,
+					"width": 217,
+					"height": 16,
+					"fontWeight": "bold"
+				},
+				"Text4": {
+					"type": "text",
+					"text": "Entity selection",
+					"top": 88,
+					"left": 755,
+					"width": 217,
+					"height": 16,
+					"fontWeight": "bold"
+				},
+				"Text5": {
+					"type": "text",
+					"text": "Drop downs",
+					"top": 478,
+					"left": 80,
+					"width": 217,
+					"height": 16,
+					"fontWeight": "bold"
+				},
+				"Text6": {
+					"type": "text",
+					"text": "Combo boxes",
+					"top": 578,
+					"left": 80,
+					"width": 217,
+					"height": 16,
+					"fontWeight": "bold"
+				},
+				"Input": {
+					"type": "input",
+					"left": 822,
+					"top": 688,
+					"width": 248,
+					"height": 81
+				}
+			},
+			"entryOrder": [
+				"Input",
+				"List Box",
+				"List Box1",
+				"List Box2",
+				"dropDates",
+				"comboDates",
+				"dropTimes",
+				"comboTimes"
+			]
 		}
 	],
-	"geometryStamp": 3019,
+	"geometryStamp": 3226,
 	"editor": {
 		"activeView": "View 1",
 		"defaultView": "View 1",

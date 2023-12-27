@@ -101,3 +101,21 @@ End for each
 
 //OBJECT SET FORMAT(*; "myDate"; "(yyyy) MMM dd")  // (2017) Dec 12
 //OBJECT SET FORMAT(*; "mytime"; "hh'h' mm'mn' ss'sec.'")  // 15h 12mn 17sec. 
+
+
+OBJECT SET FORMAT:C236(*; "sel_col1"; "MMMM")
+OBJECT SET FORMAT:C236(*; "arr_col1"; "MMMM")
+OBJECT SET FORMAT:C236(*; "es_col1"; "MMMM")
+
+OBJECT SET FORMAT:C236(*; "DropDates"; "MMMM")
+OBJECT SET FORMAT:C236(*; "ComboDates"; "MMMM")
+
+
+
+OBJECT SET FORMAT:C236(*; "sel_col2"; "HH")
+OBJECT SET FORMAT:C236(*; "arr_col2"; "HH")
+OBJECT SET FORMAT:C236(*; "es_col2"; "HH")
+
+OBJECT SET FORMAT:C236(*; "DropTimes"; "HH")
+OBJECT SET FORMAT:C236(*; "ComboTimes"; "HH")
+

@@ -17,7 +17,7 @@
 		<table_extra input_form="Input" output_form="Output">
 			<editor_table_info displayable_fields_count="6">
 				<color red="255" green="255" blue="255" alpha="0"/>
-				<coordinates left="46.71484375" top="0" width="120" height="167.33203125"/>
+				<coordinates left="128.82186889648" top="13.997085571289" width="120" height="167.33203125"/>
 			</editor_table_info>
 		</table_extra>
 	</table>
@@ -45,6 +45,23 @@
 			</editor_table_info>
 		</table_extra>
 	</table>
+	<table name="Samples" uuid="28E230A375294AAA9F738D9692957D00" id="4">
+		<field name="ID" uuid="F9C0A5537B214FEDBC210FC743D7BC7F" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<field name="aDate" uuid="91BCD1F0B1F340A9BB8233840471329B" type="8" id="2"/>
+		<field name="aTime" uuid="DA85324770C448E9BCE7F8EE419E53CE" type="9" id="3"/>
+		<primary_key field_name="ID" field_uuid="F9C0A5537B214FEDBC210FC743D7BC7F"/>
+		<table_extra>
+			<editor_table_info displayable_fields_count="6">
+				<color red="255" green="255" blue="255" alpha="0"/>
+				<coordinates left="418.26840209961" top="12.814254760742" width="120" height="167.33203125"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<index kind="regular" unique_keys="true" uuid="077B7CE25D7546A884C4643DEFA91ABE" type="7">
+		<field_ref uuid="F9C0A5537B214FEDBC210FC743D7BC7F" name="ID">
+			<table_ref uuid="28E230A375294AAA9F738D9692957D00" name="Samples"/>
+		</field_ref>
+	</index>
 	<index kind="regular" unique_keys="true" uuid="704A9721EA634D00BB8D3AB4AE5137A0" type="1">
 		<field_ref uuid="C6DBB917EEE44AF9BDA57ABA22C55C6B" name="ID">
 			<table_ref uuid="107A367EBCC346259FD971E8FC1097DA" name="INFO"/>
