@@ -1,10 +1,11 @@
 ARRAY DATE:C224(tDates; 0)
 ARRAY DATE:C224(tPopDates; 0)
 ARRAY DATE:C224(tComboDates; 0)
+//ARRAY DATE(tTabDates; 0)
 
-ARRAY DATE:C224(tTimes; 0)
-ARRAY DATE:C224(tPopTimes; 0)
-ARRAY DATE:C224(tComboTimes; 0)
+ARRAY TIME:C1223(tTimes; 0)
+ARRAY TIME:C1223(tPopTimes; 0)
+ARRAY TIME:C1223(tComboTimes; 0)
 
 Case of 
 		
@@ -26,6 +27,9 @@ Case of
 		
 		COPY ARRAY:C226(tDates; tPopDates)
 		COPY ARRAY:C226(tDates; tComboDates)
+		//COPY ARRAY(tDates; tTabDates)
+		//ARRAY DATE(tTabDates; 3)  // limit to three !
+		
 		
 		COPY ARRAY:C226(tTimes; tPopTimes)
 		COPY ARRAY:C226(tTimes; tComboTimes)
@@ -35,6 +39,26 @@ Case of
 		
 		tComboDates{0}:=tComboDates{1}
 		tComboTimes{0}:=tComboTimes{1}
+		
+		Form:C1466.popDates:={}
+		Form:C1466.popDates.values:=Form:C1466.es.toCollection().extract("aDate")
+		Form:C1466.popDates.index:=1
+		
+		Form:C1466.comboDates:={}
+		Form:C1466.comboDates.values:=Form:C1466.es.toCollection().extract("aDate")
+		Form:C1466.comboDates.currentValue:=Form:C1466.comboDates.values[0]
+		
+		
+		Form:C1466.popTimes:={}
+		Form:C1466.popTimes.values:=Form:C1466.es.toCollection().extract("aTime")
+		Form:C1466.popTimes.index:=1
+		
+		Form:C1466.comboTimes:={}
+		Form:C1466.comboTimes.values:=Form:C1466.es.toCollection().extract("aTime")
+		Form:C1466.comboTimes.currentValue:=Form:C1466.comboTimes.values[0]
+		
+		Form:C1466.tabDates:=OB Copy:C1225(Form:C1466.popDates)
+		Form:C1466.tabDates.values:=Form:C1466.tabDates.values.slice(0; 3)
 		
 		
 End case 

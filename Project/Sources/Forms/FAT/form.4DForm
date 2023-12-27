@@ -6092,7 +6092,7 @@
 						}
 					]
 				},
-				"dropDates": {
+				"Drop1": {
 					"type": "dropdown",
 					"left": 98,
 					"top": 522,
@@ -6106,7 +6106,7 @@
 					"dateFormat": "systemShort",
 					"focusable": false
 				},
-				"dropTimes": {
+				"Drop2": {
 					"type": "dropdown",
 					"left": 271,
 					"top": 522,
@@ -6120,10 +6120,10 @@
 					"timeFormat": "hh_mm_ss",
 					"focusable": false
 				},
-				"comboDates": {
+				"combo1": {
 					"type": "combo",
 					"left": 98,
-					"top": 612,
+					"top": 622,
 					"width": 160,
 					"height": 22,
 					"events": [
@@ -6132,10 +6132,10 @@
 					"dataSource": "tComboDates",
 					"dataSourceTypeHint": "arrayDate"
 				},
-				"comboTimes": {
+				"combo2": {
 					"type": "combo",
 					"left": 271,
-					"top": 612,
+					"top": 622,
 					"width": 160,
 					"height": 22,
 					"events": [
@@ -6191,10 +6191,114 @@
 				},
 				"Input": {
 					"type": "input",
-					"left": 822,
-					"top": 688,
+					"left": 1052,
+					"top": 718,
 					"width": 248,
 					"height": 81
+				},
+				"Text7": {
+					"type": "text",
+					"text": "Arrays",
+					"top": 499,
+					"left": 103,
+					"width": 327,
+					"height": 16,
+					"fontWeight": "bold",
+					"textAlign": "center"
+				},
+				"Drop3": {
+					"type": "dropdown",
+					"left": 560,
+					"top": 522,
+					"width": 160,
+					"height": 21,
+					"events": [
+						"onDataChange"
+					],
+					"dataSource": "Form:C1466.popDates",
+					"dataSourceTypeHint": "object",
+					"dateFormat": "systemShort",
+					"focusable": false
+				},
+				"Drop4": {
+					"type": "dropdown",
+					"left": 733,
+					"top": 522,
+					"width": 160,
+					"height": 21,
+					"events": [
+						"onDataChange"
+					],
+					"dataSource": "Form:C1466.popTimes",
+					"dataSourceTypeHint": "object",
+					"timeFormat": "hh_mm_ss",
+					"focusable": false
+				},
+				"Text8": {
+					"type": "text",
+					"text": "Collections",
+					"top": 499,
+					"left": 565,
+					"width": 317,
+					"height": 16,
+					"fontWeight": "bold",
+					"textAlign": "center"
+				},
+				"combo3": {
+					"type": "combo",
+					"left": 560,
+					"top": 622,
+					"width": 160,
+					"height": 22,
+					"events": [
+						"onDataChange"
+					],
+					"dataSource": "Form:C1466.comboDates",
+					"dataSourceTypeHint": "object",
+					"dateFormat": "systemShort"
+				},
+				"combo4": {
+					"type": "combo",
+					"left": 733,
+					"top": 622,
+					"width": 160,
+					"height": 22,
+					"events": [
+						"onDataChange"
+					],
+					"dataSource": "Form:C1466.comboTimes",
+					"dataSourceTypeHint": "object",
+					"timeFormat": "systemShort"
+				},
+				"Text9": {
+					"type": "text",
+					"text": "Arrays",
+					"top": 599,
+					"left": 103,
+					"width": 327,
+					"height": 16,
+					"fontWeight": "bold",
+					"textAlign": "center"
+				},
+				"Text10": {
+					"type": "text",
+					"text": "Collections",
+					"top": 599,
+					"left": 565,
+					"width": 317,
+					"height": 16,
+					"fontWeight": "bold",
+					"textAlign": "center"
+				},
+				"tabControl1": {
+					"type": "tab",
+					"text": "Tab control",
+					"top": 791,
+					"left": 62,
+					"width": 831,
+					"height": 75,
+					"dataSource": "Form:C1466.tabDates",
+					"dataSourceTypeHint": "object"
 				}
 			},
 			"entryOrder": [
@@ -6202,14 +6306,18 @@
 				"List Box",
 				"List Box1",
 				"List Box2",
-				"dropDates",
-				"comboDates",
-				"dropTimes",
-				"comboTimes"
+				"Drop1",
+				"combo1",
+				"Drop2",
+				"combo2",
+				"Drop3",
+				"Drop4",
+				"combo3",
+				"combo4"
 			]
 		}
 	],
-	"geometryStamp": 3226,
+	"geometryStamp": 3319,
 	"editor": {
 		"activeView": "View 1",
 		"defaultView": "View 1",

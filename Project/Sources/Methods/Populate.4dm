@@ -1,5 +1,6 @@
 //%attributes = {}
 var $i : Integer
+var $e : Object
 
 $e:=ds:C1482.Samples.all().drop()
 

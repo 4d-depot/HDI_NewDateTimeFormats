@@ -103,19 +103,32 @@ End for each
 //OBJECT SET FORMAT(*; "mytime"; "hh'h' mm'mn' ss'sec.'")  // 15h 12mn 17sec. 
 
 
-OBJECT SET FORMAT:C236(*; "sel_col1"; "MMMM")
-OBJECT SET FORMAT:C236(*; "arr_col1"; "MMMM")
-OBJECT SET FORMAT:C236(*; "es_col1"; "MMMM")
+// LIST BOX COLUMNS
+OBJECT SET FORMAT:C236(*; "sel_col1"; "MMMM")  // based on record selection
+OBJECT SET FORMAT:C236(*; "arr_col1"; "MMMM")  // based on array
+OBJECT SET FORMAT:C236(*; "es_col1"; "MMMM")  // based on entity selection
 
-OBJECT SET FORMAT:C236(*; "DropDates"; "MMMM")
-OBJECT SET FORMAT:C236(*; "ComboDates"; "MMMM")
+OBJECT SET FORMAT:C236(*; "sel_col2"; "HH")  // based on record selection
+OBJECT SET FORMAT:C236(*; "arr_col2"; "HH")  // based on array
+OBJECT SET FORMAT:C236(*; "es_col2"; "HH")  // based on entity selection
 
 
+// DROP DOWNS
 
-OBJECT SET FORMAT:C236(*; "sel_col2"; "HH")
-OBJECT SET FORMAT:C236(*; "arr_col2"; "HH")
-OBJECT SET FORMAT:C236(*; "es_col2"; "HH")
+OBJECT SET FORMAT:C236(*; "Drop1"; "MMMM")  // drop down based on array
+OBJECT SET FORMAT:C236(*; "Drop2"; "HH")  // based on array
+OBJECT SET FORMAT:C236(*; "Drop3"; "MMMM")  // drop down based on collection
+OBJECT SET FORMAT:C236(*; "Drop4"; "HH")  // drop down based on collection
 
-OBJECT SET FORMAT:C236(*; "DropTimes"; "HH")
-OBJECT SET FORMAT:C236(*; "ComboTimes"; "HH")
+//COMBO BOXES
+
+OBJECT SET FORMAT:C236(*; "Combo1"; "MMMM")  // drop down based on array
+OBJECT SET FORMAT:C236(*; "Combo2"; "HH")  // based on array
+OBJECT SET FORMAT:C236(*; "Combo3"; "MMMM")  // drop down based on collection
+OBJECT SET FORMAT:C236(*; "Combo4"; "HH")  // drop down based on collection
+
+// TAB CONTROL
+OBJECT SET FORMAT:C236(*; "tabControl1"; "MMMM")  // tab control based on collection
+
+
 
