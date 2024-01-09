@@ -1300,7 +1300,7 @@
 					"top": 120,
 					"left": 480,
 					"width": 510,
-					"height": 310
+					"height": 300
 				},
 				"Button1": {
 					"type": "button",
@@ -1318,10 +1318,10 @@
 				"Input": {
 					"type": "input",
 					"left": 500,
-					"top": 220,
+					"top": 200,
 					"width": 90,
-					"height": 185,
-					"dataSource": "Form:C1466.dayNames3",
+					"height": 150,
+					"dataSource": "Form:C1466.dayNames1",
 					"enterable": false,
 					"focusable": false
 				},
@@ -1349,67 +1349,67 @@
 				"Input1": {
 					"type": "input",
 					"left": 500,
-					"top": 530,
+					"top": 520,
 					"width": 120,
-					"height": 265,
-					"dataSource": "Form:C1466.monthNames3",
+					"height": 230,
+					"dataSource": "Form:C1466.monthNames1",
 					"enterable": false,
 					"focusable": false
 				},
 				"Input2": {
 					"type": "input",
 					"left": 610,
-					"top": 220,
+					"top": 200,
 					"width": 160,
-					"height": 185,
-					"dataSource": "Form:C1466.dayNames4",
+					"height": 150,
+					"dataSource": "Form:C1466.dayNames2",
 					"enterable": false,
 					"focusable": false
 				},
 				"Input3": {
 					"type": "input",
 					"left": 790,
-					"top": 220,
+					"top": 200,
 					"width": 80,
-					"height": 185,
-					"dataSource": "Form:C1466.dayNames5",
+					"height": 150,
+					"dataSource": "Form:C1466.dayNames3",
 					"enterable": false,
 					"focusable": false
 				},
 				"Input4": {
 					"type": "input",
 					"left": 890,
-					"top": 220,
+					"top": 200,
 					"width": 80,
-					"height": 185,
-					"dataSource": "Form:C1466.dayNames6",
+					"height": 150,
+					"dataSource": "Form:C1466.dayNames4",
 					"enterable": false,
 					"focusable": false
 				},
 				"Input5": {
 					"type": "input",
 					"left": 640,
-					"top": 530,
+					"top": 520,
 					"width": 190,
-					"height": 265,
-					"dataSource": "Form:C1466.monthNames4",
+					"height": 230,
+					"dataSource": "Form:C1466.monthNames2",
 					"enterable": false,
 					"focusable": false
 				},
 				"Input6": {
 					"type": "input",
 					"left": 850,
-					"top": 530,
+					"top": 520,
 					"width": 120,
-					"height": 265,
-					"dataSource": "Form:C1466.monthNames5",
+					"height": 230,
+					"dataSource": "Form:C1466.monthNames3",
 					"enterable": false,
 					"focusable": false
 				},
 				"Texte": {
 					"type": "text",
 					"text": "LLL",
-					"top": 510,
+					"top": 500,
 					"left": 500,
 					"width": 120,
 					"height": 16,
@@ -1419,7 +1419,7 @@
 				"Texte1": {
 					"type": "text",
 					"text": "LLLL",
-					"top": 510,
+					"top": 500,
 					"left": 640,
 					"width": 190,
 					"height": 16,
@@ -1429,7 +1429,7 @@
 				"Texte2": {
 					"type": "text",
 					"text": "LLLLL",
-					"top": 510,
+					"top": 500,
 					"left": 850,
 					"width": 120,
 					"height": 16,
@@ -1439,7 +1439,7 @@
 				"Texte3": {
 					"type": "text",
 					"text": "ccc",
-					"top": 200,
+					"top": 180,
 					"left": 500,
 					"width": 90,
 					"height": 16,
@@ -1449,7 +1449,7 @@
 				"Texte4": {
 					"type": "text",
 					"text": "cccc",
-					"top": 200,
+					"top": 180,
 					"left": 610,
 					"width": 160,
 					"height": 16,
@@ -1459,7 +1459,7 @@
 				"Texte5": {
 					"type": "text",
 					"text": "ccccc",
-					"top": 200,
+					"top": 180,
 					"left": 790,
 					"width": 80,
 					"height": 16,
@@ -1469,7 +1469,7 @@
 				"Texte6": {
 					"type": "text",
 					"text": "cccccc",
-					"top": 200,
+					"top": 180,
 					"left": 890,
 					"width": 80,
 					"height": 16,
@@ -1530,6 +1530,110 @@
 					],
 					"dataSource": "Form:C1466.trace",
 					"focusable": false
+				},
+				"Popup Dropdown List6": {
+					"type": "dropdown",
+					"left": 500,
+					"top": 375,
+					"width": 90,
+					"height": 20,
+					"events": [
+						"onDataChange"
+					],
+					"dataSource": "Form:C1466.dropDate1",
+					"focusable": false
+				},
+				"Popup Dropdown List7": {
+					"type": "dropdown",
+					"left": 610,
+					"top": 375,
+					"width": 160,
+					"height": 20,
+					"events": [
+						"onDataChange"
+					],
+					"dataSource": "Form:C1466.dropDate2",
+					"focusable": false
+				},
+				"Popup Dropdown List8": {
+					"type": "dropdown",
+					"left": 790,
+					"top": 375,
+					"width": 80,
+					"height": 20,
+					"events": [
+						"onDataChange"
+					],
+					"dataSource": "Form:C1466.dropDate3",
+					"focusable": false
+				},
+				"Popup Dropdown List9": {
+					"type": "dropdown",
+					"left": 890,
+					"top": 375,
+					"width": 80,
+					"height": 20,
+					"events": [
+						"onDataChange"
+					],
+					"dataSource": "Form:C1466.dropDate4",
+					"focusable": false
+				},
+				"Popup Dropdown List10": {
+					"type": "dropdown",
+					"left": 500,
+					"top": 775,
+					"width": 120,
+					"height": 20,
+					"events": [
+						"onDataChange"
+					],
+					"dataSource": "Form:C1466.dropMonth1",
+					"focusable": false
+				},
+				"Popup Dropdown List11": {
+					"type": "dropdown",
+					"left": 640,
+					"top": 775,
+					"width": 190,
+					"height": 20,
+					"events": [
+						"onDataChange"
+					],
+					"dataSource": "Form:C1466.dropMonth2",
+					"focusable": false
+				},
+				"Popup Dropdown List12": {
+					"type": "dropdown",
+					"left": 850,
+					"top": 775,
+					"width": 120,
+					"height": 20,
+					"events": [
+						"onDataChange"
+					],
+					"dataSource": "Form:C1466.dropMonth3",
+					"focusable": false
+				},
+				"Arrow_getDays2": {
+					"type": "picture",
+					"top": 364,
+					"left": 448,
+					"width": 42,
+					"height": 42,
+					"picture": "/RESOURCES/Arrows/ArrowRight.png",
+					"visibility": "hidden",
+					"pictureFormat": "scaled"
+				},
+				"Arrow_getMonths2": {
+					"type": "picture",
+					"top": 764,
+					"left": 448,
+					"width": 42,
+					"height": 42,
+					"picture": "/RESOURCES/Arrows/ArrowRight.png",
+					"visibility": "hidden",
+					"pictureFormat": "scaled"
 				}
 			}
 		}
@@ -1545,7 +1649,7 @@
 			"View 1": {}
 		}
 	},
-	"geometryStamp": 6634,
+	"geometryStamp": 6896,
 	"windowSizingX": "fixed",
 	"windowSizingY": "fixed"
 }
