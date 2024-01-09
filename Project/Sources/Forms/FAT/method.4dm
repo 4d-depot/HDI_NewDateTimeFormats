@@ -7,6 +7,22 @@ ARRAY TIME:C1223(tTimes; 0)
 ARRAY TIME:C1223(tPopTimes; 0)
 ARRAY TIME:C1223(tComboTimes; 0)
 
+
+ARRAY TEXT:C222(tComboText; 3)
+ARRAY REAL:C219(tComboNum; 3)
+
+tComboText{1}:="ALPHABRAVO"
+tComboText{2}:="CHARLIEDELTA"
+tComboText{3}:="ECHOFOXTROT"
+
+tComboText{0}:=tComboText{1}
+
+tComboNum{1}:=1000/3
+tComboNum{2}:=1000/7
+tComboNum{3}:=1000/11
+
+tComboNum{0}:=tComboNum{1}
+
 Case of 
 		
 	: (Form event code:C388=On Load:K2:1)

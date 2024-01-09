@@ -30,7 +30,8 @@
 						"Date & Time",
 						"Etc."
 					],
-					"action": "gotoPage"
+					"action": "gotoPage",
+					"method": "ObjectMethods/Onglet.4dm"
 				},
 				"Ligne": {
 					"type": "line",
@@ -6340,6 +6341,31 @@
 					"height": 75,
 					"dataSource": "Form:C1466.tabDates",
 					"dataSourceTypeHint": "object"
+				},
+				"comboText": {
+					"type": "combo",
+					"left": 1181,
+					"top": 180,
+					"width": 160,
+					"height": 22,
+					"events": [
+						"onDataChange"
+					],
+					"dataSource": "tComboText",
+					"dataSourceTypeHint": "arrayText"
+				},
+				"comboNum": {
+					"type": "combo",
+					"left": 1354,
+					"top": 180,
+					"width": 160,
+					"height": 22,
+					"events": [
+						"onDataChange"
+					],
+					"dataSource": "tComboNum",
+					"dataSourceTypeHint": "arrayNumber",
+					"numberFormat": "###,##0"
 				}
 			},
 			"entryOrder": [
@@ -6354,11 +6380,13 @@
 				"Drop3",
 				"Drop4",
 				"combo3",
-				"combo4"
+				"combo4",
+				"comboText",
+				"comboNum"
 			]
 		}
 	],
-	"geometryStamp": 3325,
+	"geometryStamp": 3329,
 	"editor": {
 		"activeView": "View 1",
 		"defaultView": "View 1",
