@@ -1651,5 +1651,6 @@
 	},
 	"geometryStamp": 6896,
 	"windowSizingX": "fixed",
-	"windowSizingY": "fixed"
+	"windowSizingY": "fixed",
+	"menuBar": "Barre #1"
 }

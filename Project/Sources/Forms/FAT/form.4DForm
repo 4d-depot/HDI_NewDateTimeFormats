@@ -6273,7 +6273,7 @@
 					],
 					"dataSource": "Form:C1466.popTimes",
 					"dataSourceTypeHint": "object",
-					"timeFormat": "hh",
+					"timeFormat": "hh_mm_am",
 					"focusable": false
 				},
 				"Text8": {
@@ -6310,7 +6310,7 @@
 					],
 					"dataSource": "Form:C1466.comboTimes",
 					"dataSourceTypeHint": "object",
-					"timeFormat": "hh"
+					"timeFormat": "hh_mm_am"
 				},
 				"Text9": {
 					"type": "text",
@@ -6366,6 +6366,19 @@
 					"dataSource": "tComboNum",
 					"dataSourceTypeHint": "arrayNumber",
 					"numberFormat": "###,##0"
+				},
+				"Button2": {
+					"type": "button",
+					"text": "TEST (shift/no shift)",
+					"top": 64,
+					"left": 1237,
+					"width": 202,
+					"height": 21,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Button2.4dm",
+					"focusable": false
 				}
 			},
 			"entryOrder": [
@@ -6382,11 +6395,12 @@
 				"combo3",
 				"combo4",
 				"comboText",
-				"comboNum"
+				"comboNum",
+				"Button2"
 			]
 		}
 	],
-	"geometryStamp": 3329,
+	"geometryStamp": 3339,
 	"editor": {
 		"activeView": "View 1",
 		"defaultView": "View 1",
