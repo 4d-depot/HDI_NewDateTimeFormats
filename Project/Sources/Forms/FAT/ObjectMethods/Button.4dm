@@ -39,21 +39,18 @@ Else
 	$textID:=1
 	For each ($item; $dateVariations)
 		
-		// e h k m must be prefixed by ":"
 		
-		If (Length:C16($item)=1)
-			
+		If (Length:C16($item)=1)  // single char must be prefixed by ":"
 			$format:=":"+$item  // TEMP TEMP TEMP TEMP
-			
 		Else 
 			$format:=$item
 		End if 
 		
-		If ($textID=91)  // on passe aux heures
+		If ($textID=91)  // hours
 			$textID:=101
 		End if 
 		
-		If ($textID=167)  // on passe aux date + heures
+		If ($textID=167)  // date + hours
 			$textID:=201
 		End if 
 		
@@ -69,11 +66,11 @@ Else
 		
 		Case of 
 			: ($textID<=100)
-				OBJECT SET VALUE:C1742("InputString"+String:C10($textID); String:C10(vDate; $item))
+				OBJECT SET VALUE:C1742("InputString"+String:C10($textID); String:C10(vDate; $format))
 			: ($textID<=200)
-				OBJECT SET VALUE:C1742("InputString"+String:C10($textID); String:C10(vTime; $item))
+				OBJECT SET VALUE:C1742("InputString"+String:C10($textID); String:C10(vTime; $format))
 			Else 
-				OBJECT SET VALUE:C1742("InputString"+String:C10($textID); String:C10(vDate; $item; vTime))
+				OBJECT SET VALUE:C1742("InputString"+String:C10($textID); String:C10(vDate; $format; vTime))
 		End case 
 		
 		$textID+=1
@@ -107,16 +104,21 @@ Else
 	$textID:=225
 	For each ($item; $dateVariations)
 		
-		OBJECT SET TITLE:C194(*; "format"+String:C10($textID); $item)
+		If (Form:C1466.blankIfNull)
+			$format:=$item+" blankIfNull"
+		Else 
+			$format:=$item
+		End if 
 		
-		OBJECT SET VALUE:C1742("InputString"+String:C10($textID); String:C10(vDate; $item; vTime))
+		OBJECT SET TITLE:C194(*; "format"+String:C10($textID); $item)
+		OBJECT SET VALUE:C1742("InputString"+String:C10($textID); String:C10(vDate; $format; vTime))
 		
 		$textID+=1
 	End for each 
 	
-	//OBJECT SET FORMAT(*; "myDate"; "(yyyy) MMM dd")  // (2017) Dec 12
-	//OBJECT SET FORMAT(*; "mytime"; "hh'h' mm'mn' ss'sec.'")  // 15h 12mn 17sec. 
 	
+	
+	// ********************   ETC  ********************
 	
 	// LIST BOX COLUMNS & FOOTER
 	OBJECT SET FORMAT:C236(*; "sel_col1"; "MMMM")  // based on record selection
@@ -152,14 +154,6 @@ Else
 	OBJECT SET FORMAT:C236(*; "Combo3"; "MMMM")  // drop down based on collection
 	OBJECT SET FORMAT:C236(*; "Combo4"; "hh:mm")  // drop down based on collection
 	
-	// TAB CONTROL
-	OBJECT SET FORMAT:C236(*; "tabControl1"; "MMMM")  // tab control based on collection
-	
-	
-	//COMBO BOXES (STRING ET NUM)
-	
-	OBJECT SET FORMAT:C236(*; "ComboText"; "## ## ## ## ## ## ## ## ## ## ## ## ## ##")  // drop down based on array
-	OBJECT SET FORMAT:C236(*; "ComboNum"; "###,###,##0.0000")  // based on array
 	
 End if 
 

@@ -23,7 +23,7 @@
 					"top": 20,
 					"left": 20,
 					"width": 1580,
-					"height": 1000,
+					"height": 980,
 					"labels": [
 						"Dates",
 						"Times",
@@ -38,7 +38,7 @@
 					"top": 30,
 					"left": 560,
 					"width": 0,
-					"height": 990,
+					"height": 970,
 					"stroke": "#9400d3",
 					"visibility": "hidden"
 				},
@@ -47,7 +47,7 @@
 					"top": 30,
 					"left": 1080,
 					"width": 0,
-					"height": 990,
+					"height": 970,
 					"stroke": "#9400d3",
 					"strokeWidth": 1,
 					"visibility": "hidden"
@@ -55,10 +55,10 @@
 				"Button": {
 					"type": "button",
 					"text": "Set formats",
-					"top": 1040,
-					"left": 1080,
-					"width": 195,
-					"height": 21,
+					"top": 909,
+					"left": 1818,
+					"width": 165,
+					"height": 20,
 					"events": [
 						"onClick"
 					],
@@ -67,10 +67,10 @@
 				"Case à cocher": {
 					"type": "checkbox",
 					"text": "Blank if NULL",
-					"top": 1037,
-					"left": 1325,
-					"width": 204,
-					"height": 26,
+					"top": 960,
+					"left": 1460,
+					"width": 140,
+					"height": 20,
 					"events": [
 						"onClick"
 					],
@@ -83,7 +83,7 @@
 				"Group1": {
 					"type": "groupBox",
 					"text": "G (era designator)",
-					"top": 100,
+					"top": 80,
 					"left": 40,
 					"width": 500,
 					"height": 180
@@ -91,7 +91,7 @@
 				"Input1": {
 					"type": "input",
 					"left": 120,
-					"top": 125,
+					"top": 105,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "date",
@@ -100,7 +100,7 @@
 				"Input2": {
 					"type": "input",
 					"left": 120,
-					"top": 150,
+					"top": 130,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "date",
@@ -109,7 +109,7 @@
 				"Input3": {
 					"type": "input",
 					"left": 120,
-					"top": 175,
+					"top": 155,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "date",
@@ -118,7 +118,7 @@
 				"Input4": {
 					"type": "input",
 					"left": 120,
-					"top": 200,
+					"top": 180,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "date",
@@ -127,7 +127,7 @@
 				"Input5": {
 					"type": "input",
 					"left": 120,
-					"top": 225,
+					"top": 205,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "date",
@@ -136,7 +136,7 @@
 				"format1": {
 					"type": "text",
 					"text": "X",
-					"top": 125,
+					"top": 105,
 					"left": 40,
 					"width": 75,
 					"height": 16,
@@ -145,7 +145,7 @@
 				"format2": {
 					"type": "text",
 					"text": "X",
-					"top": 150,
+					"top": 130,
 					"left": 40,
 					"width": 75,
 					"height": 16,
@@ -154,7 +154,7 @@
 				"format3": {
 					"type": "text",
 					"text": "X",
-					"top": 176,
+					"top": 156,
 					"left": 40,
 					"width": 75,
 					"height": 16,
@@ -163,7 +163,7 @@
 				"format4": {
 					"type": "text",
 					"text": "X",
-					"top": 201,
+					"top": 181,
 					"left": 40,
 					"width": 75,
 					"height": 16,
@@ -172,7 +172,7 @@
 				"format5": {
 					"type": "text",
 					"text": "X",
-					"top": 226,
+					"top": 206,
 					"left": 40,
 					"width": 75,
 					"height": 16,
@@ -181,7 +181,7 @@
 				"Group2": {
 					"type": "groupBox",
 					"text": "y (year)",
-					"top": 280,
+					"top": 260,
 					"left": 40,
 					"width": 500,
 					"height": 180
@@ -189,7 +189,7 @@
 				"Group3": {
 					"type": "groupBox",
 					"text": "Y (year of \"week of year\")",
-					"top": 460,
+					"top": 440,
 					"left": 40,
 					"width": 500,
 					"height": 180
@@ -197,7 +197,7 @@
 				"Group4": {
 					"type": "groupBox",
 					"text": "u (extended year )",
-					"top": 640,
+					"top": 620,
 					"left": 40,
 					"width": 500,
 					"height": 180
@@ -205,7 +205,7 @@
 				"Group5": {
 					"type": "groupBox",
 					"text": "Q (quarter)",
-					"top": 820,
+					"top": 800,
 					"left": 40,
 					"width": 500,
 					"height": 180
@@ -213,7 +213,7 @@
 				"Group6": {
 					"type": "groupBox",
 					"text": "q (stand alone quarter)",
-					"top": 100,
+					"top": 80,
 					"left": 560,
 					"width": 500,
 					"height": 180
@@ -221,7 +221,7 @@
 				"Group7": {
 					"type": "groupBox",
 					"text": "M (mont in year)",
-					"top": 280,
+					"top": 260,
 					"left": 560,
 					"width": 500,
 					"height": 180
@@ -229,7 +229,7 @@
 				"Group8": {
 					"type": "groupBox",
 					"text": "L (stand-alone mont in year)",
-					"top": 460,
+					"top": 440,
 					"left": 560,
 					"width": 500,
 					"height": 180
@@ -237,7 +237,7 @@
 				"Group9": {
 					"type": "groupBox",
 					"text": "w (week of year)",
-					"top": 640,
+					"top": 620,
 					"left": 560,
 					"width": 500,
 					"height": 180
@@ -245,7 +245,7 @@
 				"Group10": {
 					"type": "groupBox",
 					"text": "d (day in month)",
-					"top": 820,
+					"top": 800,
 					"left": 560,
 					"width": 500,
 					"height": 180
@@ -253,7 +253,7 @@
 				"Group11": {
 					"type": "groupBox",
 					"text": "D (day of year)",
-					"top": 100,
+					"top": 80,
 					"left": 1080,
 					"width": 500,
 					"height": 180
@@ -261,7 +261,7 @@
 				"Group12": {
 					"type": "groupBox",
 					"text": "E (day of week)",
-					"top": 280,
+					"top": 260,
 					"left": 1080,
 					"width": 500,
 					"height": 180
@@ -269,7 +269,7 @@
 				"Group13": {
 					"type": "groupBox",
 					"text": "e (local day of week)",
-					"top": 460,
+					"top": 440,
 					"left": 1080,
 					"width": 500,
 					"height": 180
@@ -277,7 +277,7 @@
 				"Group14": {
 					"type": "groupBox",
 					"text": "c (stand alone local day of week)",
-					"top": 640,
+					"top": 620,
 					"left": 1080,
 					"width": 500,
 					"height": 180
@@ -285,7 +285,7 @@
 				"Input6": {
 					"type": "input",
 					"left": 120,
-					"top": 250,
+					"top": 230,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "date",
@@ -295,7 +295,7 @@
 				"Input7": {
 					"type": "input",
 					"left": 120,
-					"top": 305,
+					"top": 285,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "date",
@@ -304,7 +304,7 @@
 				"Input8": {
 					"type": "input",
 					"left": 120,
-					"top": 330,
+					"top": 310,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "date",
@@ -313,7 +313,7 @@
 				"Input9": {
 					"type": "input",
 					"left": 120,
-					"top": 355,
+					"top": 335,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "date",
@@ -322,7 +322,7 @@
 				"Input10": {
 					"type": "input",
 					"left": 120,
-					"top": 380,
+					"top": 360,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "date",
@@ -331,7 +331,7 @@
 				"Input11": {
 					"type": "input",
 					"left": 120,
-					"top": 405,
+					"top": 385,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "date",
@@ -341,7 +341,7 @@
 				"format6": {
 					"type": "text",
 					"text": "X",
-					"top": 250,
+					"top": 230,
 					"left": 40,
 					"width": 75,
 					"height": 16,
@@ -351,7 +351,7 @@
 				"Input12": {
 					"type": "input",
 					"left": 120,
-					"top": 430,
+					"top": 410,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "date",
@@ -361,7 +361,7 @@
 				"Input13": {
 					"type": "input",
 					"left": 120,
-					"top": 485,
+					"top": 465,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "date",
@@ -370,7 +370,7 @@
 				"Input14": {
 					"type": "input",
 					"left": 120,
-					"top": 510,
+					"top": 490,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "date",
@@ -380,7 +380,7 @@
 				"Input15": {
 					"type": "input",
 					"left": 120,
-					"top": 535,
+					"top": 515,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "date",
@@ -390,7 +390,7 @@
 				"Input16": {
 					"type": "input",
 					"left": 120,
-					"top": 560,
+					"top": 540,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "date",
@@ -400,7 +400,7 @@
 				"Input17": {
 					"type": "input",
 					"left": 120,
-					"top": 585,
+					"top": 565,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "date",
@@ -410,7 +410,7 @@
 				"Input18": {
 					"type": "input",
 					"left": 120,
-					"top": 610,
+					"top": 590,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "date",
@@ -420,7 +420,7 @@
 				"Input19": {
 					"type": "input",
 					"left": 120,
-					"top": 665,
+					"top": 645,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "date",
@@ -429,7 +429,7 @@
 				"Input20": {
 					"type": "input",
 					"left": 120,
-					"top": 690,
+					"top": 670,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "date",
@@ -439,7 +439,7 @@
 				"Input21": {
 					"type": "input",
 					"left": 120,
-					"top": 715,
+					"top": 695,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "date",
@@ -449,7 +449,7 @@
 				"Input22": {
 					"type": "input",
 					"left": 120,
-					"top": 740,
+					"top": 720,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "date",
@@ -459,7 +459,7 @@
 				"Input23": {
 					"type": "input",
 					"left": 120,
-					"top": 765,
+					"top": 745,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "date",
@@ -469,7 +469,7 @@
 				"Input24": {
 					"type": "input",
 					"left": 120,
-					"top": 790,
+					"top": 770,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "date",
@@ -479,7 +479,7 @@
 				"Input25": {
 					"type": "input",
 					"left": 120,
-					"top": 845,
+					"top": 825,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "date",
@@ -488,7 +488,7 @@
 				"Input26": {
 					"type": "input",
 					"left": 120,
-					"top": 870,
+					"top": 850,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "date",
@@ -497,7 +497,7 @@
 				"Input27": {
 					"type": "input",
 					"left": 120,
-					"top": 895,
+					"top": 875,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "date",
@@ -506,7 +506,7 @@
 				"Input28": {
 					"type": "input",
 					"left": 120,
-					"top": 920,
+					"top": 900,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "date",
@@ -515,7 +515,7 @@
 				"Input29": {
 					"type": "input",
 					"left": 120,
-					"top": 945,
+					"top": 925,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "date",
@@ -524,7 +524,7 @@
 				"Input30": {
 					"type": "input",
 					"left": 120,
-					"top": 970,
+					"top": 950,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "date",
@@ -534,7 +534,7 @@
 				"Input31": {
 					"type": "input",
 					"left": 640,
-					"top": 127,
+					"top": 107,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "date",
@@ -543,7 +543,7 @@
 				"Input32": {
 					"type": "input",
 					"left": 640,
-					"top": 152,
+					"top": 132,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "date",
@@ -552,7 +552,7 @@
 				"Input33": {
 					"type": "input",
 					"left": 640,
-					"top": 177,
+					"top": 157,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "date",
@@ -561,7 +561,7 @@
 				"Input34": {
 					"type": "input",
 					"left": 640,
-					"top": 202,
+					"top": 182,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "date",
@@ -570,7 +570,7 @@
 				"Input35": {
 					"type": "input",
 					"left": 640,
-					"top": 227,
+					"top": 207,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "date",
@@ -579,7 +579,7 @@
 				"Input36": {
 					"type": "input",
 					"left": 640,
-					"top": 252,
+					"top": 232,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "date",
@@ -589,7 +589,7 @@
 				"Input37": {
 					"type": "input",
 					"left": 640,
-					"top": 307,
+					"top": 287,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "date",
@@ -598,7 +598,7 @@
 				"Input38": {
 					"type": "input",
 					"left": 640,
-					"top": 332,
+					"top": 312,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "date",
@@ -607,7 +607,7 @@
 				"Input39": {
 					"type": "input",
 					"left": 640,
-					"top": 357,
+					"top": 337,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "date",
@@ -616,7 +616,7 @@
 				"Input40": {
 					"type": "input",
 					"left": 640,
-					"top": 382,
+					"top": 362,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "date",
@@ -625,7 +625,7 @@
 				"Input41": {
 					"type": "input",
 					"left": 640,
-					"top": 407,
+					"top": 387,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "date",
@@ -634,7 +634,7 @@
 				"Input42": {
 					"type": "input",
 					"left": 640,
-					"top": 432,
+					"top": 412,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "date",
@@ -644,7 +644,7 @@
 				"Input43": {
 					"type": "input",
 					"left": 640,
-					"top": 485,
+					"top": 465,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "date",
@@ -653,7 +653,7 @@
 				"Input44": {
 					"type": "input",
 					"left": 640,
-					"top": 510,
+					"top": 490,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "date",
@@ -662,7 +662,7 @@
 				"Input45": {
 					"type": "input",
 					"left": 640,
-					"top": 535,
+					"top": 515,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "date",
@@ -671,7 +671,7 @@
 				"Input46": {
 					"type": "input",
 					"left": 640,
-					"top": 560,
+					"top": 540,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "date",
@@ -680,7 +680,7 @@
 				"Input47": {
 					"type": "input",
 					"left": 640,
-					"top": 585,
+					"top": 565,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "date",
@@ -689,7 +689,7 @@
 				"Input48": {
 					"type": "input",
 					"left": 640,
-					"top": 610,
+					"top": 590,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "date",
@@ -699,7 +699,7 @@
 				"Input49": {
 					"type": "input",
 					"left": 640,
-					"top": 665,
+					"top": 645,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "date",
@@ -708,7 +708,7 @@
 				"Input50": {
 					"type": "input",
 					"left": 640,
-					"top": 690,
+					"top": 670,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "date",
@@ -717,7 +717,7 @@
 				"Input51": {
 					"type": "input",
 					"left": 640,
-					"top": 715,
+					"top": 695,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "date",
@@ -727,7 +727,7 @@
 				"Input52": {
 					"type": "input",
 					"left": 640,
-					"top": 740,
+					"top": 720,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "date",
@@ -737,7 +737,7 @@
 				"Input53": {
 					"type": "input",
 					"left": 640,
-					"top": 765,
+					"top": 745,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "date",
@@ -747,7 +747,7 @@
 				"Input54": {
 					"type": "input",
 					"left": 640,
-					"top": 790,
+					"top": 770,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "date",
@@ -757,7 +757,7 @@
 				"Input55": {
 					"type": "input",
 					"left": 640,
-					"top": 845,
+					"top": 825,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "date",
@@ -766,7 +766,7 @@
 				"Input56": {
 					"type": "input",
 					"left": 640,
-					"top": 870,
+					"top": 850,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "date",
@@ -775,7 +775,7 @@
 				"Input57": {
 					"type": "input",
 					"left": 640,
-					"top": 895,
+					"top": 875,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "date",
@@ -785,7 +785,7 @@
 				"Input58": {
 					"type": "input",
 					"left": 640,
-					"top": 920,
+					"top": 900,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "date",
@@ -795,7 +795,7 @@
 				"Input59": {
 					"type": "input",
 					"left": 640,
-					"top": 945,
+					"top": 925,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "date",
@@ -805,7 +805,7 @@
 				"Input60": {
 					"type": "input",
 					"left": 640,
-					"top": 970,
+					"top": 950,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "date",
@@ -815,7 +815,7 @@
 				"Input61": {
 					"type": "input",
 					"left": 1160,
-					"top": 125,
+					"top": 105,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "date",
@@ -824,7 +824,7 @@
 				"Input62": {
 					"type": "input",
 					"left": 1160,
-					"top": 150,
+					"top": 130,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "date",
@@ -834,7 +834,7 @@
 				"Input63": {
 					"type": "input",
 					"left": 1160,
-					"top": 175,
+					"top": 155,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "date",
@@ -844,7 +844,7 @@
 				"Input64": {
 					"type": "input",
 					"left": 1160,
-					"top": 200,
+					"top": 180,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "date",
@@ -854,7 +854,7 @@
 				"Input65": {
 					"type": "input",
 					"left": 1160,
-					"top": 225,
+					"top": 205,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "date",
@@ -864,7 +864,7 @@
 				"Input66": {
 					"type": "input",
 					"left": 1160,
-					"top": 250,
+					"top": 230,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "date",
@@ -874,7 +874,7 @@
 				"Input67": {
 					"type": "input",
 					"left": 1160,
-					"top": 305,
+					"top": 285,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "date",
@@ -883,7 +883,7 @@
 				"Input68": {
 					"type": "input",
 					"left": 1160,
-					"top": 330,
+					"top": 310,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "date",
@@ -892,7 +892,7 @@
 				"Input69": {
 					"type": "input",
 					"left": 1160,
-					"top": 355,
+					"top": 335,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "date",
@@ -901,7 +901,7 @@
 				"Input70": {
 					"type": "input",
 					"left": 1160,
-					"top": 380,
+					"top": 360,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "date",
@@ -910,7 +910,7 @@
 				"Input71": {
 					"type": "input",
 					"left": 1160,
-					"top": 405,
+					"top": 385,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "date",
@@ -919,7 +919,7 @@
 				"Input72": {
 					"type": "input",
 					"left": 1160,
-					"top": 430,
+					"top": 410,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "date",
@@ -928,7 +928,7 @@
 				"Input73": {
 					"type": "input",
 					"left": 1160,
-					"top": 485,
+					"top": 465,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "date",
@@ -937,7 +937,7 @@
 				"Input74": {
 					"type": "input",
 					"left": 1160,
-					"top": 510,
+					"top": 490,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "date",
@@ -946,7 +946,7 @@
 				"Input75": {
 					"type": "input",
 					"left": 1160,
-					"top": 535,
+					"top": 515,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "date",
@@ -955,7 +955,7 @@
 				"Input76": {
 					"type": "input",
 					"left": 1160,
-					"top": 560,
+					"top": 540,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "date",
@@ -964,7 +964,7 @@
 				"Input77": {
 					"type": "input",
 					"left": 1160,
-					"top": 585,
+					"top": 565,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "date",
@@ -973,7 +973,7 @@
 				"Input78": {
 					"type": "input",
 					"left": 1160,
-					"top": 610,
+					"top": 590,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "date",
@@ -982,7 +982,7 @@
 				"Input79": {
 					"type": "input",
 					"left": 1160,
-					"top": 665,
+					"top": 645,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "date",
@@ -991,7 +991,7 @@
 				"Input80": {
 					"type": "input",
 					"left": 1160,
-					"top": 690,
+					"top": 670,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "date",
@@ -1000,7 +1000,7 @@
 				"Input81": {
 					"type": "input",
 					"left": 1160,
-					"top": 715,
+					"top": 695,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "date",
@@ -1009,7 +1009,7 @@
 				"Input82": {
 					"type": "input",
 					"left": 1160,
-					"top": 740,
+					"top": 720,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "date",
@@ -1018,7 +1018,7 @@
 				"Input83": {
 					"type": "input",
 					"left": 1160,
-					"top": 765,
+					"top": 745,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "date",
@@ -1027,7 +1027,7 @@
 				"Input84": {
 					"type": "input",
 					"left": 1160,
-					"top": 789,
+					"top": 769,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "date",
@@ -1036,7 +1036,7 @@
 				"format7": {
 					"type": "text",
 					"text": "X",
-					"top": 305,
+					"top": 285,
 					"left": 40,
 					"width": 75,
 					"height": 16,
@@ -1045,7 +1045,7 @@
 				"format8": {
 					"type": "text",
 					"text": "X",
-					"top": 330,
+					"top": 310,
 					"left": 40,
 					"width": 75,
 					"height": 16,
@@ -1054,7 +1054,7 @@
 				"format9": {
 					"type": "text",
 					"text": "X",
-					"top": 356,
+					"top": 336,
 					"left": 40,
 					"width": 75,
 					"height": 16,
@@ -1063,7 +1063,7 @@
 				"format10": {
 					"type": "text",
 					"text": "X",
-					"top": 381,
+					"top": 361,
 					"left": 40,
 					"width": 75,
 					"height": 16,
@@ -1072,7 +1072,7 @@
 				"format11": {
 					"type": "text",
 					"text": "X",
-					"top": 406,
+					"top": 386,
 					"left": 40,
 					"width": 75,
 					"height": 16,
@@ -1082,7 +1082,7 @@
 				"format12": {
 					"type": "text",
 					"text": "X",
-					"top": 430,
+					"top": 410,
 					"left": 40,
 					"width": 75,
 					"height": 16,
@@ -1092,7 +1092,7 @@
 				"format13": {
 					"type": "text",
 					"text": "X",
-					"top": 485,
+					"top": 465,
 					"left": 40,
 					"width": 75,
 					"height": 16,
@@ -1101,7 +1101,7 @@
 				"format14": {
 					"type": "text",
 					"text": "X",
-					"top": 510,
+					"top": 490,
 					"left": 40,
 					"width": 75,
 					"height": 16,
@@ -1111,7 +1111,7 @@
 				"format15": {
 					"type": "text",
 					"text": "X",
-					"top": 536,
+					"top": 516,
 					"left": 40,
 					"width": 75,
 					"height": 16,
@@ -1121,7 +1121,7 @@
 				"format16": {
 					"type": "text",
 					"text": "X",
-					"top": 561,
+					"top": 541,
 					"left": 40,
 					"width": 75,
 					"height": 16,
@@ -1131,7 +1131,7 @@
 				"format17": {
 					"type": "text",
 					"text": "X",
-					"top": 586,
+					"top": 566,
 					"left": 40,
 					"width": 75,
 					"height": 16,
@@ -1141,7 +1141,7 @@
 				"format18": {
 					"type": "text",
 					"text": "X",
-					"top": 610,
+					"top": 590,
 					"left": 40,
 					"width": 75,
 					"height": 16,
@@ -1151,7 +1151,7 @@
 				"format19": {
 					"type": "text",
 					"text": "X",
-					"top": 665,
+					"top": 645,
 					"left": 40,
 					"width": 75,
 					"height": 16,
@@ -1160,7 +1160,7 @@
 				"format20": {
 					"type": "text",
 					"text": "X",
-					"top": 690,
+					"top": 670,
 					"left": 40,
 					"width": 75,
 					"height": 16,
@@ -1170,7 +1170,7 @@
 				"format21": {
 					"type": "text",
 					"text": "X",
-					"top": 716,
+					"top": 696,
 					"left": 40,
 					"width": 75,
 					"height": 16,
@@ -1180,7 +1180,7 @@
 				"format22": {
 					"type": "text",
 					"text": "X",
-					"top": 741,
+					"top": 721,
 					"left": 40,
 					"width": 75,
 					"height": 16,
@@ -1190,7 +1190,7 @@
 				"format23": {
 					"type": "text",
 					"text": "X",
-					"top": 766,
+					"top": 746,
 					"left": 40,
 					"width": 75,
 					"height": 16,
@@ -1200,7 +1200,7 @@
 				"format24": {
 					"type": "text",
 					"text": "X",
-					"top": 790,
+					"top": 770,
 					"left": 40,
 					"width": 75,
 					"height": 16,
@@ -1210,7 +1210,7 @@
 				"format25": {
 					"type": "text",
 					"text": "X",
-					"top": 845,
+					"top": 825,
 					"left": 40,
 					"width": 75,
 					"height": 16,
@@ -1219,7 +1219,7 @@
 				"format26": {
 					"type": "text",
 					"text": "X",
-					"top": 870,
+					"top": 850,
 					"left": 40,
 					"width": 75,
 					"height": 16,
@@ -1228,7 +1228,7 @@
 				"format27": {
 					"type": "text",
 					"text": "X",
-					"top": 896,
+					"top": 876,
 					"left": 40,
 					"width": 75,
 					"height": 16,
@@ -1237,7 +1237,7 @@
 				"format28": {
 					"type": "text",
 					"text": "X",
-					"top": 921,
+					"top": 901,
 					"left": 40,
 					"width": 75,
 					"height": 16,
@@ -1246,7 +1246,7 @@
 				"format29": {
 					"type": "text",
 					"text": "X",
-					"top": 946,
+					"top": 926,
 					"left": 40,
 					"width": 75,
 					"height": 16,
@@ -1255,7 +1255,7 @@
 				"format30": {
 					"type": "text",
 					"text": "X",
-					"top": 970,
+					"top": 950,
 					"left": 40,
 					"width": 75,
 					"height": 16,
@@ -1265,7 +1265,7 @@
 				"format31": {
 					"type": "text",
 					"text": "X",
-					"top": 127,
+					"top": 107,
 					"left": 560,
 					"width": 75,
 					"height": 16,
@@ -1274,7 +1274,7 @@
 				"format32": {
 					"type": "text",
 					"text": "X",
-					"top": 152,
+					"top": 132,
 					"left": 560,
 					"width": 75,
 					"height": 16,
@@ -1283,7 +1283,7 @@
 				"format33": {
 					"type": "text",
 					"text": "X",
-					"top": 178,
+					"top": 158,
 					"left": 560,
 					"width": 75,
 					"height": 16,
@@ -1292,7 +1292,7 @@
 				"format34": {
 					"type": "text",
 					"text": "X",
-					"top": 203,
+					"top": 183,
 					"left": 560,
 					"width": 75,
 					"height": 16,
@@ -1301,7 +1301,7 @@
 				"format35": {
 					"type": "text",
 					"text": "X",
-					"top": 228,
+					"top": 208,
 					"left": 560,
 					"width": 75,
 					"height": 16,
@@ -1310,7 +1310,7 @@
 				"format36": {
 					"type": "text",
 					"text": "X",
-					"top": 252,
+					"top": 232,
 					"left": 560,
 					"width": 75,
 					"height": 16,
@@ -1320,7 +1320,7 @@
 				"format37": {
 					"type": "text",
 					"text": "X",
-					"top": 307,
+					"top": 287,
 					"left": 560,
 					"width": 75,
 					"height": 16,
@@ -1329,7 +1329,7 @@
 				"format38": {
 					"type": "text",
 					"text": "X",
-					"top": 332,
+					"top": 312,
 					"left": 560,
 					"width": 75,
 					"height": 16,
@@ -1338,7 +1338,7 @@
 				"format39": {
 					"type": "text",
 					"text": "X",
-					"top": 358,
+					"top": 338,
 					"left": 560,
 					"width": 75,
 					"height": 16,
@@ -1347,7 +1347,7 @@
 				"format40": {
 					"type": "text",
 					"text": "X",
-					"top": 383,
+					"top": 363,
 					"left": 560,
 					"width": 75,
 					"height": 16,
@@ -1356,7 +1356,7 @@
 				"format41": {
 					"type": "text",
 					"text": "X",
-					"top": 408,
+					"top": 388,
 					"left": 560,
 					"width": 75,
 					"height": 16,
@@ -1365,7 +1365,7 @@
 				"format42": {
 					"type": "text",
 					"text": "X",
-					"top": 432,
+					"top": 412,
 					"left": 560,
 					"width": 75,
 					"height": 16,
@@ -1375,7 +1375,7 @@
 				"format43": {
 					"type": "text",
 					"text": "X",
-					"top": 485,
+					"top": 465,
 					"left": 560,
 					"width": 75,
 					"height": 16,
@@ -1384,7 +1384,7 @@
 				"format44": {
 					"type": "text",
 					"text": "X",
-					"top": 510,
+					"top": 490,
 					"left": 560,
 					"width": 75,
 					"height": 16,
@@ -1393,7 +1393,7 @@
 				"format45": {
 					"type": "text",
 					"text": "X",
-					"top": 536,
+					"top": 516,
 					"left": 560,
 					"width": 75,
 					"height": 16,
@@ -1402,7 +1402,7 @@
 				"format46": {
 					"type": "text",
 					"text": "X",
-					"top": 561,
+					"top": 541,
 					"left": 560,
 					"width": 75,
 					"height": 16,
@@ -1411,7 +1411,7 @@
 				"format47": {
 					"type": "text",
 					"text": "X",
-					"top": 586,
+					"top": 566,
 					"left": 560,
 					"width": 75,
 					"height": 16,
@@ -1420,7 +1420,7 @@
 				"format48": {
 					"type": "text",
 					"text": "X",
-					"top": 610,
+					"top": 590,
 					"left": 560,
 					"width": 75,
 					"height": 16,
@@ -1430,7 +1430,7 @@
 				"format49": {
 					"type": "text",
 					"text": "X",
-					"top": 665,
+					"top": 645,
 					"left": 560,
 					"width": 75,
 					"height": 16,
@@ -1439,7 +1439,7 @@
 				"format50": {
 					"type": "text",
 					"text": "X",
-					"top": 690,
+					"top": 670,
 					"left": 560,
 					"width": 75,
 					"height": 16,
@@ -1448,7 +1448,7 @@
 				"format51": {
 					"type": "text",
 					"text": "X",
-					"top": 716,
+					"top": 696,
 					"left": 560,
 					"width": 75,
 					"height": 16,
@@ -1458,7 +1458,7 @@
 				"format52": {
 					"type": "text",
 					"text": "X",
-					"top": 741,
+					"top": 721,
 					"left": 560,
 					"width": 75,
 					"height": 16,
@@ -1468,7 +1468,7 @@
 				"format53": {
 					"type": "text",
 					"text": "X",
-					"top": 766,
+					"top": 746,
 					"left": 560,
 					"width": 75,
 					"height": 16,
@@ -1478,7 +1478,7 @@
 				"format54": {
 					"type": "text",
 					"text": "X",
-					"top": 790,
+					"top": 770,
 					"left": 560,
 					"width": 75,
 					"height": 16,
@@ -1488,7 +1488,7 @@
 				"format55": {
 					"type": "text",
 					"text": "X",
-					"top": 845,
+					"top": 825,
 					"left": 560,
 					"width": 75,
 					"height": 16,
@@ -1497,7 +1497,7 @@
 				"format56": {
 					"type": "text",
 					"text": "X",
-					"top": 870,
+					"top": 850,
 					"left": 560,
 					"width": 75,
 					"height": 16,
@@ -1506,7 +1506,7 @@
 				"format57": {
 					"type": "text",
 					"text": "X",
-					"top": 896,
+					"top": 876,
 					"left": 560,
 					"width": 75,
 					"height": 16,
@@ -1516,7 +1516,7 @@
 				"format58": {
 					"type": "text",
 					"text": "X",
-					"top": 921,
+					"top": 901,
 					"left": 560,
 					"width": 75,
 					"height": 16,
@@ -1526,7 +1526,7 @@
 				"format59": {
 					"type": "text",
 					"text": "X",
-					"top": 946,
+					"top": 926,
 					"left": 560,
 					"width": 75,
 					"height": 16,
@@ -1536,7 +1536,7 @@
 				"format60": {
 					"type": "text",
 					"text": "X",
-					"top": 970,
+					"top": 950,
 					"left": 560,
 					"width": 75,
 					"height": 16,
@@ -1546,7 +1546,7 @@
 				"format61": {
 					"type": "text",
 					"text": "X",
-					"top": 125,
+					"top": 105,
 					"left": 1081,
 					"width": 75,
 					"height": 16,
@@ -1555,7 +1555,7 @@
 				"format62": {
 					"type": "text",
 					"text": "X",
-					"top": 150,
+					"top": 130,
 					"left": 1081,
 					"width": 75,
 					"height": 16,
@@ -1565,7 +1565,7 @@
 				"format63": {
 					"type": "text",
 					"text": "X",
-					"top": 176,
+					"top": 156,
 					"left": 1081,
 					"width": 75,
 					"height": 16,
@@ -1575,7 +1575,7 @@
 				"format64": {
 					"type": "text",
 					"text": "X",
-					"top": 201,
+					"top": 181,
 					"left": 1081,
 					"width": 75,
 					"height": 16,
@@ -1585,7 +1585,7 @@
 				"format65": {
 					"type": "text",
 					"text": "X",
-					"top": 226,
+					"top": 206,
 					"left": 1081,
 					"width": 75,
 					"height": 16,
@@ -1595,7 +1595,7 @@
 				"format66": {
 					"type": "text",
 					"text": "X",
-					"top": 250,
+					"top": 230,
 					"left": 1081,
 					"width": 75,
 					"height": 16,
@@ -1605,7 +1605,7 @@
 				"format67": {
 					"type": "text",
 					"text": "X",
-					"top": 305,
+					"top": 285,
 					"left": 1081,
 					"width": 75,
 					"height": 16,
@@ -1614,7 +1614,7 @@
 				"format68": {
 					"type": "text",
 					"text": "X",
-					"top": 330,
+					"top": 310,
 					"left": 1081,
 					"width": 75,
 					"height": 16,
@@ -1623,7 +1623,7 @@
 				"format69": {
 					"type": "text",
 					"text": "X",
-					"top": 356,
+					"top": 336,
 					"left": 1081,
 					"width": 75,
 					"height": 16,
@@ -1632,7 +1632,7 @@
 				"format70": {
 					"type": "text",
 					"text": "X",
-					"top": 381,
+					"top": 361,
 					"left": 1081,
 					"width": 75,
 					"height": 16,
@@ -1641,7 +1641,7 @@
 				"format71": {
 					"type": "text",
 					"text": "X",
-					"top": 406,
+					"top": 386,
 					"left": 1081,
 					"width": 75,
 					"height": 16,
@@ -1650,7 +1650,7 @@
 				"format72": {
 					"type": "text",
 					"text": "X",
-					"top": 430,
+					"top": 410,
 					"left": 1081,
 					"width": 75,
 					"height": 16,
@@ -1659,7 +1659,7 @@
 				"format73": {
 					"type": "text",
 					"text": "X",
-					"top": 485,
+					"top": 465,
 					"left": 1081,
 					"width": 75,
 					"height": 16,
@@ -1668,7 +1668,7 @@
 				"format74": {
 					"type": "text",
 					"text": "X",
-					"top": 510,
+					"top": 490,
 					"left": 1081,
 					"width": 75,
 					"height": 16,
@@ -1677,7 +1677,7 @@
 				"format75": {
 					"type": "text",
 					"text": "X",
-					"top": 536,
+					"top": 516,
 					"left": 1081,
 					"width": 75,
 					"height": 16,
@@ -1686,7 +1686,7 @@
 				"format76": {
 					"type": "text",
 					"text": "X",
-					"top": 561,
+					"top": 541,
 					"left": 1081,
 					"width": 75,
 					"height": 16,
@@ -1695,7 +1695,7 @@
 				"format77": {
 					"type": "text",
 					"text": "X",
-					"top": 586,
+					"top": 566,
 					"left": 1081,
 					"width": 75,
 					"height": 16,
@@ -1704,7 +1704,7 @@
 				"format78": {
 					"type": "text",
 					"text": "X",
-					"top": 610,
+					"top": 590,
 					"left": 1081,
 					"width": 75,
 					"height": 16,
@@ -1713,7 +1713,7 @@
 				"format79": {
 					"type": "text",
 					"text": "X",
-					"top": 665,
+					"top": 645,
 					"left": 1081,
 					"width": 75,
 					"height": 16,
@@ -1722,7 +1722,7 @@
 				"format80": {
 					"type": "text",
 					"text": "X",
-					"top": 690,
+					"top": 670,
 					"left": 1081,
 					"width": 75,
 					"height": 16,
@@ -1731,7 +1731,7 @@
 				"format81": {
 					"type": "text",
 					"text": "X",
-					"top": 716,
+					"top": 696,
 					"left": 1081,
 					"width": 75,
 					"height": 16,
@@ -1740,7 +1740,7 @@
 				"format82": {
 					"type": "text",
 					"text": "X",
-					"top": 741,
+					"top": 721,
 					"left": 1081,
 					"width": 75,
 					"height": 16,
@@ -1749,7 +1749,7 @@
 				"format83": {
 					"type": "text",
 					"text": "X",
-					"top": 766,
+					"top": 746,
 					"left": 1081,
 					"width": 75,
 					"height": 16,
@@ -1758,7 +1758,7 @@
 				"format84": {
 					"type": "text",
 					"text": "X",
-					"top": 790,
+					"top": 770,
 					"left": 1081,
 					"width": 75,
 					"height": 16,
@@ -1767,7 +1767,7 @@
 				"InputString1": {
 					"type": "input",
 					"left": 280,
-					"top": 125,
+					"top": 105,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -1776,7 +1776,7 @@
 				"InputString2": {
 					"type": "input",
 					"left": 280,
-					"top": 150,
+					"top": 130,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -1785,7 +1785,7 @@
 				"InputString3": {
 					"type": "input",
 					"left": 280,
-					"top": 175,
+					"top": 155,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -1794,7 +1794,7 @@
 				"InputString4": {
 					"type": "input",
 					"left": 280,
-					"top": 200,
+					"top": 180,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -1803,7 +1803,7 @@
 				"InputString5": {
 					"type": "input",
 					"left": 280,
-					"top": 225,
+					"top": 205,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -1812,7 +1812,7 @@
 				"InputString6": {
 					"type": "input",
 					"left": 280,
-					"top": 250,
+					"top": 230,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -1821,7 +1821,7 @@
 				"InputString7": {
 					"type": "input",
 					"left": 280,
-					"top": 305,
+					"top": 285,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -1830,7 +1830,7 @@
 				"InputString8": {
 					"type": "input",
 					"left": 280,
-					"top": 330,
+					"top": 310,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -1839,7 +1839,7 @@
 				"InputString9": {
 					"type": "input",
 					"left": 280,
-					"top": 355,
+					"top": 335,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -1848,7 +1848,7 @@
 				"InputString10": {
 					"type": "input",
 					"left": 280,
-					"top": 380,
+					"top": 360,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -1857,7 +1857,7 @@
 				"InputString11": {
 					"type": "input",
 					"left": 280,
-					"top": 405,
+					"top": 385,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -1866,7 +1866,7 @@
 				"InputString12": {
 					"type": "input",
 					"left": 280,
-					"top": 430,
+					"top": 410,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -1875,7 +1875,7 @@
 				"InputString13": {
 					"type": "input",
 					"left": 280,
-					"top": 485,
+					"top": 465,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -1884,7 +1884,7 @@
 				"InputString14": {
 					"type": "input",
 					"left": 280,
-					"top": 510,
+					"top": 490,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -1893,7 +1893,7 @@
 				"InputString15": {
 					"type": "input",
 					"left": 280,
-					"top": 535,
+					"top": 515,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -1902,7 +1902,7 @@
 				"InputString16": {
 					"type": "input",
 					"left": 280,
-					"top": 560,
+					"top": 540,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -1911,7 +1911,7 @@
 				"InputString17": {
 					"type": "input",
 					"left": 280,
-					"top": 585,
+					"top": 565,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -1920,7 +1920,7 @@
 				"InputString18": {
 					"type": "input",
 					"left": 280,
-					"top": 610,
+					"top": 590,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -1929,7 +1929,7 @@
 				"InputString19": {
 					"type": "input",
 					"left": 280,
-					"top": 665,
+					"top": 645,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -1938,7 +1938,7 @@
 				"InputString20": {
 					"type": "input",
 					"left": 280,
-					"top": 690,
+					"top": 670,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -1947,7 +1947,7 @@
 				"InputString21": {
 					"type": "input",
 					"left": 280,
-					"top": 715,
+					"top": 695,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -1956,7 +1956,7 @@
 				"InputString22": {
 					"type": "input",
 					"left": 280,
-					"top": 740,
+					"top": 720,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -1965,7 +1965,7 @@
 				"InputString23": {
 					"type": "input",
 					"left": 280,
-					"top": 765,
+					"top": 745,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -1974,7 +1974,7 @@
 				"InputString24": {
 					"type": "input",
 					"left": 280,
-					"top": 790,
+					"top": 770,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -1983,7 +1983,7 @@
 				"InputString25": {
 					"type": "input",
 					"left": 280,
-					"top": 845,
+					"top": 825,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -1992,7 +1992,7 @@
 				"InputString26": {
 					"type": "input",
 					"left": 280,
-					"top": 870,
+					"top": 850,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -2001,7 +2001,7 @@
 				"InputString27": {
 					"type": "input",
 					"left": 280,
-					"top": 895,
+					"top": 875,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -2010,7 +2010,7 @@
 				"InputString28": {
 					"type": "input",
 					"left": 280,
-					"top": 920,
+					"top": 900,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -2019,7 +2019,7 @@
 				"InputString29": {
 					"type": "input",
 					"left": 280,
-					"top": 945,
+					"top": 925,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -2028,7 +2028,7 @@
 				"InputString30": {
 					"type": "input",
 					"left": 280,
-					"top": 970,
+					"top": 950,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -2037,7 +2037,7 @@
 				"InputString31": {
 					"type": "input",
 					"left": 800,
-					"top": 127,
+					"top": 107,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -2046,7 +2046,7 @@
 				"InputString32": {
 					"type": "input",
 					"left": 800,
-					"top": 152,
+					"top": 132,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -2055,7 +2055,7 @@
 				"InputString33": {
 					"type": "input",
 					"left": 800,
-					"top": 177,
+					"top": 157,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -2064,7 +2064,7 @@
 				"InputString34": {
 					"type": "input",
 					"left": 800,
-					"top": 202,
+					"top": 182,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -2073,7 +2073,7 @@
 				"InputString35": {
 					"type": "input",
 					"left": 800,
-					"top": 227,
+					"top": 207,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -2082,7 +2082,7 @@
 				"InputString36": {
 					"type": "input",
 					"left": 800,
-					"top": 252,
+					"top": 232,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -2091,7 +2091,7 @@
 				"InputString37": {
 					"type": "input",
 					"left": 800,
-					"top": 307,
+					"top": 287,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -2100,7 +2100,7 @@
 				"InputString38": {
 					"type": "input",
 					"left": 800,
-					"top": 332,
+					"top": 312,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -2109,7 +2109,7 @@
 				"InputString39": {
 					"type": "input",
 					"left": 800,
-					"top": 357,
+					"top": 337,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -2118,7 +2118,7 @@
 				"InputString40": {
 					"type": "input",
 					"left": 800,
-					"top": 382,
+					"top": 362,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -2127,7 +2127,7 @@
 				"InputString41": {
 					"type": "input",
 					"left": 800,
-					"top": 407,
+					"top": 387,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -2136,7 +2136,7 @@
 				"InputString42": {
 					"type": "input",
 					"left": 800,
-					"top": 432,
+					"top": 412,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -2145,7 +2145,7 @@
 				"InputString43": {
 					"type": "input",
 					"left": 804,
-					"top": 485,
+					"top": 465,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -2154,7 +2154,7 @@
 				"InputString44": {
 					"type": "input",
 					"left": 804,
-					"top": 510,
+					"top": 490,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -2163,7 +2163,7 @@
 				"InputString45": {
 					"type": "input",
 					"left": 804,
-					"top": 535,
+					"top": 515,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -2172,7 +2172,7 @@
 				"InputString46": {
 					"type": "input",
 					"left": 804,
-					"top": 560,
+					"top": 540,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -2181,7 +2181,7 @@
 				"InputString47": {
 					"type": "input",
 					"left": 804,
-					"top": 585,
+					"top": 565,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -2190,7 +2190,7 @@
 				"InputString48": {
 					"type": "input",
 					"left": 804,
-					"top": 610,
+					"top": 590,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -2199,7 +2199,7 @@
 				"InputString49": {
 					"type": "input",
 					"left": 804,
-					"top": 665,
+					"top": 645,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -2208,7 +2208,7 @@
 				"InputString50": {
 					"type": "input",
 					"left": 804,
-					"top": 690,
+					"top": 670,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -2217,7 +2217,7 @@
 				"InputString51": {
 					"type": "input",
 					"left": 804,
-					"top": 715,
+					"top": 695,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -2226,7 +2226,7 @@
 				"InputString52": {
 					"type": "input",
 					"left": 804,
-					"top": 740,
+					"top": 720,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -2235,7 +2235,7 @@
 				"InputString53": {
 					"type": "input",
 					"left": 804,
-					"top": 765,
+					"top": 745,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -2244,7 +2244,7 @@
 				"InputString54": {
 					"type": "input",
 					"left": 804,
-					"top": 790,
+					"top": 770,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -2253,7 +2253,7 @@
 				"InputString55": {
 					"type": "input",
 					"left": 804,
-					"top": 845,
+					"top": 825,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -2262,7 +2262,7 @@
 				"InputString56": {
 					"type": "input",
 					"left": 804,
-					"top": 870,
+					"top": 850,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -2271,7 +2271,7 @@
 				"InputString57": {
 					"type": "input",
 					"left": 804,
-					"top": 895,
+					"top": 875,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -2280,7 +2280,7 @@
 				"InputString58": {
 					"type": "input",
 					"left": 804,
-					"top": 920,
+					"top": 900,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -2289,7 +2289,7 @@
 				"InputString59": {
 					"type": "input",
 					"left": 804,
-					"top": 945,
+					"top": 925,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -2298,7 +2298,7 @@
 				"InputString60": {
 					"type": "input",
 					"left": 804,
-					"top": 970,
+					"top": 950,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -2307,7 +2307,7 @@
 				"InputString61": {
 					"type": "input",
 					"left": 1325,
-					"top": 125,
+					"top": 105,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -2316,7 +2316,7 @@
 				"InputString62": {
 					"type": "input",
 					"left": 1325,
-					"top": 150,
+					"top": 130,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -2325,7 +2325,7 @@
 				"InputString63": {
 					"type": "input",
 					"left": 1325,
-					"top": 175,
+					"top": 155,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -2334,7 +2334,7 @@
 				"InputString64": {
 					"type": "input",
 					"left": 1325,
-					"top": 200,
+					"top": 180,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -2343,7 +2343,7 @@
 				"InputString65": {
 					"type": "input",
 					"left": 1325,
-					"top": 225,
+					"top": 205,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -2352,7 +2352,7 @@
 				"InputString66": {
 					"type": "input",
 					"left": 1325,
-					"top": 250,
+					"top": 230,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -2361,7 +2361,7 @@
 				"InputString67": {
 					"type": "input",
 					"left": 1325,
-					"top": 305,
+					"top": 285,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -2370,7 +2370,7 @@
 				"InputString68": {
 					"type": "input",
 					"left": 1325,
-					"top": 330,
+					"top": 310,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -2379,7 +2379,7 @@
 				"InputString69": {
 					"type": "input",
 					"left": 1325,
-					"top": 355,
+					"top": 335,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -2388,7 +2388,7 @@
 				"InputString70": {
 					"type": "input",
 					"left": 1325,
-					"top": 380,
+					"top": 360,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -2397,7 +2397,7 @@
 				"InputString71": {
 					"type": "input",
 					"left": 1325,
-					"top": 405,
+					"top": 385,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -2406,7 +2406,7 @@
 				"InputString72": {
 					"type": "input",
 					"left": 1325,
-					"top": 430,
+					"top": 410,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -2415,7 +2415,7 @@
 				"InputString73": {
 					"type": "input",
 					"left": 1325,
-					"top": 485,
+					"top": 465,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -2424,7 +2424,7 @@
 				"InputString74": {
 					"type": "input",
 					"left": 1325,
-					"top": 510,
+					"top": 490,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -2433,7 +2433,7 @@
 				"InputString75": {
 					"type": "input",
 					"left": 1325,
-					"top": 535,
+					"top": 515,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -2442,7 +2442,7 @@
 				"InputString76": {
 					"type": "input",
 					"left": 1325,
-					"top": 560,
+					"top": 540,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -2451,7 +2451,7 @@
 				"InputString77": {
 					"type": "input",
 					"left": 1325,
-					"top": 585,
+					"top": 565,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -2460,7 +2460,7 @@
 				"InputString78": {
 					"type": "input",
 					"left": 1325,
-					"top": 610,
+					"top": 590,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -2469,7 +2469,7 @@
 				"InputString79": {
 					"type": "input",
 					"left": 1325,
-					"top": 665,
+					"top": 645,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -2478,7 +2478,7 @@
 				"InputString80": {
 					"type": "input",
 					"left": 1325,
-					"top": 690,
+					"top": 670,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -2487,7 +2487,7 @@
 				"InputString81": {
 					"type": "input",
 					"left": 1325,
-					"top": 715,
+					"top": 695,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -2496,7 +2496,7 @@
 				"InputString82": {
 					"type": "input",
 					"left": 1325,
-					"top": 740,
+					"top": 720,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -2505,7 +2505,7 @@
 				"InputString83": {
 					"type": "input",
 					"left": 1325,
-					"top": 765,
+					"top": 745,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -2514,7 +2514,7 @@
 				"InputString84": {
 					"type": "input",
 					"left": 1325,
-					"top": 790,
+					"top": 770,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -2523,15 +2523,15 @@
 				"Group30": {
 					"type": "groupBox",
 					"text": "t (unsupported format)",
-					"top": 820,
-					"left": 1080,
+					"top": 818,
+					"left": 1660,
 					"width": 500,
 					"height": 180
 				},
 				"InputString85": {
 					"type": "input",
-					"left": 1325,
-					"top": 845,
+					"left": 1905,
+					"top": 843,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -2540,8 +2540,8 @@
 				},
 				"InputString86": {
 					"type": "input",
-					"left": 1325,
-					"top": 870,
+					"left": 1905,
+					"top": 868,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -2550,8 +2550,8 @@
 				},
 				"InputString87": {
 					"type": "input",
-					"left": 1325,
-					"top": 895,
+					"left": 1905,
+					"top": 893,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -2560,8 +2560,8 @@
 				},
 				"InputString88": {
 					"type": "input",
-					"left": 1325,
-					"top": 920,
+					"left": 1905,
+					"top": 918,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -2570,8 +2570,8 @@
 				},
 				"InputString89": {
 					"type": "input",
-					"left": 1325,
-					"top": 945,
+					"left": 1905,
+					"top": 943,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -2580,8 +2580,8 @@
 				},
 				"InputString90": {
 					"type": "input",
-					"left": 1325,
-					"top": 970,
+					"left": 1905,
+					"top": 968,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -2590,8 +2590,8 @@
 				},
 				"Input85": {
 					"type": "input",
-					"left": 1160,
-					"top": 845,
+					"left": 1740,
+					"top": 843,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "date",
@@ -2600,8 +2600,8 @@
 				},
 				"Input86": {
 					"type": "input",
-					"left": 1160,
-					"top": 870,
+					"left": 1740,
+					"top": 868,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "date",
@@ -2610,8 +2610,8 @@
 				},
 				"Input87": {
 					"type": "input",
-					"left": 1160,
-					"top": 895,
+					"left": 1740,
+					"top": 893,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "date",
@@ -2620,8 +2620,8 @@
 				},
 				"Input88": {
 					"type": "input",
-					"left": 1160,
-					"top": 920,
+					"left": 1740,
+					"top": 918,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "date",
@@ -2630,8 +2630,8 @@
 				},
 				"Input89": {
 					"type": "input",
-					"left": 1160,
-					"top": 945,
+					"left": 1740,
+					"top": 943,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "date",
@@ -2640,8 +2640,8 @@
 				},
 				"Input90": {
 					"type": "input",
-					"left": 1160,
-					"top": 970,
+					"left": 1740,
+					"top": 968,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "date",
@@ -2651,8 +2651,8 @@
 				"format85": {
 					"type": "text",
 					"text": "X",
-					"top": 845,
-					"left": 1080,
+					"top": 843,
+					"left": 1660,
 					"width": 75,
 					"height": 16,
 					"textAlign": "center",
@@ -2661,8 +2661,8 @@
 				"format86": {
 					"type": "text",
 					"text": "X",
-					"top": 870,
-					"left": 1080,
+					"top": 868,
+					"left": 1660,
 					"width": 75,
 					"height": 16,
 					"textAlign": "center",
@@ -2671,8 +2671,8 @@
 				"format87": {
 					"type": "text",
 					"text": "X",
-					"top": 895,
-					"left": 1080,
+					"top": 893,
+					"left": 1660,
 					"width": 75,
 					"height": 16,
 					"textAlign": "center",
@@ -2681,8 +2681,8 @@
 				"format88": {
 					"type": "text",
 					"text": "X",
-					"top": 920,
-					"left": 1080,
+					"top": 918,
+					"left": 1660,
 					"width": 75,
 					"height": 16,
 					"textAlign": "center",
@@ -2691,8 +2691,8 @@
 				"format89": {
 					"type": "text",
 					"text": "X",
-					"top": 945,
-					"left": 1080,
+					"top": 943,
+					"left": 1660,
 					"width": 75,
 					"height": 16,
 					"textAlign": "center",
@@ -2701,8 +2701,8 @@
 				"format90": {
 					"type": "text",
 					"text": "X",
-					"top": 970,
-					"left": 1080,
+					"top": 968,
+					"left": 1660,
 					"width": 75,
 					"height": 16,
 					"textAlign": "center",
@@ -2711,7 +2711,7 @@
 				"Texte": {
 					"type": "text",
 					"text": "Formated inputs",
-					"top": 60,
+					"top": 55,
 					"left": 120,
 					"width": 150,
 					"height": 16,
@@ -2721,7 +2721,7 @@
 				"Texte1": {
 					"type": "text",
 					"text": "String results",
-					"top": 60,
+					"top": 55,
 					"left": 280,
 					"width": 150,
 					"height": 16,
@@ -2731,7 +2731,7 @@
 				"Texte2": {
 					"type": "text",
 					"text": "Formated inputs",
-					"top": 60,
+					"top": 55,
 					"left": 640,
 					"width": 150,
 					"height": 16,
@@ -2741,7 +2741,7 @@
 				"Texte3": {
 					"type": "text",
 					"text": "String results",
-					"top": 60,
+					"top": 55,
 					"left": 800,
 					"width": 150,
 					"height": 16,
@@ -2751,7 +2751,7 @@
 				"Texte4": {
 					"type": "text",
 					"text": "Formated inputs",
-					"top": 60,
+					"top": 55,
 					"left": 1160,
 					"width": 150,
 					"height": 16,
@@ -2761,12 +2761,58 @@
 				"Texte5": {
 					"type": "text",
 					"text": "String results",
-					"top": 60,
+					"top": 55,
 					"left": 1320,
 					"width": 150,
 					"height": 16,
 					"fontWeight": "bold",
 					"fontSize": 16
+				},
+				"Button3": {
+					"type": "button",
+					"text": "Set formats",
+					"top": 960,
+					"left": 1280,
+					"width": 165,
+					"height": 20,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Button3.4dm",
+					"focusable": false
+				},
+				"Button4": {
+					"type": "button",
+					"text": "Reset",
+					"top": 960,
+					"left": 1110,
+					"width": 155,
+					"height": 20,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Button4.4dm",
+					"focusable": false
+				},
+				"Text": {
+					"type": "text",
+					"text": "Not documented!",
+					"top": 1009,
+					"left": 82,
+					"width": 233,
+					"height": 16,
+					"stroke": "#9400d3",
+					"sizingY": "move"
+				},
+				"Oval": {
+					"type": "oval",
+					"top": 1012,
+					"left": 69,
+					"width": 10,
+					"height": 10,
+					"fill": "#9400d3",
+					"stroke": "transparent",
+					"sizingY": "move"
 				}
 			}
 		},
@@ -2775,7 +2821,7 @@
 				"Group15": {
 					"type": "groupBox",
 					"text": "a (AP or PM)",
-					"top": 100,
+					"top": 80,
 					"left": 40,
 					"width": 500,
 					"height": 180,
@@ -2784,7 +2830,7 @@
 				"Input101": {
 					"type": "input",
 					"left": 120,
-					"top": 125,
+					"top": 105,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "time",
@@ -2794,7 +2840,7 @@
 				"format101": {
 					"type": "text",
 					"text": "X",
-					"top": 125,
+					"top": 105,
 					"left": 40,
 					"width": 75,
 					"height": 16,
@@ -2804,7 +2850,7 @@
 				"Input102": {
 					"type": "input",
 					"left": 120,
-					"top": 150,
+					"top": 130,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "time",
@@ -2814,7 +2860,7 @@
 				"format102": {
 					"type": "text",
 					"text": "X",
-					"top": 150,
+					"top": 130,
 					"left": 40,
 					"width": 75,
 					"height": 16,
@@ -2824,7 +2870,7 @@
 				"Input103": {
 					"type": "input",
 					"left": 120,
-					"top": 175,
+					"top": 155,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "time",
@@ -2834,7 +2880,7 @@
 				"format103": {
 					"type": "text",
 					"text": "X",
-					"top": 175,
+					"top": 155,
 					"left": 40,
 					"width": 75,
 					"height": 16,
@@ -2844,7 +2890,7 @@
 				"Input104": {
 					"type": "input",
 					"left": 120,
-					"top": 200,
+					"top": 180,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "time",
@@ -2854,7 +2900,7 @@
 				"format104": {
 					"type": "text",
 					"text": "X",
-					"top": 200,
+					"top": 180,
 					"left": 40,
 					"width": 75,
 					"height": 16,
@@ -2864,7 +2910,7 @@
 				"Input105": {
 					"type": "input",
 					"left": 120,
-					"top": 225,
+					"top": 205,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "time",
@@ -2874,7 +2920,7 @@
 				"format105": {
 					"type": "text",
 					"text": "X",
-					"top": 225,
+					"top": 205,
 					"left": 40,
 					"width": 75,
 					"height": 16,
@@ -2884,7 +2930,7 @@
 				"Input106": {
 					"type": "input",
 					"left": 120,
-					"top": 250,
+					"top": 230,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "time",
@@ -2894,7 +2940,7 @@
 				"format106": {
 					"type": "text",
 					"text": "X",
-					"top": 250,
+					"top": 230,
 					"left": 40,
 					"width": 75,
 					"height": 16,
@@ -2904,7 +2950,7 @@
 				"Group16": {
 					"type": "groupBox",
 					"text": "b (am, pm, noon, midnight)",
-					"top": 280,
+					"top": 260,
 					"left": 40,
 					"width": 500,
 					"height": 180,
@@ -2913,7 +2959,7 @@
 				"Input107": {
 					"type": "input",
 					"left": 120,
-					"top": 305,
+					"top": 285,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "time",
@@ -2923,7 +2969,7 @@
 				"format107": {
 					"type": "text",
 					"text": "X",
-					"top": 305,
+					"top": 285,
 					"left": 40,
 					"width": 75,
 					"height": 16,
@@ -2933,7 +2979,7 @@
 				"Input108": {
 					"type": "input",
 					"left": 120,
-					"top": 330,
+					"top": 310,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "time",
@@ -2943,7 +2989,7 @@
 				"format108": {
 					"type": "text",
 					"text": "X",
-					"top": 330,
+					"top": 310,
 					"left": 40,
 					"width": 75,
 					"height": 16,
@@ -2953,7 +2999,7 @@
 				"Input109": {
 					"type": "input",
 					"left": 120,
-					"top": 355,
+					"top": 335,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "time",
@@ -2963,7 +3009,7 @@
 				"format109": {
 					"type": "text",
 					"text": "X",
-					"top": 355,
+					"top": 335,
 					"left": 40,
 					"width": 75,
 					"height": 16,
@@ -2973,7 +3019,7 @@
 				"Input110": {
 					"type": "input",
 					"left": 120,
-					"top": 380,
+					"top": 360,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "time",
@@ -2983,7 +3029,7 @@
 				"format110": {
 					"type": "text",
 					"text": "X",
-					"top": 380,
+					"top": 360,
 					"left": 40,
 					"width": 75,
 					"height": 16,
@@ -2993,7 +3039,7 @@
 				"Input111": {
 					"type": "input",
 					"left": 120,
-					"top": 405,
+					"top": 385,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "time",
@@ -3003,7 +3049,7 @@
 				"format111": {
 					"type": "text",
 					"text": "X",
-					"top": 405,
+					"top": 385,
 					"left": 40,
 					"width": 75,
 					"height": 16,
@@ -3013,7 +3059,7 @@
 				"Input112": {
 					"type": "input",
 					"left": 120,
-					"top": 430,
+					"top": 410,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "time",
@@ -3023,7 +3069,7 @@
 				"format112": {
 					"type": "text",
 					"text": "X",
-					"top": 430,
+					"top": 410,
 					"left": 40,
 					"width": 75,
 					"height": 16,
@@ -3033,7 +3079,7 @@
 				"Group17": {
 					"type": "groupBox",
 					"text": "B (flexible day periods)",
-					"top": 460,
+					"top": 440,
 					"left": 40,
 					"width": 500,
 					"height": 180,
@@ -3042,7 +3088,7 @@
 				"Input113": {
 					"type": "input",
 					"left": 120,
-					"top": 485,
+					"top": 465,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "time",
@@ -3052,7 +3098,7 @@
 				"format113": {
 					"type": "text",
 					"text": "X",
-					"top": 485,
+					"top": 465,
 					"left": 40,
 					"width": 75,
 					"height": 16,
@@ -3062,7 +3108,7 @@
 				"Input114": {
 					"type": "input",
 					"left": 120,
-					"top": 510,
+					"top": 490,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "time",
@@ -3072,7 +3118,7 @@
 				"format114": {
 					"type": "text",
 					"text": "X",
-					"top": 510,
+					"top": 490,
 					"left": 40,
 					"width": 75,
 					"height": 16,
@@ -3082,7 +3128,7 @@
 				"Input115": {
 					"type": "input",
 					"left": 120,
-					"top": 535,
+					"top": 515,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "time",
@@ -3092,7 +3138,7 @@
 				"format115": {
 					"type": "text",
 					"text": "X",
-					"top": 535,
+					"top": 515,
 					"left": 40,
 					"width": 75,
 					"height": 16,
@@ -3102,7 +3148,7 @@
 				"Input116": {
 					"type": "input",
 					"left": 120,
-					"top": 560,
+					"top": 540,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "time",
@@ -3112,7 +3158,7 @@
 				"format116": {
 					"type": "text",
 					"text": "X",
-					"top": 560,
+					"top": 540,
 					"left": 40,
 					"width": 75,
 					"height": 16,
@@ -3122,7 +3168,7 @@
 				"Input117": {
 					"type": "input",
 					"left": 120,
-					"top": 585,
+					"top": 565,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "time",
@@ -3132,7 +3178,7 @@
 				"format117": {
 					"type": "text",
 					"text": "X",
-					"top": 585,
+					"top": 565,
 					"left": 40,
 					"width": 75,
 					"height": 16,
@@ -3142,7 +3188,7 @@
 				"Input118": {
 					"type": "input",
 					"left": 120,
-					"top": 610,
+					"top": 590,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "time",
@@ -3152,7 +3198,7 @@
 				"format118": {
 					"type": "text",
 					"text": "X",
-					"top": 610,
+					"top": 590,
 					"left": 40,
 					"width": 75,
 					"height": 16,
@@ -3162,7 +3208,7 @@
 				"Group18": {
 					"type": "groupBox",
 					"text": "h (hour in am/pm (1~12))",
-					"top": 640,
+					"top": 620,
 					"left": 40,
 					"width": 500,
 					"height": 180,
@@ -3171,7 +3217,7 @@
 				"Input119": {
 					"type": "input",
 					"left": 120,
-					"top": 665,
+					"top": 645,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "time",
@@ -3181,7 +3227,7 @@
 				"format119": {
 					"type": "text",
 					"text": "X",
-					"top": 665,
+					"top": 645,
 					"left": 40,
 					"width": 75,
 					"height": 16,
@@ -3191,7 +3237,7 @@
 				"Input120": {
 					"type": "input",
 					"left": 120,
-					"top": 690,
+					"top": 670,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "time",
@@ -3201,7 +3247,7 @@
 				"format120": {
 					"type": "text",
 					"text": "X",
-					"top": 690,
+					"top": 670,
 					"left": 40,
 					"width": 75,
 					"height": 16,
@@ -3211,7 +3257,7 @@
 				"Input121": {
 					"type": "input",
 					"left": 120,
-					"top": 715,
+					"top": 695,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "time",
@@ -3221,7 +3267,7 @@
 				"format121": {
 					"type": "text",
 					"text": "X",
-					"top": 715,
+					"top": 695,
 					"left": 40,
 					"width": 75,
 					"height": 16,
@@ -3231,7 +3277,7 @@
 				"Input122": {
 					"type": "input",
 					"left": 120,
-					"top": 740,
+					"top": 720,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "time",
@@ -3241,7 +3287,7 @@
 				"format122": {
 					"type": "text",
 					"text": "X",
-					"top": 740,
+					"top": 720,
 					"left": 40,
 					"width": 75,
 					"height": 16,
@@ -3251,7 +3297,7 @@
 				"Input123": {
 					"type": "input",
 					"left": 120,
-					"top": 765,
+					"top": 745,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "time",
@@ -3261,7 +3307,7 @@
 				"format123": {
 					"type": "text",
 					"text": "X",
-					"top": 765,
+					"top": 745,
 					"left": 40,
 					"width": 75,
 					"height": 16,
@@ -3271,7 +3317,7 @@
 				"Input124": {
 					"type": "input",
 					"left": 120,
-					"top": 790,
+					"top": 770,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "time",
@@ -3281,7 +3327,7 @@
 				"format124": {
 					"type": "text",
 					"text": "X",
-					"top": 790,
+					"top": 770,
 					"left": 40,
 					"width": 75,
 					"height": 16,
@@ -3291,7 +3337,7 @@
 				"Group19": {
 					"type": "groupBox",
 					"text": "H (hour in day (0~23))",
-					"top": 820,
+					"top": 800,
 					"left": 40,
 					"width": 500,
 					"height": 180,
@@ -3300,7 +3346,7 @@
 				"Input125": {
 					"type": "input",
 					"left": 120,
-					"top": 845,
+					"top": 825,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "time",
@@ -3310,7 +3356,7 @@
 				"format125": {
 					"type": "text",
 					"text": "X",
-					"top": 845,
+					"top": 825,
 					"left": 40,
 					"width": 75,
 					"height": 16,
@@ -3320,7 +3366,7 @@
 				"Input126": {
 					"type": "input",
 					"left": 120,
-					"top": 870,
+					"top": 850,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "time",
@@ -3330,7 +3376,7 @@
 				"format126": {
 					"type": "text",
 					"text": "X",
-					"top": 870,
+					"top": 850,
 					"left": 40,
 					"width": 75,
 					"height": 16,
@@ -3340,7 +3386,7 @@
 				"Input127": {
 					"type": "input",
 					"left": 120,
-					"top": 895,
+					"top": 875,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "time",
@@ -3350,7 +3396,7 @@
 				"format127": {
 					"type": "text",
 					"text": "X",
-					"top": 895,
+					"top": 875,
 					"left": 40,
 					"width": 75,
 					"height": 16,
@@ -3360,7 +3406,7 @@
 				"Input128": {
 					"type": "input",
 					"left": 120,
-					"top": 920,
+					"top": 900,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "time",
@@ -3370,7 +3416,7 @@
 				"format128": {
 					"type": "text",
 					"text": "X",
-					"top": 920,
+					"top": 900,
 					"left": 40,
 					"width": 75,
 					"height": 16,
@@ -3380,7 +3426,7 @@
 				"Input129": {
 					"type": "input",
 					"left": 120,
-					"top": 945,
+					"top": 925,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "time",
@@ -3390,7 +3436,7 @@
 				"format129": {
 					"type": "text",
 					"text": "X",
-					"top": 945,
+					"top": 925,
 					"left": 40,
 					"width": 75,
 					"height": 16,
@@ -3400,7 +3446,7 @@
 				"Input130": {
 					"type": "input",
 					"left": 120,
-					"top": 970,
+					"top": 950,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "time",
@@ -3410,7 +3456,7 @@
 				"format130": {
 					"type": "text",
 					"text": "X",
-					"top": 970,
+					"top": 950,
 					"left": 40,
 					"width": 75,
 					"height": 16,
@@ -3420,7 +3466,7 @@
 				"Group20": {
 					"type": "groupBox",
 					"text": "K (hour in am/pm (0~11))",
-					"top": 100,
+					"top": 80,
 					"left": 560,
 					"width": 500,
 					"height": 180,
@@ -3429,7 +3475,7 @@
 				"Input131": {
 					"type": "input",
 					"left": 640,
-					"top": 125,
+					"top": 105,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "time",
@@ -3439,7 +3485,7 @@
 				"format131": {
 					"type": "text",
 					"text": "X",
-					"top": 125,
+					"top": 105,
 					"left": 560,
 					"width": 75,
 					"height": 16,
@@ -3449,7 +3495,7 @@
 				"Input132": {
 					"type": "input",
 					"left": 640,
-					"top": 150,
+					"top": 130,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "time",
@@ -3459,7 +3505,7 @@
 				"format132": {
 					"type": "text",
 					"text": "X",
-					"top": 150,
+					"top": 130,
 					"left": 560,
 					"width": 75,
 					"height": 16,
@@ -3469,7 +3515,7 @@
 				"Input133": {
 					"type": "input",
 					"left": 640,
-					"top": 175,
+					"top": 155,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "time",
@@ -3479,7 +3525,7 @@
 				"format133": {
 					"type": "text",
 					"text": "X",
-					"top": 175,
+					"top": 155,
 					"left": 560,
 					"width": 75,
 					"height": 16,
@@ -3489,7 +3535,7 @@
 				"Input134": {
 					"type": "input",
 					"left": 640,
-					"top": 200,
+					"top": 180,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "time",
@@ -3499,7 +3545,7 @@
 				"format134": {
 					"type": "text",
 					"text": "X",
-					"top": 200,
+					"top": 180,
 					"left": 560,
 					"width": 75,
 					"height": 16,
@@ -3509,7 +3555,7 @@
 				"Input135": {
 					"type": "input",
 					"left": 640,
-					"top": 225,
+					"top": 205,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "time",
@@ -3519,7 +3565,7 @@
 				"format135": {
 					"type": "text",
 					"text": "X",
-					"top": 225,
+					"top": 205,
 					"left": 560,
 					"width": 75,
 					"height": 16,
@@ -3529,7 +3575,7 @@
 				"Input136": {
 					"type": "input",
 					"left": 640,
-					"top": 250,
+					"top": 230,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "time",
@@ -3539,7 +3585,7 @@
 				"format136": {
 					"type": "text",
 					"text": "X",
-					"top": 250,
+					"top": 230,
 					"left": 560,
 					"width": 75,
 					"height": 16,
@@ -3549,7 +3595,7 @@
 				"Group21": {
 					"type": "groupBox",
 					"text": "k (hour in am/pm (1~24))",
-					"top": 281,
+					"top": 261,
 					"left": 560,
 					"width": 500,
 					"height": 180,
@@ -3558,7 +3604,7 @@
 				"Input137": {
 					"type": "input",
 					"left": 640,
-					"top": 305,
+					"top": 285,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "time",
@@ -3568,7 +3614,7 @@
 				"format137": {
 					"type": "text",
 					"text": "X",
-					"top": 305,
+					"top": 285,
 					"left": 560,
 					"width": 75,
 					"height": 16,
@@ -3578,7 +3624,7 @@
 				"Input138": {
 					"type": "input",
 					"left": 640,
-					"top": 330,
+					"top": 310,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "time",
@@ -3588,7 +3634,7 @@
 				"format138": {
 					"type": "text",
 					"text": "X",
-					"top": 330,
+					"top": 310,
 					"left": 560,
 					"width": 75,
 					"height": 16,
@@ -3598,7 +3644,7 @@
 				"Input139": {
 					"type": "input",
 					"left": 640,
-					"top": 355,
+					"top": 335,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "time",
@@ -3608,7 +3654,7 @@
 				"format139": {
 					"type": "text",
 					"text": "X",
-					"top": 355,
+					"top": 335,
 					"left": 560,
 					"width": 75,
 					"height": 16,
@@ -3618,7 +3664,7 @@
 				"Input140": {
 					"type": "input",
 					"left": 640,
-					"top": 380,
+					"top": 360,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "time",
@@ -3628,7 +3674,7 @@
 				"format140": {
 					"type": "text",
 					"text": "X",
-					"top": 380,
+					"top": 360,
 					"left": 560,
 					"width": 75,
 					"height": 16,
@@ -3638,7 +3684,7 @@
 				"Input141": {
 					"type": "input",
 					"left": 640,
-					"top": 405,
+					"top": 385,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "time",
@@ -3648,7 +3694,7 @@
 				"format141": {
 					"type": "text",
 					"text": "X",
-					"top": 405,
+					"top": 385,
 					"left": 560,
 					"width": 75,
 					"height": 16,
@@ -3658,7 +3704,7 @@
 				"Input142": {
 					"type": "input",
 					"left": 640,
-					"top": 430,
+					"top": 410,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "time",
@@ -3668,7 +3714,7 @@
 				"format142": {
 					"type": "text",
 					"text": "X",
-					"top": 430,
+					"top": 410,
 					"left": 560,
 					"width": 75,
 					"height": 16,
@@ -3678,7 +3724,7 @@
 				"Group22": {
 					"type": "groupBox",
 					"text": "m (minute in hour)",
-					"top": 460,
+					"top": 440,
 					"left": 560,
 					"width": 500,
 					"height": 180,
@@ -3687,7 +3733,7 @@
 				"Input143": {
 					"type": "input",
 					"left": 640,
-					"top": 485,
+					"top": 465,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "time",
@@ -3697,7 +3743,7 @@
 				"format143": {
 					"type": "text",
 					"text": "X",
-					"top": 487,
+					"top": 467,
 					"left": 560,
 					"width": 75,
 					"height": 16,
@@ -3707,7 +3753,7 @@
 				"Input144": {
 					"type": "input",
 					"left": 640,
-					"top": 510,
+					"top": 490,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "time",
@@ -3717,7 +3763,7 @@
 				"format144": {
 					"type": "text",
 					"text": "X",
-					"top": 512,
+					"top": 492,
 					"left": 560,
 					"width": 75,
 					"height": 16,
@@ -3727,7 +3773,7 @@
 				"Input145": {
 					"type": "input",
 					"left": 640,
-					"top": 535,
+					"top": 515,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "time",
@@ -3737,7 +3783,7 @@
 				"format145": {
 					"type": "text",
 					"text": "X",
-					"top": 537,
+					"top": 517,
 					"left": 560,
 					"width": 75,
 					"height": 16,
@@ -3747,7 +3793,7 @@
 				"Input146": {
 					"type": "input",
 					"left": 640,
-					"top": 560,
+					"top": 540,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "time",
@@ -3757,7 +3803,7 @@
 				"format146": {
 					"type": "text",
 					"text": "X",
-					"top": 562,
+					"top": 542,
 					"left": 560,
 					"width": 75,
 					"height": 16,
@@ -3767,7 +3813,7 @@
 				"Input147": {
 					"type": "input",
 					"left": 640,
-					"top": 585,
+					"top": 565,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "time",
@@ -3777,7 +3823,7 @@
 				"format147": {
 					"type": "text",
 					"text": "X",
-					"top": 587,
+					"top": 567,
 					"left": 560,
 					"width": 75,
 					"height": 16,
@@ -3787,7 +3833,7 @@
 				"Input148": {
 					"type": "input",
 					"left": 640,
-					"top": 610,
+					"top": 590,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "time",
@@ -3797,7 +3843,7 @@
 				"format148": {
 					"type": "text",
 					"text": "X",
-					"top": 612,
+					"top": 592,
 					"left": 560,
 					"width": 75,
 					"height": 16,
@@ -3807,7 +3853,7 @@
 				"Group23": {
 					"type": "groupBox",
 					"text": "s (second in minute)",
-					"top": 640,
+					"top": 620,
 					"left": 560,
 					"width": 500,
 					"height": 180,
@@ -3816,7 +3862,7 @@
 				"Input149": {
 					"type": "input",
 					"left": 640,
-					"top": 667,
+					"top": 647,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "time",
@@ -3826,7 +3872,7 @@
 				"format149": {
 					"type": "text",
 					"text": "X",
-					"top": 667,
+					"top": 647,
 					"left": 560,
 					"width": 75,
 					"height": 16,
@@ -3836,7 +3882,7 @@
 				"Input150": {
 					"type": "input",
 					"left": 640,
-					"top": 692,
+					"top": 672,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "time",
@@ -3846,7 +3892,7 @@
 				"format150": {
 					"type": "text",
 					"text": "X",
-					"top": 692,
+					"top": 672,
 					"left": 560,
 					"width": 75,
 					"height": 16,
@@ -3856,7 +3902,7 @@
 				"Input151": {
 					"type": "input",
 					"left": 640,
-					"top": 717,
+					"top": 697,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "time",
@@ -3866,7 +3912,7 @@
 				"format151": {
 					"type": "text",
 					"text": "X",
-					"top": 717,
+					"top": 697,
 					"left": 560,
 					"width": 75,
 					"height": 16,
@@ -3876,7 +3922,7 @@
 				"Input152": {
 					"type": "input",
 					"left": 640,
-					"top": 742,
+					"top": 722,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "time",
@@ -3886,7 +3932,7 @@
 				"format152": {
 					"type": "text",
 					"text": "X",
-					"top": 742,
+					"top": 722,
 					"left": 560,
 					"width": 75,
 					"height": 16,
@@ -3896,7 +3942,7 @@
 				"Input153": {
 					"type": "input",
 					"left": 640,
-					"top": 767,
+					"top": 747,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "time",
@@ -3906,7 +3952,7 @@
 				"format153": {
 					"type": "text",
 					"text": "X",
-					"top": 767,
+					"top": 747,
 					"left": 560,
 					"width": 75,
 					"height": 16,
@@ -3916,7 +3962,7 @@
 				"Input154": {
 					"type": "input",
 					"left": 640,
-					"top": 792,
+					"top": 772,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "time",
@@ -3926,7 +3972,7 @@
 				"format154": {
 					"type": "text",
 					"text": "X",
-					"top": 792,
+					"top": 772,
 					"left": 560,
 					"width": 75,
 					"height": 16,
@@ -3936,16 +3982,16 @@
 				"Group24": {
 					"type": "groupBox",
 					"text": "S (Fraction of second)",
-					"top": 820,
-					"left": 560,
+					"top": 298,
+					"left": 1644,
 					"width": 500,
 					"height": 180,
 					"stroke": "automatic"
 				},
 				"Input155": {
 					"type": "input",
-					"left": 640,
-					"top": 847,
+					"left": 1724,
+					"top": 325,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "time",
@@ -3955,8 +4001,8 @@
 				"format155": {
 					"type": "text",
 					"text": "X",
-					"top": 847,
-					"left": 560,
+					"top": 325,
+					"left": 1644,
 					"width": 75,
 					"height": 16,
 					"textAlign": "center",
@@ -3964,8 +4010,8 @@
 				},
 				"Input156": {
 					"type": "input",
-					"left": 640,
-					"top": 872,
+					"left": 1724,
+					"top": 350,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "time",
@@ -3975,8 +4021,8 @@
 				"format156": {
 					"type": "text",
 					"text": "X",
-					"top": 872,
-					"left": 560,
+					"top": 350,
+					"left": 1644,
 					"width": 75,
 					"height": 16,
 					"textAlign": "center",
@@ -3984,8 +4030,8 @@
 				},
 				"Input157": {
 					"type": "input",
-					"left": 640,
-					"top": 897,
+					"left": 1724,
+					"top": 375,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "time",
@@ -3995,8 +4041,8 @@
 				"format157": {
 					"type": "text",
 					"text": "X",
-					"top": 897,
-					"left": 560,
+					"top": 375,
+					"left": 1644,
 					"width": 75,
 					"height": 16,
 					"textAlign": "center",
@@ -4004,8 +4050,8 @@
 				},
 				"Input158": {
 					"type": "input",
-					"left": 640,
-					"top": 922,
+					"left": 1724,
+					"top": 400,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "time",
@@ -4015,8 +4061,8 @@
 				"format158": {
 					"type": "text",
 					"text": "X",
-					"top": 922,
-					"left": 560,
+					"top": 400,
+					"left": 1644,
 					"width": 75,
 					"height": 16,
 					"textAlign": "center",
@@ -4024,8 +4070,8 @@
 				},
 				"Input159": {
 					"type": "input",
-					"left": 640,
-					"top": 947,
+					"left": 1724,
+					"top": 425,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "time",
@@ -4035,8 +4081,8 @@
 				"format159": {
 					"type": "text",
 					"text": "X",
-					"top": 947,
-					"left": 560,
+					"top": 425,
+					"left": 1644,
 					"width": 75,
 					"height": 16,
 					"textAlign": "center",
@@ -4044,8 +4090,8 @@
 				},
 				"Input160": {
 					"type": "input",
-					"left": 640,
-					"top": 972,
+					"left": 1724,
+					"top": 450,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "time",
@@ -4055,8 +4101,8 @@
 				"format160": {
 					"type": "text",
 					"text": "X",
-					"top": 972,
-					"left": 560,
+					"top": 450,
+					"left": 1644,
 					"width": 75,
 					"height": 16,
 					"textAlign": "center",
@@ -4065,7 +4111,7 @@
 				"InputString101": {
 					"type": "input",
 					"left": 280,
-					"top": 125,
+					"top": 105,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -4075,7 +4121,7 @@
 				"InputString102": {
 					"type": "input",
 					"left": 280,
-					"top": 150,
+					"top": 130,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -4085,7 +4131,7 @@
 				"InputString103": {
 					"type": "input",
 					"left": 280,
-					"top": 175,
+					"top": 155,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -4095,7 +4141,7 @@
 				"InputString104": {
 					"type": "input",
 					"left": 280,
-					"top": 200,
+					"top": 180,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -4105,7 +4151,7 @@
 				"InputString105": {
 					"type": "input",
 					"left": 280,
-					"top": 225,
+					"top": 205,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -4115,7 +4161,7 @@
 				"InputString106": {
 					"type": "input",
 					"left": 280,
-					"top": 250,
+					"top": 230,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -4125,7 +4171,7 @@
 				"InputString107": {
 					"type": "input",
 					"left": 280,
-					"top": 305,
+					"top": 285,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -4135,7 +4181,7 @@
 				"InputString108": {
 					"type": "input",
 					"left": 280,
-					"top": 330,
+					"top": 310,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -4145,7 +4191,7 @@
 				"InputString109": {
 					"type": "input",
 					"left": 280,
-					"top": 355,
+					"top": 335,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -4155,7 +4201,7 @@
 				"InputString110": {
 					"type": "input",
 					"left": 280,
-					"top": 380,
+					"top": 360,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -4165,7 +4211,7 @@
 				"InputString111": {
 					"type": "input",
 					"left": 280,
-					"top": 405,
+					"top": 385,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -4175,7 +4221,7 @@
 				"InputString112": {
 					"type": "input",
 					"left": 280,
-					"top": 430,
+					"top": 410,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -4185,7 +4231,7 @@
 				"InputString113": {
 					"type": "input",
 					"left": 280,
-					"top": 485,
+					"top": 465,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -4195,7 +4241,7 @@
 				"InputString114": {
 					"type": "input",
 					"left": 280,
-					"top": 510,
+					"top": 490,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -4205,7 +4251,7 @@
 				"InputString115": {
 					"type": "input",
 					"left": 280,
-					"top": 535,
+					"top": 515,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -4215,7 +4261,7 @@
 				"InputString116": {
 					"type": "input",
 					"left": 280,
-					"top": 560,
+					"top": 540,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -4225,7 +4271,7 @@
 				"InputString117": {
 					"type": "input",
 					"left": 280,
-					"top": 585,
+					"top": 565,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -4235,7 +4281,7 @@
 				"InputString118": {
 					"type": "input",
 					"left": 280,
-					"top": 610,
+					"top": 590,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -4245,7 +4291,7 @@
 				"InputString119": {
 					"type": "input",
 					"left": 280,
-					"top": 665,
+					"top": 645,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -4255,7 +4301,7 @@
 				"InputString120": {
 					"type": "input",
 					"left": 280,
-					"top": 690,
+					"top": 670,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -4265,7 +4311,7 @@
 				"InputString121": {
 					"type": "input",
 					"left": 280,
-					"top": 715,
+					"top": 695,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -4275,7 +4321,7 @@
 				"InputString122": {
 					"type": "input",
 					"left": 280,
-					"top": 740,
+					"top": 720,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -4285,7 +4331,7 @@
 				"InputString123": {
 					"type": "input",
 					"left": 280,
-					"top": 765,
+					"top": 745,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -4295,7 +4341,7 @@
 				"InputString124": {
 					"type": "input",
 					"left": 280,
-					"top": 790,
+					"top": 770,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -4305,7 +4351,7 @@
 				"InputString125": {
 					"type": "input",
 					"left": 280,
-					"top": 845,
+					"top": 825,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -4315,7 +4361,7 @@
 				"InputString126": {
 					"type": "input",
 					"left": 280,
-					"top": 870,
+					"top": 850,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -4325,7 +4371,7 @@
 				"InputString127": {
 					"type": "input",
 					"left": 280,
-					"top": 895,
+					"top": 875,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -4335,7 +4381,7 @@
 				"InputString128": {
 					"type": "input",
 					"left": 280,
-					"top": 920,
+					"top": 900,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -4345,7 +4391,7 @@
 				"InputString129": {
 					"type": "input",
 					"left": 280,
-					"top": 945,
+					"top": 925,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -4355,7 +4401,7 @@
 				"InputString130": {
 					"type": "input",
 					"left": 280,
-					"top": 970,
+					"top": 950,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -4365,7 +4411,7 @@
 				"InputString131": {
 					"type": "input",
 					"left": 800,
-					"top": 127,
+					"top": 107,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -4375,7 +4421,7 @@
 				"InputString132": {
 					"type": "input",
 					"left": 800,
-					"top": 152,
+					"top": 132,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -4385,7 +4431,7 @@
 				"InputString133": {
 					"type": "input",
 					"left": 800,
-					"top": 177,
+					"top": 157,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -4395,7 +4441,7 @@
 				"InputString134": {
 					"type": "input",
 					"left": 800,
-					"top": 202,
+					"top": 182,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -4405,7 +4451,7 @@
 				"InputString135": {
 					"type": "input",
 					"left": 800,
-					"top": 227,
+					"top": 207,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -4415,7 +4461,7 @@
 				"InputString136": {
 					"type": "input",
 					"left": 800,
-					"top": 252,
+					"top": 232,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -4425,7 +4471,7 @@
 				"InputString137": {
 					"type": "input",
 					"left": 800,
-					"top": 307,
+					"top": 287,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -4435,7 +4481,7 @@
 				"InputString138": {
 					"type": "input",
 					"left": 800,
-					"top": 332,
+					"top": 312,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -4445,7 +4491,7 @@
 				"InputString139": {
 					"type": "input",
 					"left": 800,
-					"top": 357,
+					"top": 337,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -4455,7 +4501,7 @@
 				"InputString140": {
 					"type": "input",
 					"left": 800,
-					"top": 382,
+					"top": 362,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -4465,7 +4511,7 @@
 				"InputString141": {
 					"type": "input",
 					"left": 800,
-					"top": 407,
+					"top": 387,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -4475,7 +4521,7 @@
 				"InputString142": {
 					"type": "input",
 					"left": 800,
-					"top": 432,
+					"top": 412,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -4485,7 +4531,7 @@
 				"InputString143": {
 					"type": "input",
 					"left": 804,
-					"top": 485,
+					"top": 465,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -4495,7 +4541,7 @@
 				"InputString144": {
 					"type": "input",
 					"left": 804,
-					"top": 510,
+					"top": 490,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -4505,7 +4551,7 @@
 				"InputString145": {
 					"type": "input",
 					"left": 804,
-					"top": 535,
+					"top": 515,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -4515,7 +4561,7 @@
 				"InputString146": {
 					"type": "input",
 					"left": 804,
-					"top": 560,
+					"top": 540,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -4525,7 +4571,7 @@
 				"InputString147": {
 					"type": "input",
 					"left": 804,
-					"top": 585,
+					"top": 565,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -4535,7 +4581,7 @@
 				"InputString148": {
 					"type": "input",
 					"left": 804,
-					"top": 610,
+					"top": 590,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -4545,7 +4591,7 @@
 				"InputString149": {
 					"type": "input",
 					"left": 804,
-					"top": 664,
+					"top": 644,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -4555,7 +4601,7 @@
 				"InputString150": {
 					"type": "input",
 					"left": 804,
-					"top": 689,
+					"top": 669,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -4565,7 +4611,7 @@
 				"InputString151": {
 					"type": "input",
 					"left": 804,
-					"top": 714,
+					"top": 694,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -4575,7 +4621,7 @@
 				"InputString152": {
 					"type": "input",
 					"left": 804,
-					"top": 739,
+					"top": 719,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -4585,7 +4631,7 @@
 				"InputString153": {
 					"type": "input",
 					"left": 804,
-					"top": 764,
+					"top": 744,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -4595,7 +4641,7 @@
 				"InputString154": {
 					"type": "input",
 					"left": 804,
-					"top": 789,
+					"top": 769,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -4604,8 +4650,8 @@
 				},
 				"InputString155": {
 					"type": "input",
-					"left": 804,
-					"top": 844,
+					"left": 1888,
+					"top": 322,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -4614,8 +4660,8 @@
 				},
 				"InputString156": {
 					"type": "input",
-					"left": 804,
-					"top": 869,
+					"left": 1888,
+					"top": 347,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -4624,8 +4670,8 @@
 				},
 				"InputString157": {
 					"type": "input",
-					"left": 804,
-					"top": 894,
+					"left": 1888,
+					"top": 372,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -4634,8 +4680,8 @@
 				},
 				"InputString158": {
 					"type": "input",
-					"left": 804,
-					"top": 919,
+					"left": 1888,
+					"top": 397,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -4644,8 +4690,8 @@
 				},
 				"InputString159": {
 					"type": "input",
-					"left": 804,
-					"top": 944,
+					"left": 1888,
+					"top": 422,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -4654,8 +4700,8 @@
 				},
 				"InputString160": {
 					"type": "input",
-					"left": 804,
-					"top": 969,
+					"left": 1888,
+					"top": 447,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -4665,15 +4711,15 @@
 				"Group29": {
 					"type": "groupBox",
 					"text": "t (unsupported format)",
-					"top": 100,
-					"left": 1080,
+					"top": 98,
+					"left": 1644,
 					"width": 500,
 					"height": 180
 				},
 				"Input161": {
 					"type": "input",
-					"left": 1160,
-					"top": 125,
+					"left": 1724,
+					"top": 123,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "time",
@@ -4683,8 +4729,8 @@
 				"format161": {
 					"type": "text",
 					"text": "X",
-					"top": 125,
-					"left": 1080,
+					"top": 123,
+					"left": 1644,
 					"width": 75,
 					"height": 16,
 					"textAlign": "center",
@@ -4692,8 +4738,8 @@
 				},
 				"Input162": {
 					"type": "input",
-					"left": 1160,
-					"top": 150,
+					"left": 1724,
+					"top": 148,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "time",
@@ -4703,8 +4749,8 @@
 				"format162": {
 					"type": "text",
 					"text": "X",
-					"top": 150,
-					"left": 1080,
+					"top": 148,
+					"left": 1644,
 					"width": 75,
 					"height": 16,
 					"textAlign": "center",
@@ -4712,8 +4758,8 @@
 				},
 				"Input163": {
 					"type": "input",
-					"left": 1160,
-					"top": 175,
+					"left": 1724,
+					"top": 173,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "time",
@@ -4723,8 +4769,8 @@
 				"format163": {
 					"type": "text",
 					"text": "X",
-					"top": 175,
-					"left": 1080,
+					"top": 173,
+					"left": 1644,
 					"width": 75,
 					"height": 16,
 					"textAlign": "center",
@@ -4732,8 +4778,8 @@
 				},
 				"Input164": {
 					"type": "input",
-					"left": 1160,
-					"top": 200,
+					"left": 1724,
+					"top": 198,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "time",
@@ -4743,8 +4789,8 @@
 				"format164": {
 					"type": "text",
 					"text": "X",
-					"top": 200,
-					"left": 1080,
+					"top": 198,
+					"left": 1644,
 					"width": 75,
 					"height": 16,
 					"textAlign": "center",
@@ -4752,8 +4798,8 @@
 				},
 				"Input165": {
 					"type": "input",
-					"left": 1160,
-					"top": 225,
+					"left": 1724,
+					"top": 223,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "time",
@@ -4763,8 +4809,8 @@
 				"format165": {
 					"type": "text",
 					"text": "X",
-					"top": 225,
-					"left": 1080,
+					"top": 223,
+					"left": 1644,
 					"width": 75,
 					"height": 16,
 					"textAlign": "center",
@@ -4772,8 +4818,8 @@
 				},
 				"Input166": {
 					"type": "input",
-					"left": 1160,
-					"top": 250,
+					"left": 1724,
+					"top": 248,
 					"width": 140,
 					"height": 17,
 					"dataSourceTypeHint": "time",
@@ -4783,8 +4829,8 @@
 				"format166": {
 					"type": "text",
 					"text": "X",
-					"top": 250,
-					"left": 1080,
+					"top": 248,
+					"left": 1644,
 					"width": 75,
 					"height": 16,
 					"textAlign": "center",
@@ -4792,8 +4838,8 @@
 				},
 				"InputString161": {
 					"type": "input",
-					"left": 1325,
-					"top": 125,
+					"left": 1889,
+					"top": 123,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -4802,8 +4848,8 @@
 				},
 				"InputString162": {
 					"type": "input",
-					"left": 1325,
-					"top": 150,
+					"left": 1889,
+					"top": 148,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -4812,8 +4858,8 @@
 				},
 				"InputString163": {
 					"type": "input",
-					"left": 1325,
-					"top": 175,
+					"left": 1889,
+					"top": 173,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -4822,8 +4868,8 @@
 				},
 				"InputString164": {
 					"type": "input",
-					"left": 1325,
-					"top": 200,
+					"left": 1889,
+					"top": 198,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -4832,8 +4878,8 @@
 				},
 				"InputString165": {
 					"type": "input",
-					"left": 1325,
-					"top": 225,
+					"left": 1889,
+					"top": 223,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -4842,8 +4888,8 @@
 				},
 				"InputString166": {
 					"type": "input",
-					"left": 1325,
-					"top": 250,
+					"left": 1889,
+					"top": 248,
 					"width": 240,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -4853,7 +4899,7 @@
 				"Texte6": {
 					"type": "text",
 					"text": "Formated inputs",
-					"top": 60,
+					"top": 55,
 					"left": 120,
 					"width": 150,
 					"height": 16,
@@ -4863,7 +4909,7 @@
 				"Texte7": {
 					"type": "text",
 					"text": "String results",
-					"top": 60,
+					"top": 55,
 					"left": 280,
 					"width": 150,
 					"height": 16,
@@ -4873,7 +4919,7 @@
 				"Texte8": {
 					"type": "text",
 					"text": "Formated inputs",
-					"top": 60,
+					"top": 55,
 					"left": 640,
 					"width": 150,
 					"height": 16,
@@ -4883,32 +4929,38 @@
 				"Texte9": {
 					"type": "text",
 					"text": "String results",
-					"top": 60,
+					"top": 55,
 					"left": 800,
 					"width": 150,
 					"height": 16,
 					"fontWeight": "bold",
 					"fontSize": 16
 				},
-				"Texte10": {
-					"type": "text",
-					"text": "Formated inputs",
-					"top": 60,
-					"left": 1160,
-					"width": 150,
-					"height": 16,
-					"fontWeight": "bold",
-					"fontSize": 16
+				"Button5": {
+					"type": "button",
+					"text": "Set formats",
+					"top": 960,
+					"left": 1280,
+					"width": 165,
+					"height": 20,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Button5.4dm",
+					"focusable": false
 				},
-				"Texte11": {
-					"type": "text",
-					"text": "String results",
-					"top": 60,
-					"left": 1320,
-					"width": 150,
-					"height": 16,
-					"fontWeight": "bold",
-					"fontSize": 16
+				"Button6": {
+					"type": "button",
+					"text": "Reset",
+					"top": 960,
+					"left": 1110,
+					"width": 155,
+					"height": 20,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Button6.4dm",
+					"focusable": false
 				}
 			}
 		},
@@ -4917,7 +4969,7 @@
 				"Group25": {
 					"type": "groupBox",
 					"text": "X (Timezone (ISO-8601 w/ Z))",
-					"top": 190,
+					"top": 80,
 					"left": 40,
 					"width": 500,
 					"height": 180
@@ -4925,7 +4977,7 @@
 				"Group26": {
 					"type": "groupBox",
 					"text": "x (Timezone (ISO-8601 w/o Z))",
-					"top": 370,
+					"top": 260,
 					"left": 40,
 					"width": 500,
 					"height": 180
@@ -4933,7 +4985,7 @@
 				"Group27": {
 					"type": "groupBox",
 					"text": "O (Timezone (GMT))",
-					"top": 550,
+					"top": 440,
 					"left": 40,
 					"width": 500,
 					"height": 180
@@ -4941,7 +4993,7 @@
 				"Group28": {
 					"type": "groupBox",
 					"text": "z (Timezone (specific non-locat.))",
-					"top": 730,
+					"top": 620,
 					"left": 40,
 					"width": 500,
 					"height": 180
@@ -4949,7 +5001,7 @@
 				"format201": {
 					"type": "text",
 					"text": "X",
-					"top": 215,
+					"top": 105,
 					"left": 40,
 					"width": 75,
 					"height": 16,
@@ -4959,7 +5011,7 @@
 				"InputString201": {
 					"type": "input",
 					"left": 167,
-					"top": 214,
+					"top": 104,
 					"width": 360,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -4969,7 +5021,7 @@
 				"format202": {
 					"type": "text",
 					"text": "X",
-					"top": 240,
+					"top": 130,
 					"left": 40,
 					"width": 75,
 					"height": 16,
@@ -4979,7 +5031,7 @@
 				"InputString202": {
 					"type": "input",
 					"left": 167,
-					"top": 239,
+					"top": 129,
 					"width": 360,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -4989,7 +5041,7 @@
 				"format203": {
 					"type": "text",
 					"text": "X",
-					"top": 265,
+					"top": 155,
 					"left": 40,
 					"width": 75,
 					"height": 16,
@@ -4999,7 +5051,7 @@
 				"InputString203": {
 					"type": "input",
 					"left": 167,
-					"top": 264,
+					"top": 154,
 					"width": 360,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -5009,7 +5061,7 @@
 				"format204": {
 					"type": "text",
 					"text": "X",
-					"top": 290,
+					"top": 180,
 					"left": 40,
 					"width": 75,
 					"height": 16,
@@ -5019,7 +5071,7 @@
 				"InputString204": {
 					"type": "input",
 					"left": 167,
-					"top": 289,
+					"top": 179,
 					"width": 360,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -5029,7 +5081,7 @@
 				"format205": {
 					"type": "text",
 					"text": "X",
-					"top": 315,
+					"top": 205,
 					"left": 40,
 					"width": 75,
 					"height": 16,
@@ -5039,7 +5091,7 @@
 				"InputString205": {
 					"type": "input",
 					"left": 167,
-					"top": 314,
+					"top": 204,
 					"width": 360,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -5049,7 +5101,7 @@
 				"format206": {
 					"type": "text",
 					"text": "X",
-					"top": 340,
+					"top": 230,
 					"left": 40,
 					"width": 75,
 					"height": 16,
@@ -5059,7 +5111,7 @@
 				"InputString206": {
 					"type": "input",
 					"left": 167,
-					"top": 339,
+					"top": 229,
 					"width": 360,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -5069,7 +5121,7 @@
 				"format207": {
 					"type": "text",
 					"text": "X",
-					"top": 395,
+					"top": 285,
 					"left": 40,
 					"width": 75,
 					"height": 16,
@@ -5079,7 +5131,7 @@
 				"InputString207": {
 					"type": "input",
 					"left": 167,
-					"top": 394,
+					"top": 284,
 					"width": 360,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -5089,7 +5141,7 @@
 				"format208": {
 					"type": "text",
 					"text": "X",
-					"top": 420,
+					"top": 310,
 					"left": 40,
 					"width": 75,
 					"height": 16,
@@ -5099,7 +5151,7 @@
 				"InputString208": {
 					"type": "input",
 					"left": 167,
-					"top": 419,
+					"top": 309,
 					"width": 360,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -5109,7 +5161,7 @@
 				"format209": {
 					"type": "text",
 					"text": "X",
-					"top": 445,
+					"top": 335,
 					"left": 40,
 					"width": 75,
 					"height": 16,
@@ -5119,7 +5171,7 @@
 				"InputString209": {
 					"type": "input",
 					"left": 167,
-					"top": 444,
+					"top": 334,
 					"width": 360,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -5129,7 +5181,7 @@
 				"format210": {
 					"type": "text",
 					"text": "X",
-					"top": 470,
+					"top": 360,
 					"left": 40,
 					"width": 75,
 					"height": 16,
@@ -5139,7 +5191,7 @@
 				"InputString210": {
 					"type": "input",
 					"left": 167,
-					"top": 469,
+					"top": 359,
 					"width": 360,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -5149,7 +5201,7 @@
 				"format211": {
 					"type": "text",
 					"text": "X",
-					"top": 495,
+					"top": 385,
 					"left": 40,
 					"width": 75,
 					"height": 16,
@@ -5159,7 +5211,7 @@
 				"InputString211": {
 					"type": "input",
 					"left": 167,
-					"top": 494,
+					"top": 384,
 					"width": 360,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -5169,7 +5221,7 @@
 				"format212": {
 					"type": "text",
 					"text": "X",
-					"top": 520,
+					"top": 410,
 					"left": 40,
 					"width": 75,
 					"height": 16,
@@ -5179,7 +5231,7 @@
 				"InputString212": {
 					"type": "input",
 					"left": 167,
-					"top": 519,
+					"top": 409,
 					"width": 360,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -5189,7 +5241,7 @@
 				"format213": {
 					"type": "text",
 					"text": "X",
-					"top": 575,
+					"top": 465,
 					"left": 40,
 					"width": 75,
 					"height": 16,
@@ -5199,7 +5251,7 @@
 				"InputString213": {
 					"type": "input",
 					"left": 167,
-					"top": 574,
+					"top": 464,
 					"width": 360,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -5209,7 +5261,7 @@
 				"format214": {
 					"type": "text",
 					"text": "X",
-					"top": 600,
+					"top": 490,
 					"left": 40,
 					"width": 75,
 					"height": 16,
@@ -5219,7 +5271,7 @@
 				"InputString214": {
 					"type": "input",
 					"left": 167,
-					"top": 599,
+					"top": 489,
 					"width": 360,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -5229,7 +5281,7 @@
 				"format215": {
 					"type": "text",
 					"text": "X",
-					"top": 625,
+					"top": 515,
 					"left": 40,
 					"width": 75,
 					"height": 16,
@@ -5239,7 +5291,7 @@
 				"InputString215": {
 					"type": "input",
 					"left": 167,
-					"top": 624,
+					"top": 514,
 					"width": 360,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -5249,7 +5301,7 @@
 				"format216": {
 					"type": "text",
 					"text": "X",
-					"top": 650,
+					"top": 540,
 					"left": 40,
 					"width": 75,
 					"height": 16,
@@ -5259,7 +5311,7 @@
 				"InputString216": {
 					"type": "input",
 					"left": 167,
-					"top": 649,
+					"top": 539,
 					"width": 360,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -5269,7 +5321,7 @@
 				"format217": {
 					"type": "text",
 					"text": "X",
-					"top": 675,
+					"top": 565,
 					"left": 40,
 					"width": 75,
 					"height": 16,
@@ -5279,7 +5331,7 @@
 				"InputString217": {
 					"type": "input",
 					"left": 167,
-					"top": 674,
+					"top": 564,
 					"width": 360,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -5289,7 +5341,7 @@
 				"format218": {
 					"type": "text",
 					"text": "X",
-					"top": 700,
+					"top": 590,
 					"left": 40,
 					"width": 75,
 					"height": 16,
@@ -5299,7 +5351,7 @@
 				"InputString218": {
 					"type": "input",
 					"left": 167,
-					"top": 699,
+					"top": 589,
 					"width": 360,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -5309,7 +5361,7 @@
 				"format219": {
 					"type": "text",
 					"text": "X",
-					"top": 755,
+					"top": 645,
 					"left": 40,
 					"width": 75,
 					"height": 16,
@@ -5319,7 +5371,7 @@
 				"InputString219": {
 					"type": "input",
 					"left": 167,
-					"top": 754,
+					"top": 644,
 					"width": 360,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -5329,7 +5381,7 @@
 				"format220": {
 					"type": "text",
 					"text": "X",
-					"top": 780,
+					"top": 670,
 					"left": 40,
 					"width": 75,
 					"height": 16,
@@ -5339,7 +5391,7 @@
 				"InputString220": {
 					"type": "input",
 					"left": 167,
-					"top": 779,
+					"top": 669,
 					"width": 360,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -5349,7 +5401,7 @@
 				"format221": {
 					"type": "text",
 					"text": "X",
-					"top": 805,
+					"top": 695,
 					"left": 40,
 					"width": 75,
 					"height": 16,
@@ -5359,7 +5411,7 @@
 				"InputString221": {
 					"type": "input",
 					"left": 167,
-					"top": 804,
+					"top": 694,
 					"width": 360,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -5369,7 +5421,7 @@
 				"format222": {
 					"type": "text",
 					"text": "X",
-					"top": 830,
+					"top": 720,
 					"left": 40,
 					"width": 75,
 					"height": 16,
@@ -5379,7 +5431,7 @@
 				"InputString222": {
 					"type": "input",
 					"left": 167,
-					"top": 829,
+					"top": 719,
 					"width": 360,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -5389,7 +5441,7 @@
 				"format223": {
 					"type": "text",
 					"text": "X",
-					"top": 855,
+					"top": 745,
 					"left": 40,
 					"width": 75,
 					"height": 16,
@@ -5399,7 +5451,7 @@
 				"InputString223": {
 					"type": "input",
 					"left": 167,
-					"top": 854,
+					"top": 744,
 					"width": 360,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -5409,7 +5461,7 @@
 				"format224": {
 					"type": "text",
 					"text": "X",
-					"top": 880,
+					"top": 770,
 					"left": 40,
 					"width": 75,
 					"height": 16,
@@ -5419,46 +5471,17 @@
 				"InputString224": {
 					"type": "input",
 					"left": 167,
-					"top": 879,
+					"top": 769,
 					"width": 360,
 					"height": 17,
 					"dataSourceTypeHint": "text",
 					"dataSource": "",
 					"stroke": "#008000"
 				},
-				"InputDateXXX": {
-					"type": "input",
-					"left": 120,
-					"top": 155,
-					"width": 140,
-					"height": 17,
-					"dataSourceTypeHint": "date",
-					"dataSource": "vDate",
-					"stroke": "automatic",
-					"dateFormat": "systemShort"
-				},
-				"Text": {
-					"type": "text",
-					"text": "Date:",
-					"top": 155,
-					"left": 50,
-					"width": 60,
-					"height": 16,
-					"textAlign": "right"
-				},
-				"Text1": {
-					"type": "text",
-					"text": "Time:",
-					"top": 155,
-					"left": 320,
-					"width": 60,
-					"height": 16,
-					"textAlign": "right"
-				},
 				"Group31": {
 					"type": "groupBox",
 					"text": "X",
-					"top": 190,
+					"top": 80,
 					"left": 580,
 					"width": 600,
 					"height": 180
@@ -5466,7 +5489,7 @@
 				"format225": {
 					"type": "text",
 					"text": "X",
-					"top": 215,
+					"top": 105,
 					"left": 580,
 					"width": 215,
 					"height": 16,
@@ -5476,7 +5499,7 @@
 				"InputString225": {
 					"type": "input",
 					"left": 807,
-					"top": 214,
+					"top": 104,
 					"width": 360,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -5486,7 +5509,7 @@
 				"format226": {
 					"type": "text",
 					"text": "X",
-					"top": 240,
+					"top": 130,
 					"left": 580,
 					"width": 215,
 					"height": 16,
@@ -5496,7 +5519,7 @@
 				"InputString226": {
 					"type": "input",
 					"left": 807,
-					"top": 239,
+					"top": 129,
 					"width": 360,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -5506,7 +5529,7 @@
 				"format227": {
 					"type": "text",
 					"text": "X",
-					"top": 265,
+					"top": 155,
 					"left": 580,
 					"width": 215,
 					"height": 16,
@@ -5516,7 +5539,7 @@
 				"InputString227": {
 					"type": "input",
 					"left": 807,
-					"top": 264,
+					"top": 154,
 					"width": 360,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -5526,7 +5549,7 @@
 				"format228": {
 					"type": "text",
 					"text": "X",
-					"top": 290,
+					"top": 180,
 					"left": 580,
 					"width": 215,
 					"height": 16,
@@ -5536,7 +5559,7 @@
 				"InputString228": {
 					"type": "input",
 					"left": 807,
-					"top": 289,
+					"top": 179,
 					"width": 360,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -5546,7 +5569,7 @@
 				"format229": {
 					"type": "text",
 					"text": "X",
-					"top": 315,
+					"top": 205,
 					"left": 580,
 					"width": 215,
 					"height": 16,
@@ -5556,7 +5579,7 @@
 				"InputString229": {
 					"type": "input",
 					"left": 807,
-					"top": 314,
+					"top": 204,
 					"width": 360,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -5566,7 +5589,7 @@
 				"Group32": {
 					"type": "groupBox",
 					"text": "x",
-					"top": 370,
+					"top": 260,
 					"left": 580,
 					"width": 600,
 					"height": 180
@@ -5574,7 +5597,7 @@
 				"format230": {
 					"type": "text",
 					"text": "X",
-					"top": 395,
+					"top": 285,
 					"left": 580,
 					"width": 215,
 					"height": 16,
@@ -5584,7 +5607,7 @@
 				"InputString230": {
 					"type": "input",
 					"left": 807,
-					"top": 394,
+					"top": 284,
 					"width": 360,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -5594,7 +5617,7 @@
 				"format231": {
 					"type": "text",
 					"text": "X",
-					"top": 420,
+					"top": 310,
 					"left": 580,
 					"width": 215,
 					"height": 16,
@@ -5604,7 +5627,7 @@
 				"InputString231": {
 					"type": "input",
 					"left": 807,
-					"top": 419,
+					"top": 309,
 					"width": 360,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -5614,7 +5637,7 @@
 				"format232": {
 					"type": "text",
 					"text": "X",
-					"top": 445,
+					"top": 335,
 					"left": 580,
 					"width": 215,
 					"height": 16,
@@ -5624,7 +5647,7 @@
 				"InputString232": {
 					"type": "input",
 					"left": 807,
-					"top": 444,
+					"top": 334,
 					"width": 360,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -5634,7 +5657,7 @@
 				"format233": {
 					"type": "text",
 					"text": "X",
-					"top": 470,
+					"top": 360,
 					"left": 580,
 					"width": 215,
 					"height": 16,
@@ -5644,7 +5667,7 @@
 				"InputString233": {
 					"type": "input",
 					"left": 807,
-					"top": 469,
+					"top": 359,
 					"width": 360,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -5654,7 +5677,7 @@
 				"format234": {
 					"type": "text",
 					"text": "X",
-					"top": 495,
+					"top": 385,
 					"left": 580,
 					"width": 215,
 					"height": 16,
@@ -5664,7 +5687,7 @@
 				"InputString234": {
 					"type": "input",
 					"left": 807,
-					"top": 494,
+					"top": 384,
 					"width": 360,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -5674,7 +5697,7 @@
 				"Group33": {
 					"type": "groupBox",
 					"text": "O",
-					"top": 550,
+					"top": 440,
 					"left": 580,
 					"width": 600,
 					"height": 180
@@ -5682,7 +5705,7 @@
 				"format235": {
 					"type": "text",
 					"text": "X",
-					"top": 575,
+					"top": 465,
 					"left": 580,
 					"width": 215,
 					"height": 16,
@@ -5692,7 +5715,7 @@
 				"InputString235": {
 					"type": "input",
 					"left": 807,
-					"top": 574,
+					"top": 464,
 					"width": 360,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -5702,7 +5725,7 @@
 				"format236": {
 					"type": "text",
 					"text": "X",
-					"top": 600,
+					"top": 490,
 					"left": 580,
 					"width": 215,
 					"height": 16,
@@ -5712,7 +5735,7 @@
 				"InputString236": {
 					"type": "input",
 					"left": 807,
-					"top": 599,
+					"top": 489,
 					"width": 360,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -5722,7 +5745,7 @@
 				"Group34": {
 					"type": "groupBox",
 					"text": "z",
-					"top": 730,
+					"top": 620,
 					"left": 580,
 					"width": 600,
 					"height": 180
@@ -5730,7 +5753,7 @@
 				"format237": {
 					"type": "text",
 					"text": "X",
-					"top": 755,
+					"top": 645,
 					"left": 580,
 					"width": 215,
 					"height": 16,
@@ -5740,7 +5763,7 @@
 				"InputString237": {
 					"type": "input",
 					"left": 807,
-					"top": 754,
+					"top": 644,
 					"width": 360,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -5750,7 +5773,7 @@
 				"format238": {
 					"type": "text",
 					"text": "X",
-					"top": 780,
+					"top": 670,
 					"left": 580,
 					"width": 215,
 					"height": 16,
@@ -5760,7 +5783,7 @@
 				"InputString238": {
 					"type": "input",
 					"left": 807,
-					"top": 779,
+					"top": 669,
 					"width": 360,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -5770,7 +5793,7 @@
 				"format239": {
 					"type": "text",
 					"text": "X",
-					"top": 805,
+					"top": 695,
 					"left": 580,
 					"width": 215,
 					"height": 16,
@@ -5780,7 +5803,7 @@
 				"InputString239": {
 					"type": "input",
 					"left": 807,
-					"top": 804,
+					"top": 694,
 					"width": 360,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -5790,7 +5813,7 @@
 				"format240": {
 					"type": "text",
 					"text": "X",
-					"top": 830,
+					"top": 720,
 					"left": 580,
 					"width": 215,
 					"height": 16,
@@ -5800,7 +5823,7 @@
 				"InputString240": {
 					"type": "input",
 					"left": 807,
-					"top": 829,
+					"top": 719,
 					"width": 360,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -5810,7 +5833,7 @@
 				"format241": {
 					"type": "text",
 					"text": "X",
-					"top": 855,
+					"top": 745,
 					"left": 580,
 					"width": 215,
 					"height": 16,
@@ -5820,7 +5843,7 @@
 				"InputString241": {
 					"type": "input",
 					"left": 807,
-					"top": 854,
+					"top": 744,
 					"width": 360,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -5830,7 +5853,7 @@
 				"format242": {
 					"type": "text",
 					"text": "X",
-					"top": 880,
+					"top": 770,
 					"left": 580,
 					"width": 215,
 					"height": 16,
@@ -5840,7 +5863,7 @@
 				"InputString242": {
 					"type": "input",
 					"left": 807,
-					"top": 879,
+					"top": 769,
 					"width": 360,
 					"height": 17,
 					"dataSourceTypeHint": "text",
@@ -5850,38 +5873,28 @@
 				"Zone de saisie": {
 					"type": "input",
 					"left": 1215,
-					"top": 209,
+					"top": 100,
 					"width": 359,
-					"height": 689,
+					"height": 700,
 					"dataSource": "Form:C1466.allFormats",
 					"sizingY": "grow"
 				},
 				"Button1": {
 					"type": "button",
-					"text": "Get formats",
-					"top": 168,
-					"left": 1379,
-					"width": 195,
+					"text": "Get formats (P1/P2)",
+					"top": 817,
+					"left": 1349,
+					"width": 225,
 					"height": 21,
 					"events": [
 						"onClick"
 					],
 					"method": "ObjectMethods/Button1.4dm"
 				},
-				"inputTimeXXX": {
-					"type": "input",
-					"left": 385,
-					"top": 154,
-					"width": 148,
-					"height": 17,
-					"dataSource": "vTime",
-					"dataSourceTypeHint": "time",
-					"timeFormat": "systemShort"
-				},
 				"Texte12": {
 					"type": "text",
 					"text": "String results",
-					"top": 80,
+					"top": 55,
 					"left": 167,
 					"width": 150,
 					"height": 16,
@@ -5891,17 +5904,41 @@
 				"Texte13": {
 					"type": "text",
 					"text": "String results",
-					"top": 80,
+					"top": 55,
 					"left": 807,
 					"width": 150,
 					"height": 16,
 					"fontWeight": "bold",
 					"fontSize": 16
+				},
+				"Button7": {
+					"type": "button",
+					"text": "Set formats",
+					"top": 960,
+					"left": 1280,
+					"width": 165,
+					"height": 20,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Button7.4dm",
+					"focusable": false
+				},
+				"Button8": {
+					"type": "button",
+					"text": "Reset",
+					"top": 960,
+					"left": 1110,
+					"width": 155,
+					"height": 20,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Button8.4dm",
+					"focusable": false
 				}
 			},
 			"entryOrder": [
-				"InputDateXXX",
-				"inputTimeXXX",
 				"InputString201",
 				"InputString202",
 				"InputString203",
@@ -5945,16 +5982,74 @@
 				"InputString241",
 				"InputString242",
 				"Zone de saisie",
-				"Button1"
+				"Button1",
+				"Button7",
+				"Button8"
 			]
 		},
 		{
 			"objects": {
+				"Rectangle10": {
+					"type": "rectangle",
+					"top": 571,
+					"left": 60,
+					"width": 200,
+					"height": 80
+				},
+				"Rectangle11": {
+					"type": "rectangle",
+					"top": 651,
+					"left": 60,
+					"width": 200,
+					"height": 80
+				},
+				"Rectangle8": {
+					"type": "rectangle",
+					"top": 511,
+					"left": 260,
+					"width": 400,
+					"height": 30
+				},
+				"Rectangle9": {
+					"type": "rectangle",
+					"top": 511,
+					"left": 660,
+					"width": 400,
+					"height": 30
+				},
+				"Rectangle": {
+					"type": "rectangle",
+					"top": 571,
+					"left": 260,
+					"width": 400,
+					"height": 80
+				},
+				"Rectangle1": {
+					"type": "rectangle",
+					"top": 651,
+					"left": 260,
+					"width": 400,
+					"height": 80
+				},
+				"Rectangle2": {
+					"type": "rectangle",
+					"top": 571,
+					"left": 660,
+					"width": 400,
+					"height": 80
+				},
+				"Rectangle3": {
+					"type": "rectangle",
+					"top": 651,
+					"left": 660,
+					"width": 400,
+					"height": 80
+				},
 				"List Box": {
 					"type": "listbox",
-					"left": 80,
+					"left": 60,
 					"top": 118,
-					"width": 315,
+					"width": 320,
 					"height": 336,
 					"events": [
 						"onClick",
@@ -5985,7 +6080,7 @@
 							},
 							"textAlign": "left",
 							"dataSource": "[Samples:4]aDate:2",
-							"width": 150,
+							"width": 154,
 							"dateFormat": "MMM"
 						},
 						{
@@ -6003,7 +6098,7 @@
 								"variableCalculation": "minimum",
 								"textAlign": "center"
 							},
-							"width": 150,
+							"width": 154,
 							"textAlign": "left",
 							"dataSource": "[Samples:4]aTime:3",
 							"timeFormat": "hh"
@@ -6012,9 +6107,9 @@
 				},
 				"List Box1": {
 					"type": "listbox",
-					"left": 417,
+					"left": 400,
 					"top": 118,
-					"width": 315,
+					"width": 320,
 					"height": 336,
 					"events": [
 						"onClick",
@@ -6044,7 +6139,7 @@
 							"dataSourceTypeHint": "date",
 							"dateFormat": "MMM",
 							"textAlign": "left",
-							"width": 150
+							"width": 154
 						},
 						{
 							"header": {
@@ -6063,7 +6158,7 @@
 							},
 							"dataSource": "tTimes",
 							"dataSourceTypeHint": "time",
-							"width": 150,
+							"width": 154,
 							"textAlign": "left",
 							"timeFormat": "hh"
 						}
@@ -6071,9 +6166,9 @@
 				},
 				"List Box2": {
 					"type": "listbox",
-					"left": 755,
+					"left": 740,
 					"top": 118,
-					"width": 315,
+					"width": 320,
 					"height": 336,
 					"events": [
 						"onClick",
@@ -6104,7 +6199,7 @@
 							"dataSource": "This:C1470.aDate",
 							"dateFormat": "MMM",
 							"textAlign": "left",
-							"width": 150,
+							"width": 154,
 							"timeFormat": "hh_mm_ss",
 							"dataSourceTypeHint": "date"
 						},
@@ -6126,7 +6221,7 @@
 							"dataSource": "This:C1470.aTime",
 							"dateFormat": "",
 							"dataSourceTypeHint": "time",
-							"width": 150,
+							"width": 154,
 							"textAlign": "left",
 							"timeFormat": "hh"
 						}
@@ -6134,8 +6229,8 @@
 				},
 				"Drop1": {
 					"type": "dropdown",
-					"left": 98,
-					"top": 522,
+					"left": 280,
+					"top": 600,
 					"width": 160,
 					"height": 21,
 					"events": [
@@ -6148,8 +6243,8 @@
 				},
 				"Drop2": {
 					"type": "dropdown",
-					"left": 271,
-					"top": 522,
+					"left": 480,
+					"top": 600,
 					"width": 160,
 					"height": 21,
 					"events": [
@@ -6162,8 +6257,8 @@
 				},
 				"combo1": {
 					"type": "combo",
-					"left": 98,
-					"top": 622,
+					"left": 280,
+					"top": 678,
 					"width": 160,
 					"height": 22,
 					"events": [
@@ -6175,8 +6270,8 @@
 				},
 				"combo2": {
 					"type": "combo",
-					"left": 271,
-					"top": 622,
+					"left": 480,
+					"top": 678,
 					"width": 160,
 					"height": 22,
 					"events": [
@@ -6190,68 +6285,66 @@
 					"type": "text",
 					"text": "Current selection",
 					"top": 88,
-					"left": 80,
-					"width": 217,
+					"left": 60,
+					"width": 320,
 					"height": 16,
-					"fontWeight": "bold"
+					"fontWeight": "bold",
+					"textAlign": "center"
 				},
 				"Text3": {
 					"type": "text",
 					"text": "Arrays",
 					"top": 88,
-					"left": 417,
-					"width": 217,
+					"left": 399,
+					"width": 320,
 					"height": 16,
-					"fontWeight": "bold"
+					"fontWeight": "bold",
+					"textAlign": "center"
 				},
 				"Text4": {
 					"type": "text",
 					"text": "Entity selection",
 					"top": 88,
-					"left": 755,
-					"width": 217,
+					"left": 739,
+					"width": 320,
 					"height": 16,
-					"fontWeight": "bold"
+					"fontWeight": "bold",
+					"textAlign": "center"
 				},
 				"Text5": {
 					"type": "text",
 					"text": "Drop downs",
-					"top": 478,
-					"left": 80,
-					"width": 217,
+					"top": 602,
+					"left": 60,
+					"width": 200,
 					"height": 16,
-					"fontWeight": "bold"
+					"fontWeight": "bold",
+					"textAlign": "center"
 				},
 				"Text6": {
 					"type": "text",
 					"text": "Combo boxes",
-					"top": 578,
-					"left": 80,
-					"width": 217,
+					"top": 681,
+					"left": 60,
+					"width": 200,
 					"height": 16,
-					"fontWeight": "bold"
-				},
-				"Input": {
-					"type": "input",
-					"left": 1052,
-					"top": 718,
-					"width": 248,
-					"height": 81
+					"fontWeight": "bold",
+					"textAlign": "center"
 				},
 				"Text7": {
 					"type": "text",
 					"text": "Arrays",
-					"top": 499,
-					"left": 103,
-					"width": 327,
+					"top": 518,
+					"left": 260,
+					"width": 400,
 					"height": 16,
 					"fontWeight": "bold",
 					"textAlign": "center"
 				},
 				"Drop3": {
 					"type": "dropdown",
-					"left": 560,
-					"top": 522,
+					"left": 680,
+					"top": 600,
 					"width": 160,
 					"height": 21,
 					"events": [
@@ -6264,8 +6357,8 @@
 				},
 				"Drop4": {
 					"type": "dropdown",
-					"left": 733,
-					"top": 522,
+					"left": 880,
+					"top": 600,
 					"width": 160,
 					"height": 21,
 					"events": [
@@ -6279,17 +6372,17 @@
 				"Text8": {
 					"type": "text",
 					"text": "Collections",
-					"top": 499,
-					"left": 565,
-					"width": 317,
+					"top": 518,
+					"left": 659,
+					"width": 400,
 					"height": 16,
 					"fontWeight": "bold",
 					"textAlign": "center"
 				},
 				"combo3": {
 					"type": "combo",
-					"left": 560,
-					"top": 622,
+					"left": 680,
+					"top": 678,
 					"width": 160,
 					"height": 22,
 					"events": [
@@ -6301,8 +6394,8 @@
 				},
 				"combo4": {
 					"type": "combo",
-					"left": 733,
-					"top": 622,
+					"left": 880,
+					"top": 678,
 					"width": 160,
 					"height": 22,
 					"events": [
@@ -6312,77 +6405,102 @@
 					"dataSourceTypeHint": "object",
 					"timeFormat": "hh_mm_am"
 				},
+				"Rectangle4": {
+					"type": "rectangle",
+					"top": 541,
+					"left": 260,
+					"width": 200,
+					"height": 30
+				},
+				"Rectangle5": {
+					"type": "rectangle",
+					"top": 541,
+					"left": 660,
+					"width": 200,
+					"height": 30
+				},
+				"Rectangle6": {
+					"type": "rectangle",
+					"top": 541,
+					"left": 460,
+					"width": 200,
+					"height": 30
+				},
+				"Rectangle7": {
+					"type": "rectangle",
+					"top": 541,
+					"left": 860,
+					"width": 200,
+					"height": 30
+				},
+				"Text1": {
+					"type": "text",
+					"text": "Dates",
+					"top": 547,
+					"left": 260,
+					"width": 200,
+					"height": 16,
+					"fontWeight": "bold",
+					"textAlign": "center"
+				},
 				"Text9": {
 					"type": "text",
-					"text": "Arrays",
-					"top": 599,
-					"left": 103,
-					"width": 327,
+					"text": "Times",
+					"top": 548,
+					"left": 460,
+					"width": 200,
 					"height": 16,
 					"fontWeight": "bold",
 					"textAlign": "center"
 				},
 				"Text10": {
 					"type": "text",
-					"text": "Collections",
-					"top": 599,
-					"left": 565,
-					"width": 317,
+					"text": "Dates",
+					"top": 547,
+					"left": 660,
+					"width": 200,
 					"height": 16,
 					"fontWeight": "bold",
 					"textAlign": "center"
 				},
-				"tabControl1": {
-					"type": "tab",
-					"text": "Tab control",
-					"top": 791,
-					"left": 62,
-					"width": 831,
-					"height": 75,
-					"dataSource": "Form:C1466.tabDates",
-					"dataSourceTypeHint": "object"
+				"Text11": {
+					"type": "text",
+					"text": "Times",
+					"top": 548,
+					"left": 860,
+					"width": 200,
+					"height": 16,
+					"fontWeight": "bold",
+					"textAlign": "center"
 				},
-				"comboText": {
-					"type": "combo",
-					"left": 1181,
-					"top": 180,
-					"width": 160,
-					"height": 22,
-					"events": [
-						"onDataChange"
-					],
-					"dataSource": "tComboText",
-					"dataSourceTypeHint": "arrayText"
-				},
-				"comboNum": {
-					"type": "combo",
-					"left": 1354,
-					"top": 180,
-					"width": 160,
-					"height": 22,
-					"events": [
-						"onDataChange"
-					],
-					"dataSource": "tComboNum",
-					"dataSourceTypeHint": "arrayNumber",
-					"numberFormat": "###,##0"
-				},
-				"Button2": {
+				"Button9": {
 					"type": "button",
-					"text": "TEST (shift/no shift)",
-					"top": 64,
-					"left": 1237,
-					"width": 202,
-					"height": 21,
+					"text": "Set formats",
+					"top": 960,
+					"left": 1280,
+					"width": 165,
+					"height": 20,
 					"events": [
 						"onClick"
 					],
-					"method": "ObjectMethods/Button2.4dm",
+					"method": "ObjectMethods/Button9.4dm",
+					"focusable": false
+				},
+				"Button10": {
+					"type": "button",
+					"text": "Reset",
+					"top": 960,
+					"left": 1110,
+					"width": 155,
+					"height": 20,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Button10.4dm",
 					"focusable": false
 				}
 			},
 			"entryOrder": [
-				"Input",
 				"List Box",
 				"List Box1",
 				"List Box2",
@@ -6394,13 +6512,12 @@
 				"Drop4",
 				"combo3",
 				"combo4",
-				"comboText",
-				"comboNum",
-				"Button2"
+				"Button9",
+				"Button10"
 			]
 		}
 	],
-	"geometryStamp": 3339,
+	"geometryStamp": 4091,
 	"editor": {
 		"activeView": "View 1",
 		"defaultView": "View 1",
@@ -6409,6 +6526,6 @@
 		}
 	},
 	"method": "method.4dm",
-	"width": 1844,
-	"height": 1080
+	"width": 1620,
+	"height": 1040
 }

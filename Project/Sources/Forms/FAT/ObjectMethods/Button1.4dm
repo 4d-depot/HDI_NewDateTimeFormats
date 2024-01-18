@@ -4,7 +4,7 @@ var $format : Text
 Form:C1466.allFormats:=[]
 
 $textID:=1
-For ($textID; 1; 166)
+For ($textID; 1; 154)
 	
 	If ($textID=91)
 		$textID:=101
