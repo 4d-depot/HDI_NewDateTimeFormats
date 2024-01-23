@@ -64,13 +64,14 @@
 					"text": "Documentation",
 					"top": 795,
 					"left": 40,
-					"width": 227,
+					"width": 180,
 					"height": 25,
 					"events": [
 						"onClick"
 					],
-					"textDecoration": "underline",
-					"stroke": "#ff6347"
+					"textDecoration": "none",
+					"stroke": "automatic",
+					"method": "ObjectMethods/Bouton.4dm"
 				}
 			}
 		},
@@ -1649,7 +1650,7 @@
 			"View 1": {}
 		}
 	},
-	"geometryStamp": 6896,
+	"geometryStamp": 6907,
 	"windowSizingX": "fixed",
 	"windowSizingY": "fixed",
 	"menuBar": "Barre #1"
